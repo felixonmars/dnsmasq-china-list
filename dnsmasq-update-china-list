@@ -1,0 +1,14 @@
+#!/bin/bash
+
+case "$1" in
+  114)
+    DNS=114.114.114.114
+    ;;
+  google)
+    DNS=8.8.8.8
+    ;;
+  *)
+    DNS=$1
+esac
+
+sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /etc/dnsmasq.d/dnsmasq.china.conf
