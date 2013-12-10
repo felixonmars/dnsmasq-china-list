@@ -1,12 +1,12 @@
 dnsmasq-china-list
 ==================
 
-Configuration for hot China domains (or CDN domains that have node in China) to accelerate via Dnsmasq
+Configuration for hot China domains (or CDN domains that have node in China) to accelerate via Dnsmasq (Now also includes bogus-nxdomain lines to stop common DNS servers from hijacking NXDOMAIN results)
 
 Usage
 =====
 
-1. Place dnsmasq.china.conf under /etc/dnsmasq.d/ (Create the folder if it does not exist).
+1. Place accelerated-domains.china.conf and bogus-nxdomain.china.conf under /etc/dnsmasq.d/ (Create the folder if it does not exist).
 2. Uncomment "conf-dir=/etc/dnsmasq.d" in /etc/dnsmasq.conf
 3. (Optional) Place dnsmasq-update-china-list into /usr/bin/
 
