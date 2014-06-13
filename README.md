@@ -28,7 +28,3 @@ This piece of configurations and scripts are licensed under WTFPL v2, below is t
       TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
     
      0. You just DO WHAT THE FUCK YOU WANT TO.
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/felixonmars/dnsmasq-china-list/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
