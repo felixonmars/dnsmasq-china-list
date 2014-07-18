@@ -7,6 +7,9 @@ case "$1" in
   ali)
     DNS=223.5.5.5
     ;;
+  cnnic)
+    DNS=1.2.4.8
+    ;;
   google)
     DNS=8.8.8.8
     ;;
