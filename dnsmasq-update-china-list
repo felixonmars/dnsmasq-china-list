@@ -10,6 +10,9 @@ case "$1" in
   cnnic)
     DNS=1.2.4.8
     ;;
+  baidu)
+    DNS=180.76.76.76
+    ;;
   google)
     DNS=8.8.8.8
     ;;
