@@ -20,10 +20,16 @@ Content
 
 - `bogus-nxdomain.china.conf`: Known addresses that are hijacking NXDOMAIN results returned by DNS servers.
 
+- `google.china.conf`: Acceleratable Google domains.
+
+  These domains are resolved to Google China servers when using a Chinese DNS. In most conditions this will yield better page load time for sites using Google's web services, e.g. Google Web Fonts and AdSense.
+
+  Bear in mind that they are _not_ considered stable. **Use at your own risk**.
+
 Usage
 =====
 
-1. Place accelerated-domains.china.conf and bogus-nxdomain.china.conf under /etc/dnsmasq.d/ (Create the folder if it does not exist).
+1. Place accelerated-domains.china.conf, bogus-nxdomain.china.conf (and optionally google.china.conf) under /etc/dnsmasq.d/ (Create the folder if it does not exist).
 2. Uncomment "conf-dir=/etc/dnsmasq.d" in /etc/dnsmasq.conf
 3. (Optional) Place dnsmasq-update-china-list into /usr/bin/
 
@@ -31,7 +37,7 @@ License
 =======
 
 ```
-Copyright © 2013 Felix Yan <felixonmars@archlinux.org>
+Copyright © 2015 Felix Yan <felixonmars@archlinux.org>
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
 as published by Sam Hocevar. See the LICENSE file for more details.
