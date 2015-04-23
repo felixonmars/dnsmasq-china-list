@@ -6,8 +6,9 @@ if __name__ == "__main__":
     parser = ArgumentParser(description="dnsmasq-china-list updater")
     parser.add_argument(
         '-a', '--add',
-        nargs='?',
-        help='Add a new domain (implies -s)',
+        metavar="DOMAIN",
+        nargs="+",
+        help='Add one or more new domain(s) (implies -s)',
     )
     parser.add_argument(
         '-s', '--sort',
@@ -23,7 +24,14 @@ if __name__ == "__main__":
 
     if options.add:
         options.sort = True
-        lines.append("server=/%s/114.114.114.114\n" % options.add)
+
+        for domain in options.add:
+            new_line = "server=/%s/114.114.114.114\n" % domain
+            if new_line in lines:
+                print("Domain already exists: " + domain)
+            else:
+                print("New domain added: " + domain)
+                lines.append(new_line)
 
     if options.sort:
         lines.sort(key=lambda x: x.lstrip("#"))
