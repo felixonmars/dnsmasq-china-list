@@ -20,4 +20,4 @@ case "$1" in
     DNS=$1
 esac
 
-sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /etc/dnsmasq.d/accelerated-domains.china.conf
+sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /usr/local/etc/dnsmasq.d/accelerated-domains.china.conf
