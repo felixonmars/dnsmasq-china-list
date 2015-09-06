@@ -7,11 +7,14 @@ case "$1" in
   ali)
     DNS=223.5.5.5
     ;;
+  baidu)
+    DNS=180.76.76.76
+    ;;
   cnnic)
     DNS=1.2.4.8
     ;;
-  baidu)
-    DNS=180.76.76.76
+  dnspod)
+    DNS=119.29.29.29
     ;;
   google)
     DNS=8.8.8.8
