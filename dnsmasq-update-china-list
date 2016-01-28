@@ -19,8 +19,11 @@ case "$1" in
   google)
     DNS=8.8.8.8
     ;;
+  163)
+    DNS=104.236.189.178
+    ;;
   *)
     DNS=$1
 esac
 
-sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /etc/dnsmasq.d/accelerated-domains.china.conf
+sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" accelerated-domains.china.conf
