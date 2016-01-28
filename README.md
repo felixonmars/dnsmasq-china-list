@@ -37,7 +37,7 @@ Usage
 使用方法
 `node check.js > checked-domains.china.conf`
 如果在accelerated-domains.china.conf里的域名无法被选择的域名服务器解析，那么将会被注释掉
-使用检测结果hecked-domains.china.conf代替accelerated-domains.china.conf文件
+使用检测结果checked-domains.china.conf代替accelerated-domains.china.conf文件
 
 License
 =======
