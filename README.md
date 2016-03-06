@@ -33,6 +33,12 @@ Usage
 2. Uncomment "conf-dir=/etc/dnsmasq.d" in /etc/dnsmasq.conf
 3. (Optional) Place dnsmasq-update-china-list into /usr/bin/
 
+有一些域名无法被指定的域名服务器正常解析，这就会导致莫名其妙的访问失败。check.js是检测域名是否可以正常解析的nodejs脚本
+使用方法
+`node check.js > checked-domains.china.conf`
+如果在accelerated-domains.china.conf里的域名无法被选择的域名服务器解析，那么将会被注释掉
+使用检测结果checked-domains.china.conf代替accelerated-domains.china.conf文件
+
 License
 =======
 
