@@ -10,9 +10,7 @@ CONF_WITH_SERVERS=(accelerated-domains.china google.china)
 CONF_SIMPLE=(bogus-nxdomain.china)
 
 echo "Downloading latest configurations..."
-for _conf in "${CONF_WITH_SERVERS[@]}" "${CONF_SIMPLE[@]}"; do
-  curl -L -o "$WORKDIR/$_conf.conf" "https://github.com/felixonmars/dnsmasq-china-list/raw/master/$_conf.conf"
-done
+git clone --depth=1 https://github.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 
 echo "Removing old configurations..."
 for _conf in "${CONF_WITH_SERVERS[@]}" "${CONF_SIMPLE[@]}"; do
