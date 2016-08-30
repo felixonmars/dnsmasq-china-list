@@ -10,7 +10,14 @@ CONF_WITH_SERVERS=(accelerated-domains.china google.china)
 CONF_SIMPLE=(bogus-nxdomain.china)
 
 echo "Downloading latest configurations..."
-git clone --depth=1 https://github.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+git clone --depth=1 https://git.coding.net/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 https://github.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 https://bitbucket.org/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 https://git.oschina.net/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 https://gitlab.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 https://code.aliyun.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 https://gitshell.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+#git clone --depth=1 http://repo.or.cz/dnsmasq-china-list.git "$WORKDIR"
 
 echo "Removing old configurations..."
 for _conf in "${CONF_WITH_SERVERS[@]}" "${CONF_SIMPLE[@]}"; do
