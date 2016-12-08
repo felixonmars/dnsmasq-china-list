@@ -14,7 +14,7 @@ if __name__ == "__main__":
         '-d', '--delete',
         metavar="DOMAIN",
         nargs="+",
-        help='Remove one or more new domain(s) (implies -s)',
+        help='Remove one or more old domain(s) (implies -s)',
     )
     parser.add_argument(
         '-s', '--sort',
