@@ -11,6 +11,12 @@ if __name__ == "__main__":
         help='Add one or more new domain(s) (implies -s)',
     )
     parser.add_argument(
+        '-d', '--delete',
+        metavar="DOMAIN",
+        nargs="+",
+        help='Remove one or more old domain(s) (implies -s)',
+    )
+    parser.add_argument(
         '-s', '--sort',
         action='store_true',
         default=True,
@@ -32,6 +38,17 @@ if __name__ == "__main__":
             else:
                 print("New domain added: " + domain)
                 lines.append(new_line)
+
+    if options.delete:
+        options.sort = True
+
+        for domain in options.delete:
+            target_line = "server=/%s/114.114.114.114\n" % domain
+            if target_line not in lines:
+                print("Failed to remove domain " + domain + ": not found.")
+            else:
+                print("Domain removed: " + domain)
+                lines.remove(target_line)
 
     if options.sort:
         lines.sort(key=lambda x: x.lstrip("#"))
