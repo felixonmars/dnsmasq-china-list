@@ -6,7 +6,7 @@ SERVERS=(114.114.114.114 114.114.115.115 180.76.76.76)
 # Not using best possible CDN pop: 1.2.4.8 210.2.4.8 223.5.5.5 223.6.6.6
 # Dirty cache: 119.29.29.29 182.254.116.116
 
-CONF_WITH_SERVERS=(accelerated-domains.china google.china)
+CONF_WITH_SERVERS=(accelerated-domains.china google.china apple.china)
 CONF_SIMPLE=(bogus-nxdomain.china)
 
 echo "Downloading latest configurations..."
