@@ -39,7 +39,7 @@ Details
 Usage
 =====
 
-1. Place accelerated-domains.china.conf, bogus-nxdomain.china.conf (and optionally google.china.conf) under /etc/dnsmasq.d/ (Create the folder if it does not exist).
+1. Place accelerated-domains.china.conf, bogus-nxdomain.china.conf (and optionally google.china.conf, apple.china.conf) under /etc/dnsmasq.d/ (Create the folder if it does not exist).
 2. Uncomment "conf-dir=/etc/dnsmasq.d" in /etc/dnsmasq.conf
 3. (Optional) Place dnsmasq-update-china-list into /usr/bin/
 
