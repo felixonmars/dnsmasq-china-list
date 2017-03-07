@@ -32,7 +32,7 @@ Details
 
 - `apple.china.conf`: Apple domains to be accelerated.
 
-  Some ISPs (often smaller ones) have problem accessing Apple's assets using their China mainline CDN servers. Please consider remove this file if that happens to you. See #156 for some more info.
+  Some ISPs (often smaller ones) have problem accessing Apple's assets using their China mainland CDN servers. Please consider remove this file if that happens to you. See #156 for some more info.
 
 - `bogus-nxdomain.china.conf`: Known addresses that are hijacking NXDOMAIN results returned by DNS servers.
 
