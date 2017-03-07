@@ -25,3 +25,4 @@ esac
 
 sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /etc/dnsmasq.d/accelerated-domains.china.conf
 sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /etc/dnsmasq.d/google.china.conf 2>/dev/null
+sed -i "s|^\(server.*\)/[^/]*$|\1/$DNS|" /etc/dnsmasq.d/apple.china.conf 2>/dev/null
