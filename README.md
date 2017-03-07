@@ -1,30 +1,40 @@
 dnsmasq-china-list
 ==================
 
-Configuration for hot China domains (or CDN domains that have node in China) to accelerate via Dnsmasq (Now also includes bogus-nxdomain lines to stop common DNS servers from hijacking NXDOMAIN results)
+Chinese-specific configuration to improve your favorite DNS server. Best partner for chnroutes.
 
-Content
+- Improve resolve speed for Chinese domains.
+
+- Get the best CDN node near you whenever possible, but don't compromise foreign CDN results so you also get best CDN node for your VPN at the same time.
+
+- Block ISP ads on NXDOMAIN result (like 114so).
+
+Details
 =======
 
-- `accelerated-domains.china.conf`: Acceleratable Domains.
+- `accelerated-domains.china.conf`: General domains to be accelerated.
 
-  The domain should have a better resolving speed or result when using a Chinese DNS server.
+  These domains have a better resolving speed and/or result when using a Chinese DNS server.
 
   To determine if a domain is eligible, one of the criteria below must be met:
 
- - The domain's NS server is located in China.
+ - The domain's NS server is located in China mainland.
 
  - The domain will resolve to an IP located in China mainland when using a Chinese DNS server, but _not_ always do when using a foreign DNS server (For example, CDN accelerated sites that have node in China). This however does _not_ include those having node _near_ China mainland, like in Japan, Hong Kong, Taiwan, etc.
- 
+
   Please don't add subdomains if the top domain is already in the list. This includes all .cn domains which are already matched by the `/cn/` rule.
 
-- `bogus-nxdomain.china.conf`: Known addresses that are hijacking NXDOMAIN results returned by DNS servers.
-
-- `google.china.conf`: Acceleratable Google domains.
+- `google.china.conf`: Google domains to be accelerated.
 
   These domains are resolved to Google China servers when using a Chinese DNS. In most conditions this will yield better page load time for sites using Google's web services, e.g. Google Web Fonts and AdSense.
 
   Bear in mind that they are _not_ considered stable. **Use at your own risk**.
+
+- `apple.china.conf`: Apple domains to be accelerated.
+
+  Some ISPs (often smaller ones) have problem accessing Apple's assets using their China mainline CDN servers. Please consider remove this file if that happens to you. See #156 for some more info.
+
+- `bogus-nxdomain.china.conf`: Known addresses that are hijacking NXDOMAIN results returned by DNS servers.
 
 Usage
 =====
