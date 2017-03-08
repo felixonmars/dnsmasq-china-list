@@ -22,10 +22,16 @@ if __name__ == "__main__":
         default=True,
         help='Sort the list (default action)',
     )
+    parser.add_argument(
+        '-f', '--file',
+        nargs=1,
+        default=["accelerated-domains.china.conf"],
+        help="Specify the file to update (accelerated-domains.china.conf by default)",
+    )
 
     options = parser.parse_args()
 
-    with open("accelerated-domains.china.conf") as f:
+    with open(options.file[0]) as f:
         lines = list(f)
 
     if options.add:
@@ -53,5 +59,5 @@ if __name__ == "__main__":
     if options.sort:
         lines.sort(key=lambda x: x.lstrip("#"))
 
-    with open("accelerated-domains.china.conf", "w") as f:
+    with open(options.file[0], "w") as f:
         f.write(''.join(filter(lambda line: line.strip(), lines)))
