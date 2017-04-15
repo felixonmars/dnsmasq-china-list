@@ -42,6 +42,16 @@ Usage
 1. Place accelerated-domains.china.conf, bogus-nxdomain.china.conf (and optionally google.china.conf, apple.china.conf) under /etc/dnsmasq.d/ (Create the folder if it does not exist).
 2. Uncomment "conf-dir=/etc/dnsmasq.d" in /etc/dnsmasq.conf
 3. (Optional) Place dnsmasq-update-china-list into /usr/bin/
+4. (Optional) Make custom DNS server configuration and/or other services' configuration.
+
+  ```shell
+  # change the default DNS server to 202.96.128.86
+  make SERVER=202.96.128.86 dnsmasq
+  # generate unbound's configuration
+  make unbound
+  # generate bind's configuration
+  make bind
+  ```
 
 License
 =======
