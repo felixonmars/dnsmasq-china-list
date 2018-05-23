@@ -20,5 +20,8 @@ bind: raw
 	sed -e 's|\(.*\)|zone "\1." {type forward; forwarders { $(SERVER); }; };|' google.china.raw.txt > google.china.bind.conf
 	sed -e 's|\(.*\)|zone "\1." {type forward; forwarders { $(SERVER); }; };|' apple.china.raw.txt > apple.china.bind.conf
 
+dnscrypt-proxy: raw
+	sed -e 's|\(.*\)|\1 $(SERVER)|' accelerated-domains.china.raw.txt google.china.raw.txt apple.china.raw.txt > dnscrypt-proxy-forwarding-rules.txt
+
 clean:
-	rm -f {accelerated-domains,google,apple}.china.{dnsmasq,unbound,bind}.conf {accelerated-domains,google,apple}.china.raw.txt
+	rm -f {accelerated-domains,google,apple}.china.{dnsmasq,unbound,bind}.conf {accelerated-domains,google,apple}.china.raw.txt dnscrypt-proxy-forwarding-rules.txt
