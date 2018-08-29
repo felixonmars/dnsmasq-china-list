@@ -1,9 +1,13 @@
 SERVER=114.114.114.114
+KERNEL=UNIX
 
 raw:
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | egrep -v '^#' > accelerated-domains.china.raw.txt
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' google.china.conf | egrep -v '^#' > google.china.raw.txt
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' apple.china.conf | egrep -v '^#' > apple.china.raw.txt
+	if [ $KERNEL = DOS ] then
+		sed -i -e 's/\r*$/\r/' {accelerated-domains,google,apple}.china.raw.txt
+	fi
 
 dnsmasq: raw
 	sed -e 's|\(.*\)|server=/\1/$(SERVER)|' accelerated-domains.china.raw.txt > accelerated-domains.china.dnsmasq.conf
