@@ -16,9 +16,7 @@ unbound: raw
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' google.china.raw.txt > google.china.unbound.conf
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' apple.china.raw.txt > apple.china.unbound.conf
 ifeq ($(KERNEL),DOS)
-	sed -i 's/\r*$$/\r/' accelerated-domains.china.unbound.conf
-	sed -i 's/\r*$$/\r/' google.china.unbound.conf
-	sed -i 's/\r*$$/\r/' apple.china.unbound.conf
+	sed -i 's/\r*$$/\r/' accelerated-domains.china.unbound.conf google.china.unbound.conf apple.china.unbound.conf
 endif
 
 bind: raw
@@ -26,9 +24,7 @@ bind: raw
 	sed -e 's|\(.*\)|zone "\1." {type forward; forwarders { $(SERVER); }; };|' google.china.raw.txt > google.china.bind.conf
 	sed -e 's|\(.*\)|zone "\1." {type forward; forwarders { $(SERVER); }; };|' apple.china.raw.txt > apple.china.bind.conf
 ifeq ($(KERNEL),DOS)
-	sed -i 's/\r*$$/\r/' accelerated-domains.china.bind.conf
-	sed -i 's/\r*$$/\r/' google.china.bind.conf
-	sed -i 's/\r*$$/\r/' apple.china.bind.conf
+	sed -i 's/\r*$$/\r/' accelerated-domains.china.bind.conf google.china.bind.conf apple.china.bind.conf
 endif
 
 dnscrypt-proxy: raw
@@ -42,9 +38,7 @@ dnsforwarder6: raw
 	{ printf "protocol udp\nserver $(SERVER)\nparallel on \n"; cat google.china.raw.txt; } > google.china.dnsforwarder.conf
 	{ printf "protocol udp\nserver $(SERVER)\nparallel on \n"; cat apple.china.raw.txt; } > apple.china.dnsforwarder.conf
 ifeq ($(KERNEL),DOS)
-	sed -i 's/\r*$$/\r/' accelerated-domains.china.dnsforwarder.conf
-	sed -i 's/\r*$$/\r/' google.china.dnsforwarder.conf
-	sed -i 's/\r*$$/\r/' apple.china.dnsforwarder.conf
+	sed -i 's/\r*$$/\r/' accelerated-domains.china.dnsforwarder.conf google.china.dnsforwarder.conf apple.china.dnsforwarder.conf
 endif
 
 clean:
