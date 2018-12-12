@@ -1,0 +1,16 @@
+status: NXDOMAIN
+.awsdns-
+.ns.cloudflare.com.
+.google.com.
+.akam.net.
+.domaincontrol.com.
+.dreamhost.com.
+.wordpress.com.
+.dynect.net.
+.linode.com.
+.dnsmadeeasy.com.
+.stabletransit.com.
+.qwest.net.
+.registrar-servers.com.
+.dnsimple.com.
+.namebrightdns.com.
