@@ -24,7 +24,7 @@ except:
 
 with open("accelerated-domains.china.raw.txt") as f:
     domains = random.sample([line.rstrip('\n') for line in f], 100)
-    # domains = [line.rstrip('\n') for line in f][46389:46400]
+    # domains = [line.rstrip('\n') for line in f][13820:13830]
 
 
 def cn_ip_test(domain):
@@ -56,7 +56,10 @@ for domain in domains:
         if any(i in nameserver_text for i in whitelist):
             print(colored("NS Whitelist matched for domain: " + domain, "green"))
         elif domain.count(".") > 1 or any(testdomain.endswith(domain) for testdomain in cdnlist):
-            if testdomain is None:
+            for testdomain in cdnlist:
+                if testdomain.endswith(domain):
+                    break
+            else:
                 testdomain = domain
             if chnroutes:
                 try:
