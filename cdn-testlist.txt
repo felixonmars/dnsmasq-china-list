@@ -3,3 +3,7 @@ cdn.jsdelivr.net
 edge.yunjiasu.com
 ns1.8844dns.com
 www.azure.cn.mschcdn.com
+www.gov.cn
+www.igoldhk.com
+www.travelsky.net
+www.xiumu.org

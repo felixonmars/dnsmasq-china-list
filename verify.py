@@ -118,15 +118,12 @@ class ChinaListVerify(object):
             except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout):
                 pass
 
-        # Try to resolve the "homepage" as CDNList, ignore failures
-        else:
-            try:
-                self.check_cdnlist("www." + domain)
-            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout, CDNListNotVerified):
-                pass
-
         if nxdomain:
-            raise NXDOMAIN
+            # Double check due to false positives
+            try:
+                dns.resolver.query("www." + domain, 'A')
+            except dns.resolver.NXDOMAIN:
+                raise NXDOMAIN
 
         self.check_blacklist(nameservers)
 
