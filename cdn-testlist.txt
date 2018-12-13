@@ -3,3 +3,6 @@ www.gov.cn
 a1.cdn-hotels.com
 cdn.jsdelivr.net
 edge.yunjiasu.com
+www.travelsky.net
+www.xiumu.org
+www.igoldhk.com

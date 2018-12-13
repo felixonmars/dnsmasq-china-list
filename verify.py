@@ -89,10 +89,11 @@ class ChinaListVerify(object):
 
     def check_domain(self, domain):
         nameservers = []
+        nxdomain = False
         try:
             answers = dns.resolver.query(domain, 'NS')
         except dns.resolver.NXDOMAIN:
-            raise NXDOMAIN
+            nxdomain = True
         except:
             pass
         else:   
@@ -110,6 +111,9 @@ class ChinaListVerify(object):
         for testdomain in self.cdnlist:
             if testdomain.endswith(domain):
                 self.check_cdnlist(testdomain)
+
+        if nxdomain:
+            raise NXDOMAIN
 
         self.check_blacklist(nameservers)
 
