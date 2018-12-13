@@ -6,85 +6,166 @@ import random
 import ipaddress
 import tldextract
 
-with open("ns-whitelist.txt") as f:
-    whitelist = list([l.rstrip('\n') for l in f if l])
 
-with open("ns-blacklist.txt") as f:
-    blacklist = list([l.rstrip('\n') for l in f if l])
+class ChnroutesNotAvailable(Exception):
+    pass
 
-with open("cdn-testlist.txt") as f:
-    cdnlist = list([l.rstrip('\n') for l in f if l])
+class NSNotAvailable(Exception):
+    pass
 
-try:
-    with open("/usr/share/chnroutes2/chnroutes.txt") as f:
-        chnroutes = list([l.rstrip('\n') for l in f if l and not l.startswith("#")])
-except:
-    print(colored("Failed to load chnroutes, CDN check disabled"), "red")
-    chnroutes = None
+# OK
+class OK(Exception):
+    pass
+
+class WhitelistMatched(OK):
+    pass
+
+class CDNListVerified(OK):
+    pass
+
+class NSVerified(OK):
+    pass
+
+# Not OK
+class NotOK(Exception):
+    pass
+
+class NXDOMAIN(NotOK):
+    pass
+
+class BlacklistMatched(NotOK):
+    pass
+
+class CDNListNotVerified(NotOK):
+    pass
+
+class NSNotVerified(NotOK):
+    pass
 
 
-with open("accelerated-domains.china.raw.txt") as f:
-    domains = random.sample([line.rstrip('\n') for line in f], 100)
-    # domains = [line.rstrip('\n') for line in f][13820:13830]
+class ChinaListVerify(object):
+    whitelist_file = "ns-whitelist.txt"
+    blacklist_file = "ns-blacklist.txt"
+    cdnlist_file = "cdn-testlist.txt"
+    chnroutes_file = "/usr/share/chnroutes2/chnroutes.txt"
 
+    def __init__(self):
+        self.whitelist = self.load_list(self.whitelist_file)
+        self.blacklist = self.load_list(self.blacklist_file)
+        self.cdnlist = self.load_list(self.cdnlist_file)
 
-def cn_ip_test(domain):
-    answers = dns.resolver.query(domain, 'A')
-    answer = answers[0].to_text()
-    
-    return any(ipaddress.IPv4Address(answer) in ipaddress.IPv4Network(n) for n in chnroutes)
+        try:
+            self.chnroutes = self.load_list(self.chnroutes_file)
+        except FileNotFoundError:
+            print(colored("Failed to load chnroutes, CDN check disabled", "red"))
+            self.chnroutes = None
 
+    def load_list(self, filename):
+        with open(filename) as f:
+            return list([l.rstrip('\n') for l in f if l and not l.startswith("#")])
 
-for domain in domains:
-    if domain:
-        nameserver = None
-        nameserver_text = ""
-        ns_failed = False
+    def test_cn_ip(self, domain):
+        if self.chnroutes is None:
+            raise ChnroutesNotAvailable
+
+        answers = dns.resolver.query(domain, 'A')
+        answer = answers[0].to_text()
+        
+        return any(ipaddress.IPv4Address(answer) in ipaddress.IPv4Network(n) for n in self.chnroutes)
+
+    def check_whitelist(self, nameservers):
+        if any(i in " ".join(nameservers) for i in self.whitelist):
+            raise WhitelistMatched
+
+    def check_blacklist(self, nameservers):
+        if any(i in " ".join(nameservers) for i in self.blacklist):
+            raise BlacklistMatched
+
+    def check_cdnlist(self, domain):
+        if self.test_cn_ip(domain):
+            raise CDNListVerified
+        else:
+            raise CDNListNotVerified
+
+    def check_domain(self, domain):
+        nameservers = []
         try:
             answers = dns.resolver.query(domain, 'NS')
         except dns.resolver.NXDOMAIN:
-            print(colored("NXDOMAIN found in domain: " + domain, "white", "on_red"))
-            continue
-        except Exception:
-            ns_failed = True
-        else:
+            raise NXDOMAIN
+        except:
+            pass
+        else:   
             for rdata in answers:
-                if nameserver is None:
-                    nameserver = rdata.to_text()
-                nameserver_text += rdata.to_text()
+                nameserver = rdata.to_text()
+                if tldextract.extract(nameserver).registered_domain:
+                    nameservers.append(nameserver)
 
-        testdomain = None
-        if any(i in nameserver_text for i in whitelist):
-            print(colored("NS Whitelist matched for domain: " + domain, "green"))
-        elif domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain or any(testdomain.endswith(domain) for testdomain in cdnlist):
-            for testdomain in cdnlist:
-                if testdomain.endswith(domain):
-                    break
-            else:
-                testdomain = domain
-            if chnroutes:
-                try:
-                    if cn_ip_test(testdomain):
-                        print(colored("CDNList matched and verified for domain: " + domain, "green"))
-                    else:
-                        print(colored("CDNList matched but failed to verify for domain: " + domain, "red"))
-                except:
-                    print("Failed to find A for cdnlist domain:", testdomain)
-                    continue
-            else:
-                print(colored("CDNList matched (but verification is not available) for domain: " + domain))
-        elif any(i in nameserver_text for i in blacklist):
-            print(colored("NS Blacklist matched for domain: " + domain, "red"))
+            self.check_whitelist(nameservers)
+
+        # Assuming CDNList for non-TLDs
+        if domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain:
+            self.check_cdnlist(domain)
+
+        for testdomain in self.cdnlist:
+            if testdomain.endswith(domain):
+                self.check_cdnlist(testdomain)
+
+        self.check_blacklist(nameservers)
+
+        for nameserver in nameservers:
+            try:
+                if self.test_cn_ip(nameserver):
+                    raise NSVerified
+            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
+                pass
+
+        if nameservers:
+            raise NSNotVerified
         else:
-            if ns_failed:
-                print("Failed to find NS for domain: " + domain)
-            elif chnroutes:
-                try:
-                    if cn_ip_test(nameserver):
-                        print(colored("NS verified for domain: " + domain, "green"))
-                    else:
-                        print(colored("NS failed to verify for domain: " + domain, "red"))
-                except:
-                    print("Failed to find A for NS domain:", nameserver, "domain:", domain)
+            raise NSNotAvailable
+
+    def check_domain_quiet(self, domain):
+        try:
+            self.check_domain(domain)
+        except OK:
+            return True
+        except NotOK:
+            return False
+        except:
+            return None
+        else:
+            return None
+
+    def check_domain_list(self, domain_list, sample=100):
+        domains = self.load_list(domain_list)
+        if sample:
+            domains = random.sample(domains, sample)
+        for domain in domains:
+            try:
+                self.check_domain(domain)
+            except NXDOMAIN:
+                print(colored("NXDOMAIN found in domain: " + domain, "white", "on_red"))
+            except WhitelistMatched:
+                print(colored("NS Whitelist matched for domain: " + domain, "green"))
+            except CDNListVerified:
+                print(colored("CDNList matched and verified for domain: " + domain, "green"))
+            except CDNListNotVerified:
+                print(colored("CDNList matched but failed to verify for domain: " + domain, "red"))
+            except BlacklistMatched:
+                print(colored("NS Blacklist matched for domain: " + domain, "red"))
+            except NSVerified:
+                print(colored("NS verified for domain: " + domain, "green"))
+            except NSNotVerified:
+                print(colored("NS failed to verify for domain: " + domain, "red"))
+            except ChnroutesNotAvailable:
+                print("Additional Check disabled due to missing chnroutes. domain:", domain)
+            except NSNotAvailable:
+                print("Failed to get correct name server for domain:", domain)
             else:
-                print("Neutral domain:", domain)
+                raise NotImplementedError
+
+
+if __name__ == "__main__":
+    v = ChinaListVerify()
+    v.check_domain_list("accelerated-domains.china.raw.txt")
