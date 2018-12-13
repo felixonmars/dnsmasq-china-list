@@ -19,3 +19,13 @@ status: NXDOMAIN
 .msft.net.
 .akadns.org.
 .apple.com.
+.msedge.net.
+.amazonaws.com.
+.easydns.org.
+.easydns.com.
+.easydns.net.
+.your-server.de.
+.yandex.net.
+.techsmith.com.
+.nsone.net.
+.fastly.net.
