@@ -4,6 +4,7 @@ import dns.resolver
 from termcolor import colored
 import random
 import ipaddress
+import tldextract
 
 with open("ns-whitelist.txt") as f:
     whitelist = list([l.rstrip('\n') for l in f if l])
@@ -55,7 +56,7 @@ for domain in domains:
         testdomain = None
         if any(i in nameserver_text for i in whitelist):
             print(colored("NS Whitelist matched for domain: " + domain, "green"))
-        elif domain.count(".") > 1 or any(testdomain.endswith(domain) for testdomain in cdnlist):
+        elif domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain or any(testdomain.endswith(domain) for testdomain in cdnlist):
             for testdomain in cdnlist:
                 if testdomain.endswith(domain):
                     break
