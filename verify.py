@@ -151,33 +151,54 @@ class ChinaListVerify(object):
         else:
             return None
 
+    def check_domain_verbose(self, domain):
+        try:
+            try:
+                self.check_domain(domain)
+            except NXDOMAIN:
+                print(colored("NXDOMAIN found in (cdnlist or) domain: " + domain, "white", "on_red"))
+                raise
+            except WhitelistMatched:
+                print(colored("NS Whitelist matched for domain: " + domain, "green"))
+                raise
+            except CDNListVerified:
+                print(colored("CDNList matched and verified for domain: " + domain, "green"))
+                raise
+            except CDNListNotVerified:
+                print(colored("CDNList matched but failed to verify for domain: " + domain, "red"))
+                raise
+            except BlacklistMatched:
+                print(colored("NS Blacklist matched for domain: " + domain, "red"))
+                raise
+            except NSVerified:
+                print(colored("NS verified for domain: " + domain, "green"))
+                raise
+            except NSNotVerified:
+                print(colored("NS failed to verify for domain: " + domain, "red"))
+                raise
+            except ChnroutesNotAvailable:
+                print("Additional Check disabled due to missing chnroutes. domain:", domain)
+                raise
+            except NSNotAvailable:
+                print("Failed to get correct name server for domain:", domain)
+                raise
+            else:
+                raise NotImplementedError
+        except OK:
+            return True
+        except NotOK:
+            return False
+        except:
+            return None
+        else:
+            return None
+
     def check_domain_list(self, domain_list, sample=100):
         domains = self.load_list(domain_list)
         if sample:
             domains = random.sample(domains, sample)
         for domain in domains:
-            try:
-                self.check_domain(domain)
-            except NXDOMAIN:
-                print(colored("NXDOMAIN found in (cdnlist or) domain: " + domain, "white", "on_red"))
-            except WhitelistMatched:
-                print(colored("NS Whitelist matched for domain: " + domain, "green"))
-            except CDNListVerified:
-                print(colored("CDNList matched and verified for domain: " + domain, "green"))
-            except CDNListNotVerified:
-                print(colored("CDNList matched but failed to verify for domain: " + domain, "red"))
-            except BlacklistMatched:
-                print(colored("NS Blacklist matched for domain: " + domain, "red"))
-            except NSVerified:
-                print(colored("NS verified for domain: " + domain, "green"))
-            except NSNotVerified:
-                print(colored("NS failed to verify for domain: " + domain, "red"))
-            except ChnroutesNotAvailable:
-                print("Additional Check disabled due to missing chnroutes. domain:", domain)
-            except NSNotAvailable:
-                print("Failed to get correct name server for domain:", domain)
-            else:
-                raise NotImplementedError
+            self.check_domain_verbose(domain)
 
 
 if __name__ == "__main__":
