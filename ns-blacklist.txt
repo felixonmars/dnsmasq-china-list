@@ -14,3 +14,8 @@ status: NXDOMAIN
 .registrar-servers.com.
 .dnsimple.com.
 .namebrightdns.com.
+.he.net.
+.googledomains.com.
+.msft.net.
+.akadns.org.
+.apple.com.
