@@ -1,2 +1,3 @@
 www.azure.cn.mschcdn.com
 www.gov.cn
+a1.cdn-hotels.com
