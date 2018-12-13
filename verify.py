@@ -106,10 +106,13 @@ class ChinaListVerify(object):
 
         # Assuming CDNList for non-TLDs
         if domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain:
-            self.check_cdnlist(domain)
+            try:
+                self.check_cdnlist(domain)
+            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
+                pass
 
         for testdomain in self.cdnlist:
-            if testdomain.endswith(domain):
+            if testdomain.endswith("." + domain):
                 self.check_cdnlist(testdomain)
 
         if nxdomain:
