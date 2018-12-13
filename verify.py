@@ -104,16 +104,26 @@ class ChinaListVerify(object):
 
             self.check_whitelist(nameservers)
 
+        for testdomain in self.cdnlist:
+            if testdomain.endswith("." + domain):
+                try:
+                    self.check_cdnlist(testdomain)
+                except dns.resolver.NXDOMAIN:
+                    raise NXDOMAIN
+
         # Assuming CDNList for non-TLDs
         if domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain:
             try:
                 self.check_cdnlist(domain)
-            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
+            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout):
                 pass
 
-        for testdomain in self.cdnlist:
-            if testdomain.endswith("." + domain):
-                self.check_cdnlist(testdomain)
+        # Try to resolve the "homepage" as CDNList, ignore failures
+        else:
+            try:
+                self.check_cdnlist("www." + domain)
+            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout, CDNListNotVerified):
+                pass
 
         if nxdomain:
             raise NXDOMAIN
@@ -124,7 +134,7 @@ class ChinaListVerify(object):
             try:
                 if self.test_cn_ip(nameserver):
                     raise NSVerified
-            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
+            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout):
                 pass
 
         if nameservers:
@@ -152,7 +162,7 @@ class ChinaListVerify(object):
             try:
                 self.check_domain(domain)
             except NXDOMAIN:
-                print(colored("NXDOMAIN found in domain: " + domain, "white", "on_red"))
+                print(colored("NXDOMAIN found in (cdnlist or) domain: " + domain, "white", "on_red"))
             except WhitelistMatched:
                 print(colored("NS Whitelist matched for domain: " + domain, "green"))
             except CDNListVerified:
