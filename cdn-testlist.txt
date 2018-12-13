@@ -1,4 +1,5 @@
 a1.cdn-hotels.com
+cdn.globalsigncdn.com
 cdn.jsdelivr.net
 edge.yunjiasu.com
 ns1.8844dns.com
