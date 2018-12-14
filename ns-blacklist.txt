@@ -29,3 +29,6 @@ status: NXDOMAIN
 .techsmith.com.
 .nsone.net.
 .fastly.net.
+.hosteurope.de.
+.hostmonster.com.
+.automattic.com.
