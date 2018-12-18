@@ -32,3 +32,5 @@ status: NXDOMAIN
 .hosteurope.de.
 .hostmonster.com.
 .automattic.com.
+.sedoparking.com.
+.ztomy.com.
