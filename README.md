@@ -63,6 +63,8 @@ Manual Installation
   make unbound
   # generate bind's configuration
   make bind
+  # full example of generating dnscrypt-proxy forwarding rules for Windows
+  make SERVER=101.6.6.6 NEWLINE=DOS dnscrypt-proxy
   ```
 
 License
