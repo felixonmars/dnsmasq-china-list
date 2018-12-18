@@ -69,9 +69,13 @@ class ChinaListVerify(object):
             raise ChnroutesNotAvailable
 
         answers = dns.resolver.query(domain, 'A')
-        answer = answers[0].to_text()
-        
-        return any(ipaddress.IPv4Address(answer) in ipaddress.IPv4Network(n) for n in self.chnroutes)
+
+        for answer in answers:
+            answer = answer.to_text()
+            if any(ipaddress.IPv4Address(answer) in ipaddress.IPv4Network(n) for n in self.chnroutes):
+                return True
+
+        return False
 
     def check_whitelist(self, nameservers):
         if any(i in " ".join(nameservers) for i in self.whitelist):
