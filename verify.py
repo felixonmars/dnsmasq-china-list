@@ -109,7 +109,7 @@ class ChinaListVerify(object):
             self.check_whitelist(nameservers)
 
         for testdomain in self.cdnlist:
-            if testdomain.endswith("." + domain):
+            if testdomain == domain or testdomain.endswith("." + domain):
                 try:
                     self.check_cdnlist(testdomain)
                 except dns.resolver.NXDOMAIN:

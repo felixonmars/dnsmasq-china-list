@@ -3,9 +3,14 @@ cdn.globalsigncdn.com
 cdn.jsdelivr.net
 edge.yunjiasu.com
 ns1.8844dns.com
+r1.res.office365.com
+r1.res.outlook.com
+v2ex.com
 www.azure.cn.mschcdn.com
 www.gov.cn
+www.howbuy.com
 www.igoldhk.com
+www.qzccbank.com
 www.travelsky.net
 www.xiumu.org
 www.yangfd.com

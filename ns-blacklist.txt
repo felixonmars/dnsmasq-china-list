@@ -34,3 +34,4 @@ status: NXDOMAIN
 .automattic.com.
 .sedoparking.com.
 .ztomy.com.
+.parklogic.com.
