@@ -197,7 +197,7 @@ class ChinaListVerify(object):
         else:
             return None
 
-    def check_domain_list(self, domain_list, sample=100):
+    def check_domain_list(self, domain_list, sample=30):
         domains = self.load_list(domain_list)
         if sample:
             domains = random.sample(domains, sample)
