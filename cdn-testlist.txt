@@ -5,12 +5,14 @@ edge.yunjiasu.com
 ns1.8844dns.com
 r1.res.office365.com
 r1.res.outlook.com
+s7.app100724642.qqopenapp.com
 v2ex.com
 www.azure.cn.mschcdn.com
 www.gov.cn
 www.howbuy.com
 www.igoldhk.com
 www.qzccbank.com
+www.shandongair.com
 www.travelsky.net
 www.xiumu.org
 www.yangfd.com
