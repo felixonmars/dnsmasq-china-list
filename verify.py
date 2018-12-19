@@ -91,7 +91,7 @@ class ChinaListVerify(object):
         else:
             raise CDNListNotVerified
 
-    def check_domain(self, domain):
+    def check_domain(self, domain, enable_cdnlist=True):
         nameservers = []
         nxdomain = False
         try:
@@ -108,19 +108,20 @@ class ChinaListVerify(object):
 
             self.check_whitelist(nameservers)
 
-        for testdomain in self.cdnlist:
-            if testdomain == domain or testdomain.endswith("." + domain):
-                try:
-                    self.check_cdnlist(testdomain)
-                except dns.resolver.NXDOMAIN:
-                    raise NXDOMAIN
+        if enable_cdnlist:
+            for testdomain in self.cdnlist:
+                if testdomain == domain or testdomain.endswith("." + domain):
+                    try:
+                        self.check_cdnlist(testdomain)
+                    except dns.resolver.NXDOMAIN:
+                        raise NXDOMAIN
 
-        # Assuming CDNList for non-TLDs
-        if domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain:
-            try:
-                self.check_cdnlist(domain)
-            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout):
-                pass
+            # Assuming CDNList for non-TLDs
+            if domain.count(".") > 1 and tldextract.extract(domain).registered_domain != domain:
+                try:
+                    self.check_cdnlist(domain)
+                except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout):
+                    pass
 
         if nxdomain:
             # Double check due to false positives
@@ -143,9 +144,9 @@ class ChinaListVerify(object):
         else:
             raise NSNotAvailable
 
-    def check_domain_quiet(self, domain):
+    def check_domain_quiet(self, domain, **kwargs):
         try:
-            self.check_domain(domain)
+            self.check_domain(domain, **kwargs)
         except OK:
             return True
         except NotOK:
@@ -155,10 +156,10 @@ class ChinaListVerify(object):
         else:
             return None
 
-    def check_domain_verbose(self, domain):
+    def check_domain_verbose(self, domain, **kwargs):
         try:
             try:
-                self.check_domain(domain)
+                self.check_domain(domain, **kwargs)
             except NXDOMAIN:
                 print(colored("NXDOMAIN found in (cdnlist or) domain: " + domain, "white", "on_red"))
                 raise
