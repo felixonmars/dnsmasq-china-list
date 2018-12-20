@@ -1,5 +1,6 @@
 265.com
 a1.cdn-hotels.com
+ad.doubleclick.net
 app-measurement.com
 cdn.globalsigncdn.com
 cdn.jsdelivr.net
@@ -13,6 +14,7 @@ s7.app100724642.qqopenapp.com
 v24.lscache2.c.android.clients.google.com
 v2ex.com
 www.azure.cn.mschcdn.com
+www.google-analytics.com
 www.gov.cn
 www.howbuy.com
 www.igoldhk.com
