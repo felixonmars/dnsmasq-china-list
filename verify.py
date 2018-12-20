@@ -207,5 +207,8 @@ class ChinaListVerify(object):
 
 
 if __name__ == "__main__":
+    import argparse
+    description = 'A simple verify library for dnsmasq-china-list'
+
     v = ChinaListVerify()
     v.check_domain_list("accelerated-domains.china.raw.txt")
