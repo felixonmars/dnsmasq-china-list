@@ -7,6 +7,7 @@ cdn.jsdelivr.net
 edge.yunjiasu.com
 googleadservices.com
 googletagmanager.com
+itunes-cdn.itunes-apple.com.akadns.net
 ns1.8844dns.com
 ns1.chinanetsun-dns.com
 pagead2.googlesyndication.com
