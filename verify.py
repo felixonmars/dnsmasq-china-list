@@ -218,4 +218,4 @@ if __name__ == "__main__":
     config = parser.parse_args()
 
     v = ChinaListVerify()
-    v.check_domain_list("accelerated-domains.china.raw.txt")
+    v.check_domain_list(config.file, sample=int(config.sample))
