@@ -4,6 +4,7 @@ ad.doubleclick.net
 app-measurement.com
 cdn.globalsigncdn.com
 cdn.jsdelivr.net
+d-cache.microad-cn.com
 edge.yunjiasu.com
 googleadservices.com
 googletagmanager.com
