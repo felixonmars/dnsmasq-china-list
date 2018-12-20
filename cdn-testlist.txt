@@ -6,6 +6,7 @@ cdn.globalsigncdn.com
 cdn.jsdelivr.net
 edge.yunjiasu.com
 googleadservices.com
+googletagmanager.com
 ns1.8844dns.com
 ns1.chinanetsun-dns.com
 pagead2.googlesyndication.com
@@ -18,6 +19,7 @@ v2ex.com
 www.azure.cn.mschcdn.com
 www.google-analytics.com
 www.googleanalytics.com
+www.googletagservices.com
 www.gov.cn
 www.howbuy.com
 www.igoldhk.com
