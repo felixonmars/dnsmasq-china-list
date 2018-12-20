@@ -5,6 +5,7 @@ app-measurement.com
 cdn.globalsigncdn.com
 cdn.jsdelivr.net
 edge.yunjiasu.com
+googleadservices.com
 ns1.8844dns.com
 ns1.chinanetsun-dns.com
 r1.res.office365.com
@@ -15,6 +16,7 @@ v24.lscache2.c.android.clients.google.com
 v2ex.com
 www.azure.cn.mschcdn.com
 www.google-analytics.com
+www.googleanalytics.com
 www.gov.cn
 www.howbuy.com
 www.igoldhk.com
