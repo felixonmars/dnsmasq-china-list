@@ -209,6 +209,13 @@ class ChinaListVerify(object):
 if __name__ == "__main__":
     import argparse
     description = 'A simple verify library for dnsmasq-china-list'
+    parser = argparse.ArgumentParser(description=description)
+    parser.add_argument('-f', '--file', nargs='?', default="accelerated-domains.china.raw.txt",
+                        help='File to examine')
+    parser.add_argument('-s', '--sample', nargs='?', default=30,
+                        help='Verify only a limited sample. Pass 0 to example all entries.')
+
+    config = parser.parse_args()
 
     v = ChinaListVerify()
     v.check_domain_list("accelerated-domains.china.raw.txt")
