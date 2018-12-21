@@ -214,8 +214,13 @@ if __name__ == "__main__":
                         help='File to examine')
     parser.add_argument('-s', '--sample', nargs='?', default=30,
                         help='Verify only a limited sample. Pass 0 to example all entries.')
+    parser.add_argument('-d', '--domain', nargs='?',
+                        help='Verify a domain instead of checking a list. Will ignore the other options.')
 
     config = parser.parse_args()
-
     v = ChinaListVerify()
-    v.check_domain_list(config.file, sample=int(config.sample))
+
+    if config.domain:
+        v.check_domain_verbose(config.domain)
+    else:
+        v.check_domain_list(config.file, sample=int(config.sample))
