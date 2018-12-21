@@ -20,6 +20,7 @@ s7.app100724642.qqopenapp.com
 v24.lscache2.c.android.clients.google.com
 v2ex.assets.uxengine.net
 v2ex.com
+www.agora.io
 www.azure.cn.mschcdn.com
 www.camcard.com
 www.google-analytics.com
