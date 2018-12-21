@@ -6,6 +6,7 @@ cdn.globalsigncdn.com
 cdn.jsdelivr.net
 d-cache.microad-cn.com
 edge.yunjiasu.com
+gateway.nyaacat.com
 googleadservices.com
 googletagmanager.com
 itunes-cdn.itunes-apple.com.akadns.net
