@@ -13,6 +13,7 @@ itunes-cdn.itunes-apple.com.akadns.net
 ns1.2000dns.com
 ns1.8844dns.com
 ns1.chinanetsun-dns.com
+ns1.jyfund.com
 pagead2.googlesyndication.com
 r1.res.office365.com
 r1.res.outlook.com
