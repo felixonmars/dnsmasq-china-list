@@ -14,9 +14,11 @@ def main():
     for line in lines:
         if line == '' or line.startswith('#'):
             continue
-        domain = line.split('/')[1]
+        domain = line.split('/')[1].lower()
         labels = domain.split('.')
         labels.reverse()
+        if domain in data:
+            print(f"Redundant found: {domain}")
         data[domain] = labels
     domains = list(data.keys())
     domains.sort(key=lambda k: len(data[k]))
