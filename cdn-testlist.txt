@@ -4,6 +4,7 @@ ad.doubleclick.net
 app-measurement.com
 cdn.globalsigncdn.com
 cdn.jsdelivr.net
+cnc.ef-cdn.com
 d-cache.microad-cn.com
 edge.yunjiasu.com
 gateway.nyaacat.com
