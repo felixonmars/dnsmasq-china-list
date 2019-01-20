@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from __future__ import unicode_literals
 from argparse import ArgumentParser
+import sys
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="dnsmasq-china-list updater")
@@ -34,6 +35,8 @@ if __name__ == "__main__":
     with open(options.file[0]) as f:
         lines = list(f)
 
+    changed = False
+
     if options.add:
         options.sort = True
 
@@ -44,6 +47,7 @@ if __name__ == "__main__":
             else:
                 print("New domain added: " + domain)
                 lines.append(new_line)
+                changed = True
 
     if options.delete:
         options.sort = True
@@ -55,6 +59,10 @@ if __name__ == "__main__":
             else:
                 print("Domain removed: " + domain)
                 lines.remove(target_line)
+                changed = True
+
+    if (options.add or options.delete) and not changed:
+        sys.exit(1)
 
     if options.sort:
         lines.sort(key=lambda x: x.lstrip("#"))
