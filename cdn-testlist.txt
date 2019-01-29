@@ -12,6 +12,7 @@ gateway.nyaacat.com
 googleadservices.com
 googletagmanager.com
 itunes-cdn.itunes-apple.com.akadns.net
+netease.ugcvideoss.ourdvs.com
 ns1.2000dns.com
 ns1.8844dns.com
 ns1.chinanetsun-dns.com
