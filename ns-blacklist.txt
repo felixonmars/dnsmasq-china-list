@@ -35,3 +35,4 @@ status: NXDOMAIN
 .sedoparking.com.
 .ztomy.com.
 .parklogic.com.
+.gandi.net.
