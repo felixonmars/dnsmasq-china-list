@@ -156,7 +156,7 @@ class ChinaListVerify(object):
         else:
             return None
 
-    def check_domain_verbose(self, domain, quiet=False, **kwargs):
+    def check_domain_verbose(self, domain, show_green=False, **kwargs):
         try:
             try:
                 self.check_domain(domain, **kwargs)
@@ -164,11 +164,11 @@ class ChinaListVerify(object):
                 print(colored("NXDOMAIN found in (cdnlist or) domain: " + domain, "white", "on_red"))
                 raise
             except WhitelistMatched:
-                if not quiet:
+                if show_green:
                     print(colored("NS Whitelist matched for domain: " + domain, "green"))
                 raise
             except CDNListVerified:
-                if not quiet:
+                if show_green:
                     print(colored("CDNList matched and verified for domain: " + domain, "green"))
                 raise
             except CDNListNotVerified:
@@ -178,7 +178,7 @@ class ChinaListVerify(object):
                 print(colored("NS Blacklist matched for domain: " + domain, "red"))
                 raise
             except NSVerified:
-                if not quiet:
+                if show_green:
                     print(colored("NS verified for domain: " + domain, "green"))
                 raise
             except NSNotVerified:
@@ -201,12 +201,14 @@ class ChinaListVerify(object):
         else:
             return None
 
-    def check_domain_list(self, domain_list, sample=30, quiet=False):
+    def check_domain_list(self, domain_list, sample=30, show_green=False):
         domains = self.load_list(domain_list)
         if sample:
             domains = random.sample(domains, sample)
+        else:
+            random.shuffle(domains)
         for domain in domains:
-            self.check_domain_verbose(domain, quiet=quiet)
+            self.check_domain_verbose(domain, show_green=show_green)
 
 
 if __name__ == "__main__":
@@ -217,8 +219,8 @@ if __name__ == "__main__":
                         help='File to examine')
     parser.add_argument('-s', '--sample', nargs='?', default=0,
                         help='Verify only a limited sample. Pass 0 to example all entries.')
-    parser.add_argument('-q', '--quiet', action="store_true",
-                        help='Hide green results.')
+    parser.add_argument('-v', '--verbose', action="store_true",
+                        help='Show green results.')
     parser.add_argument('-d', '--domain', nargs='?',
                         help='Verify a domain instead of checking a list. Will ignore the other options.')
 
@@ -226,6 +228,6 @@ if __name__ == "__main__":
     v = ChinaListVerify()
 
     if config.domain:
-        v.check_domain_verbose(config.domain, quiet=config.quiet)
+        v.check_domain_verbose(config.domain, show_green=config.verbose)
     else:
-        v.check_domain_list(config.file, quiet=config.quiet, sample=int(config.sample))
+        v.check_domain_list(config.file, show_green=config.verbose, sample=int(config.sample))
