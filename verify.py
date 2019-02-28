@@ -55,7 +55,6 @@ class ChinaListVerify(object):
         self.whitelist = self.load_list(self.whitelist_file)
         self.blacklist = self.load_list(self.blacklist_file)
         self.cdnlist = self.load_list(self.cdnlist_file)
-        self.root_ns = self.resolve(self.root_ns)
 
         try:
             self.chnroutes = self.load_list(self.chnroutes_file)
