@@ -225,7 +225,6 @@ class ChinaListVerify(object):
         except NotOK:
             return False
         except:
-            raise
             return None
         else:
             return None
