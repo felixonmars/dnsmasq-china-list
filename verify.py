@@ -5,6 +5,7 @@ from termcolor import colored
 import random
 import ipaddress
 import tldextract
+from io import StringIO
 
 
 class ChnroutesNotAvailable(Exception):
@@ -48,6 +49,8 @@ class ChinaListVerify(object):
     blacklist_file = "ns-blacklist.txt"
     cdnlist_file = "cdn-testlist.txt"
     chnroutes_file = "/usr/share/chnroutes2/chnroutes.txt"
+    tld_ns = {}
+    root_ns = "g.root-servers.net"
 
     def __init__(self):
         self.whitelist = self.load_list(self.whitelist_file)
@@ -77,6 +80,19 @@ class ChinaListVerify(object):
 
         return False
 
+    def resolve(self, domain, rdtype, server=None):
+        if not server:
+            return dns.resolver.query(domain, rdtype)
+        else:
+            return dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype)
+
+    def get_ns_for_tld(self, tld):
+        if tld not in self.tld_ns:
+            answers = self.resolve(tld, "NS", self.root_ns)
+            self.tld_ns[tld] = answers[0].to_text()
+
+        return self.tld_ns[tld]
+
     def check_whitelist(self, nameservers):
         if any(i in " ".join(nameservers) for i in self.whitelist):
             raise WhitelistMatched
@@ -95,10 +111,11 @@ class ChinaListVerify(object):
         nameservers = []
         nxdomain = False
         try:
-            answers = dns.resolver.query(domain, 'NS')
+            answers = self.resolve(domain, 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix))
         except dns.resolver.NXDOMAIN:
             nxdomain = True
         except:
+            raise
             pass
         else:   
             for rdata in answers:
@@ -197,6 +214,7 @@ class ChinaListVerify(object):
         except NotOK:
             return False
         except:
+            raise
             return None
         else:
             return None
