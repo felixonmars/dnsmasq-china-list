@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import dns.resolver, dns.rdataclass, dns.rdatatype
+import dns.resolver, dns.rdataclass, dns.rdatatype, dns.name
 from termcolor import colored
 import random
 import ipaddress
@@ -70,10 +70,15 @@ class ChinaListVerify(object):
         if self.chnroutes is None:
             raise ChnroutesNotAvailable
 
-        if not response:
+        answers = None
+        if response:
+            try:
+                answers = response.find_rrset(response.additional, dns.name.from_text(domain), dns.rdataclass.IN, dns.rdatatype.A)
+            except KeyError:
+                pass
+        
+        if not answers:
             answers = dns.resolver.query(domain, 'A')
-        else:
-            answers = response.find_rrset(response.additional, domain + ".", dns.rdataclass.IN, dns.rdatatype.A)
 
         for answer in answers:
             answer = answer.to_text()
