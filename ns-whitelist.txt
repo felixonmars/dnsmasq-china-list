@@ -82,7 +82,6 @@
 .maff.com
 .szhot.com.
 .bigwww.com.
-   . hostmaster.nameserver. 
 ns1.oray.net.
 ns2.oray.net.
 .cdnudns.com
