@@ -50,7 +50,6 @@ class ChinaListVerify(object):
     cdnlist_file = "cdn-testlist.txt"
     chnroutes_file = "/usr/share/chnroutes2/chnroutes.txt"
     tld_ns = {}
-    root_ns = "g.root-servers.net"
 
     def __init__(self):
         self.whitelist = self.load_list(self.whitelist_file)
@@ -81,17 +80,20 @@ class ChinaListVerify(object):
 
         return False
 
-    def resolve(self, domain, rdtype="A", server=None):
+    def resolve(self, domain, rdtype="A", server=None, authority=False):
         if not server:
             return dns.resolver.query(domain, rdtype)
-        else:
+        elif not authority:
             return dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype)
+        else:
+            answer = dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype, raise_on_no_answer=False)
+            return answer.response.authority[0]
 
     def get_ns_for_tld(self, tld):
         if tld not in self.tld_ns:
-            answers = self.resolve(tld, "NS", self.root_ns)
-            self.tld_ns[tld] = self.resolve(answers[0].to_text())
-            print("NS for tld", tld, self.tld_ns[tld])
+            answers = self.resolve(tld + ".", "NS", authority=True)
+            ips = self.resolve(answers[0].to_text())
+            self.tld_ns[tld] = ips[0].to_text()
 
         return self.tld_ns[tld]
 
@@ -113,7 +115,7 @@ class ChinaListVerify(object):
         nameservers = []
         nxdomain = False
         try:
-            answers = self.resolve(domain, 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix))
+            answers = self.resolve(domain, 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix), authority=True)
         except dns.resolver.NXDOMAIN:
             nxdomain = True
         except:
