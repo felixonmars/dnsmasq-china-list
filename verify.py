@@ -93,8 +93,9 @@ class ChinaListVerify(object):
 
     def get_ns_for_tld(self, tld):
         if tld not in self.tld_ns:
-            response = self.resolve(tld + ".", "NS", authority=True)
-            self.tld_ns[tld] = response.additional[0].to_text()
+            answers = self.resolve(tld + ".", "NS")
+            ips = self.resolve(answers[0].to_text())
+            self.tld_ns[tld] = ips[0].to_text()
 
         return self.tld_ns[tld]
 
