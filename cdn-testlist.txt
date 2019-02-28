@@ -25,6 +25,7 @@ pagead2.googlesyndication.com
 r1.res.office365.com
 r1.res.outlook.com
 recaptcha.net
+s.c.lnkd.licdn.com
 s0.2mdn.net
 s7.app100724642.qqopenapp.com
 t1.tiles.ditu.live.com
