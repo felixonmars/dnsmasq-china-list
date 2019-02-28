@@ -129,7 +129,7 @@ class ChinaListVerify(object):
             raise
             pass
         else:   
-            for rdata in response.authority:
+            for rdata in response.authority[0]:
                 nameserver = rdata.to_text()
                 if tldextract.extract(nameserver).registered_domain:
                     nameservers.append(nameserver)
