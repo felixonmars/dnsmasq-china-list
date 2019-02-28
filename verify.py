@@ -56,6 +56,7 @@ class ChinaListVerify(object):
         self.whitelist = self.load_list(self.whitelist_file)
         self.blacklist = self.load_list(self.blacklist_file)
         self.cdnlist = self.load_list(self.cdnlist_file)
+        self.root_ns = self.resolve(self.root_ns)
 
         try:
             self.chnroutes = self.load_list(self.chnroutes_file)
@@ -80,7 +81,7 @@ class ChinaListVerify(object):
 
         return False
 
-    def resolve(self, domain, rdtype, server=None):
+    def resolve(self, domain, rdtype="A", server=None):
         if not server:
             return dns.resolver.query(domain, rdtype)
         else:
@@ -89,7 +90,8 @@ class ChinaListVerify(object):
     def get_ns_for_tld(self, tld):
         if tld not in self.tld_ns:
             answers = self.resolve(tld, "NS", self.root_ns)
-            self.tld_ns[tld] = answers[0].to_text()
+            self.tld_ns[tld] = self.resolve(answers[0].to_text())
+            print("NS for tld", tld, self.tld_ns[tld])
 
         return self.tld_ns[tld]
 
