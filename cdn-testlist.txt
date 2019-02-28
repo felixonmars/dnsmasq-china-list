@@ -10,6 +10,7 @@ d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
 edge.yunjiasu.com
 gateway.nyaacat.com
+gongyi3act.tencent-cloud.net
 googleadservices.com
 googletagmanager.com
 issuecdn.baidupcs.com.wsdvs.com
