@@ -122,7 +122,7 @@ class ChinaListVerify(object):
         nameservers = []
         nxdomain = False
         try:
-            response = self.resolve(domain, 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix), authority=True)
+            response = self.resolve(domain + ".", 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix), authority=True)
         except dns.resolver.NXDOMAIN:
             nxdomain = True
         except:
