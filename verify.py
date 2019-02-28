@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import dns.resolver
+import dns.resolver, dns.rdataclass, dns.rdatatype
 from termcolor import colored
 import random
 import ipaddress
@@ -66,11 +66,14 @@ class ChinaListVerify(object):
         with open(filename) as f:
             return list([l.rstrip('\n') for l in f if l and not l.startswith("#")])
 
-    def test_cn_ip(self, domain):
+    def test_cn_ip(self, domain, response=None):
         if self.chnroutes is None:
             raise ChnroutesNotAvailable
 
-        answers = dns.resolver.query(domain, 'A')
+        if not response:
+            answers = dns.resolver.query(domain, 'A')
+        else:
+            answers = response.find_rrset(response.additional, domain + ".", dns.rdataclass.IN, dns.rdatatype.A)
 
         for answer in answers:
             answer = answer.to_text()
@@ -86,13 +89,12 @@ class ChinaListVerify(object):
             return dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype)
         else:
             answer = dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype, raise_on_no_answer=False)
-            return answer.response.authority[0]
+            return answer.response
 
     def get_ns_for_tld(self, tld):
         if tld not in self.tld_ns:
-            answers = self.resolve(tld + ".", "NS", authority=True)
-            ips = self.resolve(answers[0].to_text())
-            self.tld_ns[tld] = ips[0].to_text()
+            response = self.resolve(tld + ".", "NS", authority=True)
+            self.tld_ns[tld] = response.additional[0].to_text()
 
         return self.tld_ns[tld]
 
@@ -114,14 +116,14 @@ class ChinaListVerify(object):
         nameservers = []
         nxdomain = False
         try:
-            answers = self.resolve(domain, 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix), authority=True)
+            response = self.resolve(domain, 'NS', self.get_ns_for_tld(tldextract.extract(domain).suffix), authority=True)
         except dns.resolver.NXDOMAIN:
             nxdomain = True
         except:
             raise
             pass
         else:   
-            for rdata in answers:
+            for rdata in response.authority:
                 nameserver = rdata.to_text()
                 if tldextract.extract(nameserver).registered_domain:
                     nameservers.append(nameserver)
@@ -154,7 +156,7 @@ class ChinaListVerify(object):
 
         for nameserver in nameservers:
             try:
-                if self.test_cn_ip(nameserver):
+                if self.test_cn_ip(nameserver, response):
                     raise NSVerified
             except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers, dns.exception.Timeout):
                 pass
