@@ -1,8 +1,18 @@
 SERVER=114.114.114.114
 NEWLINE=UNIX
+LITE=0
 
 raw:
+ifeq ($(LITE),0)
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | egrep -v '^#' > accelerated-domains.china.raw.txt
+else
+	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | egrep -v '^#' > accelerated-domains.china.raw.all.txt
+	curl -O -z top-1m.csv.zip http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+	unzip -o top-1m.csv.zip
+	head -$(LITE) top-1m.csv > top-$(LITE).csv
+	awk -F, '{print $$2}' top-$(LITE).csv > top-$(LITE).txt
+	cat accelerated-domains.china.raw.all.txt top-$(LITE).txt | sort | uniq -d | sort -n > accelerated-domains.china.raw.txt
+endif
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' google.china.conf | egrep -v '^#' > google.china.raw.txt
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' apple.china.conf | egrep -v '^#' > apple.china.raw.txt
 
