@@ -65,6 +65,8 @@ Manual Installation
   make bind
   # full example of generating dnscrypt-proxy forwarding rules for Windows
   make SERVER=101.6.6.6 NEWLINE=DOS dnscrypt-proxy
+  # Minify list with Alexa Top-1M Site List
+  make SERVER=202.96.128.86 LITE=200000 dnsmasq
   ```
 
 License
