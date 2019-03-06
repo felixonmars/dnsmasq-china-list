@@ -10,16 +10,11 @@ d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
 edge.yunjiasu.com
 gateway.nyaacat.com
-gongyi3act.tencent-cloud.net
 googleadservices.com
 googletagmanager.com
 issuecdn.baidupcs.com.wsdvs.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
-ns1.2000dns.com
-ns1.8844dns.com
-ns1.chinanetsun-dns.com
-ns1.jyfund.com
 opthw.xdwscache.speedcdns.com
 pagead2.googlesyndication.com
 r1.res.office365.com
@@ -27,7 +22,6 @@ r1.res.outlook.com
 recaptcha.net
 s.c.lnkd.licdn.com
 s0.2mdn.net
-s7.app100724642.qqopenapp.com
 t1.tiles.ditu.live.com
 v24.lscache2.c.android.clients.google.com
 v2ex.assets.uxengine.net
@@ -42,11 +36,7 @@ www.googleanalytics.com
 www.googletagservices.com
 www.gov.cn
 www.howbuy.com
-www.qzccbank.com
 www.shandongair.com
 www.sunrtb.com
-www.travelsky.net
-www.xiumu.org
 www.yangfd.com
 www.youngfunding.co.uk
-wxalbum-10001658.image.myqcloud.com
