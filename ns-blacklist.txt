@@ -1,5 +1,4 @@
 status: NXDOMAIN
-.awsdns-
 .ns.cloudflare.com.
 .google.com.
 .akam.net.
