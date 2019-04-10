@@ -106,3 +106,4 @@ ns2.oray.net.
 .jd.com.
 .sohu.com.
 .dns234.net.
+.awsdns-cn-
