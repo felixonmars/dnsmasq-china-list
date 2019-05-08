@@ -48,7 +48,7 @@ def find(labelses):
                 # If child node is a LEAF node,
                 # current domain must be an existed domain or a subdomain of an existed.
                 if node[label] == LEAF:
-                    print(f"Redundant found: {domain} at {label}")
+                    print(f"Redundant found: {domain} at {'.'.join(labels)}")
                     break
             else:
                 # Create a leaf node if current label is last one
