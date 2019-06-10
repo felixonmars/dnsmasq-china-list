@@ -58,3 +58,4 @@ source.tutorabc.com
 mediaexp-programming.xboxlive.com
 editorial.xboxlive.com
 achievements.xboxlive.com
+avatarread-ssl.xboxlive.com
