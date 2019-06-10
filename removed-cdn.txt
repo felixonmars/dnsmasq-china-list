@@ -62,3 +62,4 @@ avatarread-ssl.xboxlive.com
 images-eds-ssl.xboxlive.com
 comments.xboxlive.com
 profile.xboxlive.com
+emdl.ws.microsoft.com
