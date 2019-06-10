@@ -63,3 +63,4 @@ images-eds-ssl.xboxlive.com
 comments.xboxlive.com
 profile.xboxlive.com
 emdl.ws.microsoft.com
+encoding.image-gmkt.com
