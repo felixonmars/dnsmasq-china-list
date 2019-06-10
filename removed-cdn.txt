@@ -60,3 +60,4 @@ editorial.xboxlive.com
 achievements.xboxlive.com
 avatarread-ssl.xboxlive.com
 images-eds-ssl.xboxlive.com
+comments.xboxlive.com
