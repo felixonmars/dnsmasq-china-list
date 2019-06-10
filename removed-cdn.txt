@@ -55,4 +55,5 @@ cnupgrade.microsoft.com
 m.dji.com
 x-dash-public.rec.mp.microsoft.com
 source.tutorabc.com
-
+mediaexp-programming.xboxlive.com
+editorial.xboxlive.com
