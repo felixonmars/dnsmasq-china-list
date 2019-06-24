@@ -65,3 +65,4 @@ profile.xboxlive.com
 emdl.ws.microsoft.com
 encoding.image-gmkt.com
 china-cdn2.unityads.unity3d.com.
+v2ex.com
