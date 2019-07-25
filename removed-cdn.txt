@@ -49,7 +49,6 @@ ocsp.globalsign.com
 ocsp2.globalsign.com
 ec8.images-amazon.com
 images-cn-8.ssl-images-amazon.com
-www.dji.com
 cnupgrade.microsoft.com
 x-dash-public.rec.mp.microsoft.com
 source.tutorabc.com
