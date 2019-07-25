@@ -70,3 +70,4 @@ www.st.com
 adfarm.mediaplex.com
 ad.mediaplex.com
 altfarm.mediaplex.com
+img.mediaplex.com
