@@ -69,3 +69,4 @@ v2ex.com
 www.st.com
 adfarm.mediaplex.com
 ad.mediaplex.com
+altfarm.mediaplex.com
