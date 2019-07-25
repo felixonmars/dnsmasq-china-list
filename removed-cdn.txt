@@ -52,7 +52,6 @@ images-cn-8.ssl-images-amazon.com
 www.dji.com
 store.dji.com
 cnupgrade.microsoft.com
-m.dji.com
 x-dash-public.rec.mp.microsoft.com
 source.tutorabc.com
 mediaexp-programming.xboxlive.com
