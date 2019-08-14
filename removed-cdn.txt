@@ -68,3 +68,4 @@ img.mediaplex.com
 img-cdn.mediaplex.com
 www.st.com
 account.samsung.com
+console-service-ssl.halo.xbox.com
