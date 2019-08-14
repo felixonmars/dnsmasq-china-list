@@ -67,3 +67,4 @@ altfarm.mediaplex.com
 img.mediaplex.com
 img-cdn.mediaplex.com
 www.st.com
+account.samsung.com
