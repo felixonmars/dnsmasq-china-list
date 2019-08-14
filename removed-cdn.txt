@@ -45,7 +45,6 @@ sina.com.hk
 hdn.xnimg.cn.cdngc.net
 sekong.cn.com
 avatar-ssl.xboxlive.com
-ocsp2.globalsign.com
 ec8.images-amazon.com
 images-cn-8.ssl-images-amazon.com
 cnupgrade.microsoft.com
