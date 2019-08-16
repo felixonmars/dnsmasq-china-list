@@ -35,3 +35,4 @@ status: NXDOMAIN
 .ztomy.com.
 .parklogic.com.
 .gandi.net.
+.worldnic.com.
