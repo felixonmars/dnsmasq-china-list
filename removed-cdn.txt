@@ -70,3 +70,4 @@ console-service-ssl.halo.xbox.com
 web-service-ssl.halo.xbox.com
 ec4.images-amazon.com
 g-ec4.images-amazon.com
+download.epicgames.com
