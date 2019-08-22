@@ -68,3 +68,5 @@ www.st.com
 account.samsung.com
 console-service-ssl.halo.xbox.com
 web-service-ssl.halo.xbox.com
+ec4.images-amazon.com
+g-ec4.images-amazon.com
