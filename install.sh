@@ -42,6 +42,8 @@ if hash systemctl 2>/dev/null; then
   systemctl restart dnsmasq
 elif hash service 2>/dev/null; then
   service dnsmasq restart
+elif hash rc-service 2>/dev/null; then
+  rc-service dnsmasq restart
 else
   echo "Now please restart dnsmasq since I don't know how to do it."
 fi
