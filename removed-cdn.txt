@@ -72,3 +72,4 @@ ec4.images-amazon.com
 g-ec4.images-amazon.com
 download.epicgames.com
 images-cn-4.ssl-images-amazon.com
+e.admob.com
