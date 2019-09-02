@@ -10,7 +10,6 @@ cnc.ef-cdn.com
 d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
 edge.yunjiasu.com
-ftchinese.com
 gateway.nyaacat.com
 googleadservices.com
 googletagmanager.com

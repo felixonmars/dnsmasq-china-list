@@ -36,3 +36,4 @@ status: NXDOMAIN
 .parklogic.com.
 .gandi.net.
 .worldnic.com.
+.ftchinese.com.
