@@ -74,3 +74,4 @@ download.epicgames.com
 images-cn-4.ssl-images-amazon.com
 e.admob.com
 jsdelivr.net
+res.office365.com

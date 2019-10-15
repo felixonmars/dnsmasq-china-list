@@ -18,7 +18,6 @@ itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
 opthw.xdwscache.speedcdns.com
 pagead2.googlesyndication.com
-r1.res.office365.com
 r1.res.outlook.com
 recaptcha.net
 s.c.lnkd.licdn.com
