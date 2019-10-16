@@ -76,3 +76,4 @@ e.admob.com
 jsdelivr.net
 res.office365.com
 assets.adobedtm.com
+click.dji.com
