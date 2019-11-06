@@ -38,3 +38,4 @@ status: NXDOMAIN
 .worldnic.com.
 .ftchinese.com.
 .name.com.
+.1-api.org.
