@@ -37,3 +37,4 @@ status: NXDOMAIN
 .gandi.net.
 .worldnic.com.
 .ftchinese.com.
+.name.com.
