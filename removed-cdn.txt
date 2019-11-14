@@ -77,3 +77,4 @@ jsdelivr.net
 res.office365.com
 assets.adobedtm.com
 click.dji.com
+topics-cdn.dell.com
