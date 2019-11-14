@@ -80,3 +80,4 @@ click.dji.com
 topics-cdn.dell.com
 dp.image-gmkt.com
 static.image-gmkt.com
+clubhub.xboxlive.com
