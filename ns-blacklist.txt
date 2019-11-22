@@ -40,3 +40,4 @@ status: NXDOMAIN
 .name.com.
 .1-api.org.
 .parkpage.foundationapi.com.
+.expdns.net.
