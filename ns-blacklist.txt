@@ -39,3 +39,4 @@ status: NXDOMAIN
 .ftchinese.com.
 .name.com.
 .1-api.org.
+.parkpage.foundationapi.com.
