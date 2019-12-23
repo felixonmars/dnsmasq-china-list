@@ -16,6 +16,7 @@ googletagmanager.com
 issuecdn.baidupcs.com.wsdvs.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
+oneplus.com
 opthw.xdwscache.speedcdns.com
 pagead2.googlesyndication.com
 r1.res.outlook.com
