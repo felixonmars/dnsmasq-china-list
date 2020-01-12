@@ -10,11 +10,10 @@ CONF_WITH_SERVERS=(accelerated-domains.china google.china apple.china)
 CONF_SIMPLE=(bogus-nxdomain.china)
 
 echo "Downloading latest configurations..."
-git clone --depth=1 https://e.coding.net/felixonmars/dnsmasq-china-list.git "$WORKDIR"
+git clone --depth=1 https://gitee.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://pagure.io/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://github.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://bitbucket.org/felixonmars/dnsmasq-china-list.git "$WORKDIR"
-#git clone --depth=1 https://gitee.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://gitlab.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://code.aliyun.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 http://repo.or.cz/dnsmasq-china-list.git "$WORKDIR"
