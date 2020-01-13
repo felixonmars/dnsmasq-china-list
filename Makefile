@@ -16,6 +16,11 @@ coredns: raw
 	sed -e "s|\(.*\)|\1 {\n  forward . $(SERVER)\n}|" google.china.raw.txt > google.china.coredns.conf
 	sed -e "s|\(.*\)|\1 {\n  forward . $(SERVER)\n}|" apple.china.raw.txt > apple.china.coredns.conf
 
+smartdns: raw
+	sed -e "s|\(.*\)|nameserver \1/$(SERVER)|" accelerated-domains.china.raw.txt > accelerated-domains.china.smartdns.conf
+	sed -e "s|\(.*\)|nameserver \1/$(SERVER)|" google.china.raw.txt > google.china.smartdns.conf
+	sed -e "s|\(.*\)|nameserver \1/$(SERVER)|" apple.china.raw.txt > apple.china.smartdns.conf
+
 unbound: raw
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' accelerated-domains.china.raw.txt > accelerated-domains.china.unbound.conf
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' google.china.raw.txt > google.china.unbound.conf
@@ -47,4 +52,4 @@ ifeq ($(NEWLINE),DOS)
 endif
 
 clean:
-	rm -f {accelerated-domains,google,apple}.china.{dnsmasq,unbound,bind}.conf {accelerated-domains,google,apple}.china.raw.txt dnscrypt-proxy-forwarding-rules.txt
+	rm -f {accelerated-domains,google,apple}.china.*.conf {accelerated-domains,google,apple}.china.raw.txt dnscrypt-proxy-forwarding-rules.txt
