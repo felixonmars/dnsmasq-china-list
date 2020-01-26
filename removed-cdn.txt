@@ -89,3 +89,4 @@ img4.wsimg.com
 img5.wsimg.com
 plus.djicdn.com
 assets.analog.com
+avatar.xboxlive.com
