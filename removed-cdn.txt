@@ -52,6 +52,7 @@ images-eds-ssl.xboxlive.com
 images.nvidia.com
 image.xboxlive.com
 img2.wsimg.com
+img3.wsimg.com
 img4.wsimg.com
 img5.wsimg.com
 img-cdn.mediaplex.com
