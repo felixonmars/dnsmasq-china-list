@@ -86,7 +86,6 @@ www1-cdn.dell.com
 www.ikea.com
 www.nvidia.com
 www.renren.com.cdngc.net
-www.st.com
 x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
 z1.muscache.com
