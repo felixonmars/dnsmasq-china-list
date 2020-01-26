@@ -62,6 +62,7 @@ international-gfe.download.nvidia.com
 lh3.appinn.net
 marketplace-xb.xboxlive.com
 mediaexp-programming.xboxlive.com
+media.admob.com
 msg.xboxlive.com
 plus.djicdn.com
 plus.dji.com
