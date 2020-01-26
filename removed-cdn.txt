@@ -66,6 +66,7 @@ marketplace-xb.xboxlive.com
 mediaexp-programming.xboxlive.com
 msg.xboxlive.com
 plus.djicdn.com
+plus.dji.com
 profile.xboxlive.com
 res.office365.com
 script.image-gmkt.com
