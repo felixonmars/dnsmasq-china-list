@@ -48,7 +48,6 @@ gravatar.loli.net
 gstatic.loli.net
 hdn.xnimg.cn.cdngc.net
 images-cn-4.ssl-images-amazon.com
-images-cn-8.ssl-images-amazon.com
 images-eds-ssl.xboxlive.com
 images.nvidia.com
 image.xboxlive.com
