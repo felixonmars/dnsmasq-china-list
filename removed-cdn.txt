@@ -51,6 +51,7 @@ images-cn-8.ssl-images-amazon.com
 images-eds-ssl.xboxlive.com
 images.nvidia.com
 image.xboxlive.com
+img1.wsimg.com
 img2.wsimg.com
 img3.wsimg.com
 img4.wsimg.com
