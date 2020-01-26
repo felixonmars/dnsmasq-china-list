@@ -86,3 +86,4 @@ www.renren.com.cdngc.net
 shop.samsung.com
 img2.wsimg.com
 img4.wsimg.com
+img5.wsimg.com
