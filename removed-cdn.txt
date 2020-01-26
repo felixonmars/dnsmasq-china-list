@@ -84,3 +84,4 @@ clubhub.xboxlive.com
 cdn.ampproject.org #281
 www.renren.com.cdngc.net
 shop.samsung.com
+img2.wsimg.com
