@@ -88,3 +88,4 @@ img2.wsimg.com
 img4.wsimg.com
 img5.wsimg.com
 plus.djicdn.com
+assets.analog.com
