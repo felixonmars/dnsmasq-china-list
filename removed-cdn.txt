@@ -4,6 +4,7 @@ adfarm.mediaplex.com
 ad.mediaplex.com
 ajax.loli.net
 altfarm.mediaplex.com
+assets-ssl.xbox.com
 assets.adobedtm.com
 assets.analog.com
 avatarread-ssl.xboxlive.com
