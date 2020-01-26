@@ -70,7 +70,6 @@ res.office365.com
 script.image-gmkt.com
 sekong.cn.com
 settings.xboxlive.com
-shop.samsung.com
 sina.com.hk
 speedtest.xboxlive.com
 static.image-gmkt.com
