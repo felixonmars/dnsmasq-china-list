@@ -1,4 +1,3 @@
-account.samsung.com
 achievements.xboxlive.com
 adfarm.mediaplex.com
 ad.mediaplex.com
