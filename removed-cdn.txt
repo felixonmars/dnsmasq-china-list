@@ -87,7 +87,6 @@ speedtest.xboxlive.com
 static.image-gmkt.com
 store-images.microsoft.com
 store-images.s-microsoft.com
-store.samsung.com
 tiles.xbox.com
 titlestorage.xboxlive.com
 topics-cdn.dell.com
