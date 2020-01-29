@@ -76,7 +76,6 @@ plus.djicdn.com
 plus.dji.com
 profile.xboxlive.com
 res.office365.com
-res.outlook.com
 script.image-gmkt.com
 sekong.cn.com
 settings.xboxlive.com
