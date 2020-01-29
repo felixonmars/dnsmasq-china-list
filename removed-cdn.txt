@@ -96,3 +96,5 @@ www.analog.com
 epix.xbox.com
 
 nxeassets.xbox.com
+
+cdn1.evernote.com
