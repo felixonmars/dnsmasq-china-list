@@ -100,3 +100,5 @@ nxeassets.xbox.com
 cdn1.evernote.com
 
 compass.xbox.com
+
+www.microsoft.com
