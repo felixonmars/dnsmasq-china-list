@@ -68,6 +68,7 @@ lh3.appinn.net
 marketplace-xb.xboxlive.com
 media.admob.com
 mediaexp-programming.xboxlive.com
+mktplassets-ssl.xbox.com
 msg.xboxlive.com
 nxeassets.xbox.com
 plus.djicdn.com
