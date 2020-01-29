@@ -94,3 +94,5 @@ z2.muscache.com
 www.analog.com
 
 epix.xbox.com
+
+nxeassets.xbox.com
