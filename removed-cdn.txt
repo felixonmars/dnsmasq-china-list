@@ -53,7 +53,6 @@ gfwsl.geforce.com
 gravatar.loli.net
 gstatic.loli.net
 hdn.xnimg.cn.cdngc.net
-i.dell.com
 images-cn-4.ssl-images-amazon.com
 images-eds-ssl.xboxlive.com
 images.nvidia.com
