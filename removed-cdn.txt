@@ -44,6 +44,7 @@ editorial.xboxlive.com
 eds.xboxlive.com
 emdl.ws.microsoft.com
 encoding.image-gmkt.com
+epix-ssl.xbox.com
 epix.xbox.com
 fonts.loli.net
 g-ec4.images-amazon.com
