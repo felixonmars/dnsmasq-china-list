@@ -17,9 +17,9 @@ coredns: raw
 	sed -e "s|\(.*\)|\1 {\n  forward . $(SERVER)\n}|" apple.china.raw.txt > apple.china.coredns.conf
 
 smartdns: raw
-	sed -e "s|\(.*\)|nameserver \1/$(SERVER)|" accelerated-domains.china.raw.txt > accelerated-domains.china.smartdns.conf
-	sed -e "s|\(.*\)|nameserver \1/$(SERVER)|" google.china.raw.txt > google.china.smartdns.conf
-	sed -e "s|\(.*\)|nameserver \1/$(SERVER)|" apple.china.raw.txt > apple.china.smartdns.conf
+	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" accelerated-domains.china.raw.txt > accelerated-domains.china.smartdns.conf
+	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" google.china.raw.txt > google.china.smartdns.conf
+	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" apple.china.raw.txt > apple.china.smartdns.conf
 
 unbound: raw
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' accelerated-domains.china.raw.txt > accelerated-domains.china.unbound.conf
