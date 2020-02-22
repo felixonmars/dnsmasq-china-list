@@ -9,6 +9,7 @@ cdn.jsdelivr.net
 cnc.ef-cdn.com
 d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
+dsany.sgnic.sg
 edge.yunjiasu.com
 gateway.nyaacat.com
 googleadservices.com
