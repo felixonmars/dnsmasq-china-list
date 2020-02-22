@@ -44,7 +44,8 @@ Automatic Installation (recommended)
 
 1. Fetch the installer from github (or a mirror): `wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/install.sh`
 2. (Optional) Edit it to use your favorite DNS server and/or another mirror to download the list.
-3. Run it as root: `sudo ./install.sh`
+3. Grant it executable rights: `chmod +x install.sh` 
+4. Run it as root: `sudo ./install.sh`
 
 You can save the installer and run it again to update the list regularly.
 

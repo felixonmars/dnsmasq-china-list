@@ -24,6 +24,16 @@ for _conf in "${CONF_WITH_SERVERS[@]}" "${CONF_SIMPLE[@]}"; do
   rm -f /etc/dnsmasq.d/"$_conf"*.conf
 done
 
+# In MacOs,command cp will not create an empty folder if it doesn't exist,
+# so command below will fail.
+# cp "$WORKDIR/$_conf.conf" "/etc/dnsmasq.d/$_conf.conf"
+KERNAL_TYPE="$(uname -a|awk '{print $1}')"
+if [ "$KERNAL_TYPE" = "Darwin" ];then
+  if [ ! -d "/etc/dnsmasq.d" ]; then
+    mkdir /etc/dnsmasq.d
+  fi
+fi
+
 echo "Installing new configurations..."
 for _conf in "${CONF_SIMPLE[@]}"; do
   cp "$WORKDIR/$_conf.conf" "/etc/dnsmasq.d/$_conf.conf"
@@ -33,8 +43,12 @@ for _server in "${SERVERS[@]}"; do
   for _conf in "${CONF_WITH_SERVERS[@]}"; do
     cp "$WORKDIR/$_conf.conf" "/etc/dnsmasq.d/$_conf.$_server.conf"
   done
-
-  sed -i "s|^\(server.*\)/[^/]*$|\1/$_server|" /etc/dnsmasq.d/*."$_server".conf
+  # It need a white character after sed -i on MacOs.
+  if [ "$KERNAL_TYPE" = "Darwin" ];then
+    sed -i "" "s|^\(server.*\)/[^/]*$|\1/$_server|" /etc/dnsmasq.d/*."$_server".conf
+  else
+    sed -i "s|^\(server.*\)/[^/]*$|\1/$_server|" /etc/dnsmasq.d/*."$_server".conf
+  fi
 done
 
 echo "Restarting dnsmasq service..."
@@ -44,6 +58,8 @@ elif hash service 2>/dev/null; then
   service dnsmasq restart
 elif hash rc-service 2>/dev/null; then
   rc-service dnsmasq restart
+elif hash brew 2>/dev/null; then
+  sudo brew services restart dnsmasq  # for macos 
 else
   echo "Now please restart dnsmasq since I don't know how to do it."
 fi
