@@ -16,6 +16,7 @@ cdn1.evernote.com
 cdn.ampproject.org #281
 cdnjs.loli.net
 cdn.loli.net
+cdn.samsung.com
 click.dji.com
 clubhub.xboxlive.com
 cn.coremetrics.com
