@@ -100,6 +100,7 @@ www1-cdn.dell.com
 www.akamai.com
 www.analog.com
 www.ikea.com
+www.microsoft.com
 www.nvidia.com
 www.renren.com.cdngc.net
 x-dash-public.rec.mp.microsoft.com
