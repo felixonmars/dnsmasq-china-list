@@ -11,6 +11,7 @@ avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
 avatar.xboxlive.com
 bbs.htc.com
+blog.htcvive.com
 catalog-cdn.xboxlive.com
 cdn1.evernote.com
 cdn.ampproject.org #281
