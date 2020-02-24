@@ -90,6 +90,7 @@ si.cdn.dell.com
 sina.com.hk
 speedtest.xboxlive.com
 static.image-gmkt.com
+storeedgefd.dsx.mp.microsoft.com
 store-images.microsoft.com
 store-images.s-microsoft.com
 store.samsung.com
