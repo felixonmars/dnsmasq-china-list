@@ -79,6 +79,7 @@ plus.dji.com
 profile.xboxlive.com
 res.office365.com
 res.outlook.com
+rum8.perf.linkedin.com
 script.image-gmkt.com
 sekong.cn.com
 settings.xboxlive.com
