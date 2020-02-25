@@ -52,7 +52,6 @@ epix-ssl.xbox.com
 epix.xbox.com
 eshop.htc.com
 fonts.loli.net
-fs.microsoft.com
 g-ec4.images-amazon.com
 gfwsl.geforce.com
 gravatar.loli.net
