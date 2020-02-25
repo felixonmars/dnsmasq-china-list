@@ -96,6 +96,7 @@ web-service-ssl.halo.xbox.com
 www1-cdn.dell.com
 www.analog.com
 www.ikea.com
+www.linkedin.com
 www.nvidia.com
 www.renren.com.cdngc.net
 x-dash-public.rec.mp.microsoft.com
