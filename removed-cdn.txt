@@ -106,7 +106,6 @@ www.akamai.com
 www.analog.com
 www.ikea.com
 wwwimages.adobe.com
-www.microsoft.com
 www.nvidia.com
 www.renren.com.cdngc.net
 x-dash-public.rec.mp.microsoft.com
