@@ -33,7 +33,6 @@ configure.ap.dell.com
 console-service-ssl.halo.xbox.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
-developer.htcvive.com
 dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 download.epicgames.com
