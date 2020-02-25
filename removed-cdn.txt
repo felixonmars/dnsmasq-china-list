@@ -28,6 +28,7 @@ compass-ssl.xboxlive.com
 compass.xbox.com
 compass.xboxlive.com
 configure.ap.dell.com
+console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
