@@ -86,7 +86,6 @@ script.image-gmkt.com
 sekong.cn.com
 settings.xboxlive.com
 shop.samsung.com
-si.cdn.dell.com
 sina.com.hk
 speedtest.xboxlive.com
 static.image-gmkt.com
