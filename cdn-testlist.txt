@@ -5,7 +5,6 @@ ad.doubleclick.net
 app-cdn.2q10.com
 app-measurement.com
 cdn.globalsigncdn.com
-cdn.jsdelivr.net
 cnc.ef-cdn.com
 d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
