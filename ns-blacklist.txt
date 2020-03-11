@@ -41,3 +41,4 @@ status: NXDOMAIN
 .1-api.org.
 .parkpage.foundationapi.com.
 .expdns.net.
+.domains-hold.com.
