@@ -43,3 +43,4 @@ status: NXDOMAIN
 .expdns.net.
 .domains-hold.com.
 .dnsowl.com.
+.dynadot.com.
