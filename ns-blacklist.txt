@@ -42,3 +42,4 @@ status: NXDOMAIN
 .parkpage.foundationapi.com.
 .expdns.net.
 .domains-hold.com.
+.dnsowl.com.
