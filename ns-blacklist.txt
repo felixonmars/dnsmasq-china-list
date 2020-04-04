@@ -44,3 +44,4 @@ status: NXDOMAIN
 .domains-hold.com.
 .dnsowl.com.
 .dynadot.com.
+.webnic.cc.
