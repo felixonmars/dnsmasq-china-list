@@ -97,7 +97,6 @@ v2ex.com
 web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
 www1-cdn.dell.com
-www.akamai.com
 www.analog.com
 www.ikea.com
 www.nvidia.com
