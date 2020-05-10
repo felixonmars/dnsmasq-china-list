@@ -91,6 +91,7 @@ store-images.s-microsoft.com
 tiles.xbox.com
 titlestorage.xboxlive.com
 topics-cdn.dell.com
+tse3.mm.bing.net
 u.djicdn.com
 userstats.xboxlive.com
 v2ex.com
