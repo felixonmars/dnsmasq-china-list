@@ -83,6 +83,7 @@ res.office365.com
 res.outlook.com
 script.image-gmkt.com
 sekong.cn.com
+settings.crashlytics.com
 settings.xboxlive.com
 sina.com.hk
 speedtest.xboxlive.com
