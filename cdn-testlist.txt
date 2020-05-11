@@ -10,10 +10,10 @@ d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
 dsany.sgnic.sg
 edge.yunjiasu.com
+fotadown.mayitek.com.wsdvs.com
 gateway.nyaacat.com
 googleadservices.com
 googletagmanager.com
-issuecdn.baidupcs.com.wsdvs.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
 oneplus.com
