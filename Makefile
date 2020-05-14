@@ -51,5 +51,13 @@ ifeq ($(NEWLINE),DOS)
 	sed -i 's/\r*$$/\r/' accelerated-domains.china.dnsforwarder.conf google.china.dnsforwarder.conf apple.china.dnsforwarder.conf
 endif
 
+adguardhome: raw
+	cat google.china.raw.txt | tr "\n" "/" | sed -e 's|^|/|' -e 's|\(.*\)|[\1]$(SERVER)|' > google.china.adguardhome.conf
+	cat accelerated-domains.china.raw.txt | tr "\n" "/" | sed -e 's|^|/|' -e 's|\(.*\)|[\1]$(SERVER)|' > accelerated-domains.china.adguardhome.conf
+	cat apple.china.raw.txt | tr "\n" "/" | sed -e 's|^|/|' -e 's|\(.*\)|[\1]$(SERVER)|' > apple.china.adguardhome.conf
+ifeq ($(NEWLINE),DOS)
+	sed -i 's/\r*$$/\r/' accelerated-domains.china.adguardhome.conf google.china.adguardhome.conf apple.china.adguardhome.conf
+endif
+
 clean:
 	rm -f {accelerated-domains,google,apple}.china.*.conf {accelerated-domains,google,apple}.china.raw.txt dnscrypt-proxy-forwarding-rules.txt
