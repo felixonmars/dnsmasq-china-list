@@ -37,6 +37,7 @@ www.google-analytics.com
 www.googleanalytics.com
 www.googletagservices.com
 www.gov.cn
+www.henan.gov.cn.cdn30.com
 www.howbuy.com
 www.shandongair.com
 www.sunrtb.com
