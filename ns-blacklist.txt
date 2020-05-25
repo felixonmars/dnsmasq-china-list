@@ -46,3 +46,4 @@ status: NXDOMAIN
 .dynadot.com.
 .webnic.cc.
 .exmetis.com.
+.dnsever.com.
