@@ -110,3 +110,4 @@ ns2.oray.net.
 .hwclouds-dns.com.
 .hwclouds-dns.net.
 .baidubce.com.
+.juming.com.
