@@ -113,3 +113,4 @@ ns2.oray.net.
 .juming.com.
 .jdjrdns.com.
 .huaweicloud-dns.cn.
+.360anyu.com.
