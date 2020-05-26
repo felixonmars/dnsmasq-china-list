@@ -109,3 +109,4 @@ ns2.oray.net.
 .awsdns-cn-
 .hwclouds-dns.com.
 .hwclouds-dns.net.
+.baidubce.com.
