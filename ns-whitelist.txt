@@ -112,3 +112,4 @@ ns2.oray.net.
 .baidubce.com.
 .juming.com.
 .jdjrdns.com.
+.huaweicloud-dns.cn.
