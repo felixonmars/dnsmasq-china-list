@@ -107,3 +107,5 @@ ns2.oray.net.
 .sohu.com.
 .dns234.net.
 .awsdns-cn-
+.hwclouds-dns.com.
+.hwclouds-dns.net.
