@@ -47,3 +47,4 @@ status: NXDOMAIN
 .webnic.cc.
 .exmetis.com.
 .dnsever.com.
+.digitalocean.com.
