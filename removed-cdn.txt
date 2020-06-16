@@ -81,6 +81,7 @@ profile.xboxlive.com
 res.office365.com
 res.outlook.com
 script.image-gmkt.com
+secaz-fota-dn.samsungdm.com
 sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
