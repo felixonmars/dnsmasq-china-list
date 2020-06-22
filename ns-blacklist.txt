@@ -48,3 +48,4 @@ status: NXDOMAIN
 .exmetis.com.
 .dnsever.com.
 .digitalocean.com.
+.ispapi.net.
