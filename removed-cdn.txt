@@ -35,6 +35,7 @@ dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 download.epicgames.com
 download.gfe.nvidia.com
+download.parallels.com
 download-ssl.xbox.com
 download.xboxlive.com
 dp.image-gmkt.com
