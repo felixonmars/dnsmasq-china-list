@@ -105,6 +105,7 @@ web-service-ssl.halo.xbox.com
 www1-cdn.dell.com
 www.ikea.com
 www.nvidia.com
+www.parallels.com
 www.renren.com.cdngc.net
 x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
