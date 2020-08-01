@@ -16,6 +16,7 @@ cdn.ampproject.org #281
 cdnjs.loli.net
 cdn.loli.net
 click.dji.com
+client-download.steampowered.com
 clubhub.xboxlive.com
 cn.coremetrics.com
 cn.debian.org
