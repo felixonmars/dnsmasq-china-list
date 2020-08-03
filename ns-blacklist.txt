@@ -49,3 +49,4 @@ status: NXDOMAIN
 .dnsever.com.
 .digitalocean.com.
 .ispapi.net.
+.name-services.com.
