@@ -2,6 +2,7 @@
 a1.cdn-hotels.com
 a1.phobos.apple.com
 ad.doubleclick.net
+all.ldycdn.com
 app-cdn.2q10.com
 app-measurement.com
 cdn.globalsigncdn.com
