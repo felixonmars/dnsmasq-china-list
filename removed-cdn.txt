@@ -18,6 +18,7 @@ cdn1.evernote.com
 cdn.ampproject.org #281
 cdnjs.loli.net
 cdn.loli.net
+china.msn.com
 click.dji.com
 client-download.steampowered.com
 clubhub.xboxlive.com
