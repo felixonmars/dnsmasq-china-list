@@ -93,7 +93,6 @@ secaz-fota-dn.samsungdm.com
 sekong.cn.com
 settings.xboxlive.com
 sina.com.hk
-source.tutorabc.com
 speedtest.xboxlive.com
 static.image-gmkt.com
 store-images.microsoft.com
