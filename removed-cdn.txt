@@ -111,7 +111,6 @@ web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
 www1-cdn.dell.com
 www.ikea.com
-www.kaspersky.com
 www.nvidia.com
 www.parallels.com
 www.renren.com.cdngc.net
