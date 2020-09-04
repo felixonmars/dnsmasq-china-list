@@ -87,6 +87,7 @@ plus.dji.com
 profile.xboxlive.com
 res.office365.com
 res.outlook.com
+scp-social.s-msn.com
 script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
 sekong.cn.com
