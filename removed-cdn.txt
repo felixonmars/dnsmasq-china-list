@@ -57,6 +57,7 @@ epix.xbox.com
 eshop.htc.com
 fonts.loli.net
 g-ec4.images-amazon.com
+geo.kaspersky.com
 gfwsl.geforce.com
 gravatar.loli.net
 gstatic.loli.net
