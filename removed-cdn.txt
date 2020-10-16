@@ -86,6 +86,7 @@ mktplassets-ssl.xbox.com
 msg.xboxlive.com
 nxeassets.xbox.com
 olay-cn.cdnpg.com
+p00.upd.kaspersky.com
 platform.linkedin.com
 plus.djicdn.com
 plus.dji.com
