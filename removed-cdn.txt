@@ -100,6 +100,7 @@ sekong.cn.com
 settings.xboxlive.com
 sina.com.hk
 speedtest.xboxlive.com
+ssl.travelzoo.com
 static.image-gmkt.com
 store-images.microsoft.com
 store-images.s-microsoft.com
