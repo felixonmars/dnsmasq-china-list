@@ -122,6 +122,7 @@ www.kaspersky.com
 www.nvidia.com
 www.parallels.com
 www.renren.com.cdngc.net
+www.travelzoo.com
 x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
 z1.muscache.com
