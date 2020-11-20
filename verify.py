@@ -78,7 +78,7 @@ class ChinaListVerify(object):
                 pass
 
         if not answers:
-            answers = dns.resolver.query(domain, 'A')
+            answers = dns.resolver.resolve(domain, 'A')
 
         for answer in answers:
             answer = answer.to_text()
@@ -89,11 +89,11 @@ class ChinaListVerify(object):
 
     def resolve(self, domain, rdtype="A", server=None, authority=False):
         if not server:
-            return dns.resolver.query(domain, rdtype)
+            return dns.resolver.resolve(domain, rdtype)
         elif not authority:
-            return dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype)
+            return dns.resolver.Resolver(filename=StringIO("nameserver " + server)).resolve(domain, rdtype)
         else:
-            answer = dns.resolver.Resolver(filename=StringIO("nameserver " + server)).query(domain, rdtype, raise_on_no_answer=False)
+            answer = dns.resolver.Resolver(filename=StringIO("nameserver " + server)).resolve(domain, rdtype, raise_on_no_answer=False)
             return answer.response
 
     def get_ns_for_tld(self, tld):
@@ -161,7 +161,7 @@ class ChinaListVerify(object):
         if nxdomain:
             # Double check due to false positives
             try:
-                dns.resolver.query("www." + domain, 'A')
+                dns.resolver.resolve("www." + domain, 'A')
             except dns.resolver.NXDOMAIN:
                 raise NXDOMAIN
 
