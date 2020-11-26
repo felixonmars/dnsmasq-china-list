@@ -78,7 +78,7 @@ class ChinaListVerify(object):
                 pass
 
         if not answers:
-            answers = dns.resolver.resolve(domain, 'A')
+            answers = self.resolve(domain, 'A')
 
         for answer in answers:
             answer = answer.to_text()
@@ -88,12 +88,18 @@ class ChinaListVerify(object):
         return False
 
     def resolve(self, domain, rdtype="A", server=None, authority=False):
-        if not server:
-            return dns.resolver.resolve(domain, rdtype)
-        elif not authority:
-            return dns.resolver.Resolver(filename=StringIO("nameserver " + server)).resolve(domain, rdtype)
+        # Compatibility between dnspython 1.16 and 2.0
+        if hasattr(dns.resolver, "resolve"):
+            action = "resolve"
         else:
-            answer = dns.resolver.Resolver(filename=StringIO("nameserver " + server)).resolve(domain, rdtype, raise_on_no_answer=False)
+            action = "query"
+
+        if not server:
+            return getattr(dns.resolver, action)(domain, rdtype)
+        elif not authority:
+            return getattr(dns.resolver.Resolver(filename=StringIO("nameserver " + server)), action)(domain, rdtype)
+        else:
+            answer = getattr(dns.resolver.Resolver(filename=StringIO("nameserver " + server)), action)(domain, rdtype, raise_on_no_answer=False)
             return answer.response
 
     def get_ns_for_tld(self, tld):
@@ -161,7 +167,7 @@ class ChinaListVerify(object):
         if nxdomain:
             # Double check due to false positives
             try:
-                dns.resolver.resolve("www." + domain, 'A')
+                self.resolve("www." + domain, 'A')
             except dns.resolver.NXDOMAIN:
                 raise NXDOMAIN
 
