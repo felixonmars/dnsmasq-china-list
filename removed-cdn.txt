@@ -32,6 +32,7 @@ compass-ssl.xbox.com
 compass-ssl.xboxlive.com
 compass.xbox.com
 compass.xboxlive.com
+config.unityads.unity3d.com
 configure.ap.dell.com
 console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
