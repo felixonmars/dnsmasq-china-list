@@ -118,6 +118,7 @@ userstats.xboxlive.com
 v2ex.com
 web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
+webview.unityads.unity3d.com
 www1-cdn.dell.com
 www.ikea.com
 www.kaspersky.com
