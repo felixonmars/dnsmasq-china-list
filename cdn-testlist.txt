@@ -7,7 +7,6 @@ app-cdn.2q10.com
 app-measurement.com
 cdn.globalsigncdn.com
 cnc.ef-cdn.com
-d-cache.microad-cn.com
 dnl-11.geo.kaspersky.com
 dsany.sgnic.sg
 edge.yunjiasu.com
@@ -41,6 +40,7 @@ www.googletagservices.com
 www.gov.cn
 www.henan.gov.cn.cdn30.com
 www.howbuy.com
+www.microad-cn.com
 www.shandongair.com
 www.sunrtb.com
 www.yangfd.com
