@@ -21,6 +21,7 @@ cdnjs.loli.net
 cdn.loli.net
 china-cdn2.unityads├─────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────
 china-cdn2.unityads.unity3d.com
+china-cdn3.unityads.unity3d.com
 china.msn.com
 click.dji.com
 client-download.steampowered.com
