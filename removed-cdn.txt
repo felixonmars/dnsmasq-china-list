@@ -103,6 +103,7 @@ settings.xboxlive.com
 sina.com.hk
 speedtest.xboxlive.com
 ssl.travelzoo.com
+ssl.tzoo-img.com
 static.image-gmkt.com
 store-images.microsoft.com
 store-images.s-microsoft.com
