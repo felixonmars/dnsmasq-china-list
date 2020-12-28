@@ -19,6 +19,8 @@ cdn1.evernote.com
 cdn.ampproject.org #281
 cdnjs.loli.net
 cdn.loli.net
+china-cdn2.unityads├─────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────
+china-cdn2.unityads.unity3d.com
 china.msn.com
 click.dji.com
 client-download.steampowered.com
