@@ -119,7 +119,6 @@ tse2.mm.bing.net
 tse3.mm.bing.net
 tse4.mm.bing.net
 u.djicdn.com
-upd.kaspersky.com
 userstats.xboxlive.com
 v2ex.com
 web-service.halo.xbox.com
