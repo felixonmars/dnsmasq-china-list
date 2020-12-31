@@ -3,14 +3,12 @@ adfarm.mediaplex.com
 ad.mediaplex.com
 ajax.loli.net
 altfarm.mediaplex.com
-api-zhuti.htc.com
 assets.adobedtm.com
 assets-ssl.xbox.com
 avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
 avatar.xboxlive.com
-bbs.htc.com
 bg4.v4.a.dl.ws.microsoft.com
 bg.v4.a.dl.ws.microsoft.com
 cashier.alipay.com.srip.net
@@ -60,7 +58,6 @@ emdl.ws.microsoft.com
 encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
-eshop.htc.com
 fonts.loli.net
 g-ec4.images-amazon.com
 geo.kaspersky.com
