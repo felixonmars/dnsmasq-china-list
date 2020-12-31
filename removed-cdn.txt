@@ -60,7 +60,6 @@ epix-ssl.xbox.com
 epix.xbox.com
 fonts.loli.net
 g-ec4.images-amazon.com
-geo.kaspersky.com
 gfwsl.geforce.com
 global-download.acer.com
 gravatar.loli.net
