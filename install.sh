@@ -16,7 +16,6 @@ git clone --depth=1 https://gitee.com/felixonmars/dnsmasq-china-list.git "$WORKD
 #git clone --depth=1 https://bitbucket.org/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://gitlab.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 https://codehub.devcloud.huaweicloud.com/dnsmasq-china-list00001/dnsmasq-china-list.git "$WORKDIR"
-#git clone --depth=1 https://code.aliyun.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
 #git clone --depth=1 http://repo.or.cz/dnsmasq-china-list.git "$WORKDIR"
 
 echo "Removing old configurations..."
