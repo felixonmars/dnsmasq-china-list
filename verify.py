@@ -122,8 +122,8 @@ class ChinaListVerify(object):
             raise WhitelistMatched
 
     def check_blacklist(self, nameservers):
-        if any(i in " ".join(nameservers) for i in self.blacklist):
-            raise BlacklistMatched
+        if any((rule := i) in " ".join(nameservers) for i in self.blacklist):
+            raise BlacklistMatched(rule)
 
     def check_cdnlist(self, domain):
         if self.test_cn_ip(domain):
@@ -181,7 +181,7 @@ class ChinaListVerify(object):
                 pass
 
         if nameservers:
-            raise NSNotVerified
+            raise NSNotVerified(nameserver)
         else:
             raise NSNotAvailable
 
@@ -215,15 +215,15 @@ class ChinaListVerify(object):
             except CDNListNotVerified:
                 print(colored("CDNList matched but failed to verify for domain: " + domain, "red"))
                 raise
-            except BlacklistMatched:
-                print(colored("NS Blacklist matched for domain: " + domain, "red"))
+            except BlacklistMatched as rule:
+                print(colored(f"NS Blacklist matched for domain: {domain} ({rule})", "red"))
                 raise
             except NSVerified:
                 if show_green:
                     print(colored("NS verified for domain: " + domain, "green"))
                 raise
-            except NSNotVerified:
-                print(colored("NS failed to verify for domain: " + domain, "red"))
+            except NSNotVerified as nameserver:
+                print(colored(f"NS failed to verify for domain: {domain} ({nameserver})", "red"))
                 raise
             except ChnroutesNotAvailable:
                 print("Additional Check disabled due to missing chnroutes. domain:", domain)
