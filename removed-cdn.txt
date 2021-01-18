@@ -95,6 +95,7 @@ res.office365.com
 res.outlook.com
 s1.mzstatic.com
 s2.mzstatic.com
+s3.mzstatic.com
 scp-social.s-msn.com
 script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
