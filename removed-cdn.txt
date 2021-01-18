@@ -47,7 +47,6 @@ download.mcafee.com
 download.parallels.com
 download-ssl.xbox.com
 download.xboxlive.com
-dp.image-gmkt.com
 e.admob.com
 ec4.images-amazon.com
 ec8.images-amazon.com
