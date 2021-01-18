@@ -90,6 +90,7 @@ khm3.google.com
 khmdb.googleapis.com
 khmdb.google.com
 khm.googleapis.com
+khm.google.com
 lh3.appinn.net
 lx2.cok.elexapp.com
 marketplace-xb.xboxlive.com
