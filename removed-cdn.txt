@@ -78,6 +78,7 @@ img-cdn.mediaplex.com
 img.mediaplex.com
 international.download.nvidia.com
 international-gfe.download.nvidia.com
+kh.google.com
 lh3.appinn.net
 lx2.cok.elexapp.com
 marketplace-xb.xboxlive.com
