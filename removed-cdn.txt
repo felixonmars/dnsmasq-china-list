@@ -88,6 +88,7 @@ khm2.google.com
 khm3.googleapis.com
 khm3.google.com
 khmdb.googleapis.com
+khmdb.google.com
 khm.googleapis.com
 lh3.appinn.net
 lx2.cok.elexapp.com
