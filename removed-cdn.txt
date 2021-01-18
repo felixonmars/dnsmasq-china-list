@@ -81,6 +81,7 @@ international-gfe.download.nvidia.com
 kh.google.com
 khm1.googleapis.com
 khm2.googleapis.com
+khm3.googleapis.com
 lh3.appinn.net
 lx2.cok.elexapp.com
 marketplace-xb.xboxlive.com
