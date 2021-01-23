@@ -143,6 +143,7 @@ www.ikea.com
 www.nvidia.com
 www.parallels.com
 www.renren.com.cdngc.net
+www-ssl.intel.com
 www.travelzoo.com
 x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
