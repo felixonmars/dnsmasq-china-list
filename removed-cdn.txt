@@ -17,7 +17,6 @@ cdn1.evernote.com
 cdn.ampproject.org #281
 cdnjs.loli.net
 cdn.loli.net
-cdn.shanghai.nyu.edu
 china-cdn2.unityads├─────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────
 china-cdn2.unityads.unity3d.com
 china-cdn3.unityads.unity3d.com
