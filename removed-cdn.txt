@@ -100,7 +100,6 @@ mediaexp-programming.xboxlive.com
 mktplassets-ssl.xbox.com
 msg.xboxlive.com
 nxeassets.xbox.com
-nyaacat.com
 olay-cn.cdnpg.com
 platform.linkedin.com
 plus.djicdn.com
