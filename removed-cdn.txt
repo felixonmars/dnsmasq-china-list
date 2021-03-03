@@ -10,7 +10,6 @@ avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
 avatar.xboxlive.com
-bg4.v4.a.dl.ws.microsoft.com
 bg.v4.a.dl.ws.microsoft.com
 cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
