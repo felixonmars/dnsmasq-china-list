@@ -61,7 +61,6 @@ fonts.loli.net
 gameplay.intel.com
 g-ec4.images-amazon.com
 gfwsl.geforce.com
-global-download.acer.com
 gravatar.loli.net
 gstatic.loli.net
 hdn.xnimg.cn.cdngc.net
