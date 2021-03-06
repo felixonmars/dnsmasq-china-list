@@ -21,6 +21,11 @@ smartdns: raw
 	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" google.china.raw.txt > google.china.smartdns.conf
 	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" apple.china.raw.txt > apple.china.smartdns.conf
 
+clash: raw
+	sed -e "s|\(.*\)|- DOMAIN-SUFFIX,\1,DIRECT|" accelerated-domains.china.raw.txt > accelerated-domains.china.clash.yaml
+	sed -e "s|\(.*\)|- DOMAIN-SUFFIX,\1,DIRECT|" google.china.raw.txt > google.china.clash.yaml
+	sed -e "s|\(.*\)|- DOMAIN-SUFFIX,\1,DIRECT|" apple.china.raw.txt > apple.china.clash.yaml
+
 unbound: raw
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' accelerated-domains.china.raw.txt > accelerated-domains.china.unbound.conf
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' google.china.raw.txt > google.china.unbound.conf
