@@ -25,6 +25,7 @@ for _conf in "${CONF_WITH_SERVERS[@]}" "${CONF_SIMPLE[@]}"; do
 done
 
 echo "Installing new configurations..."
+mkdir -p /etc/dnsmasq.d
 for _conf in "${CONF_SIMPLE[@]}"; do
   cp "$WORKDIR/$_conf.conf" "/etc/dnsmasq.d/$_conf.conf"
 done
