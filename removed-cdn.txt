@@ -45,7 +45,6 @@ download.gfe.nvidia.com
 download.mcafee.com
 download.parallels.com
 download-ssl.xbox.com
-download.visualstudio.microsoft.com
 download.xboxlive.com
 e.admob.com
 ec4.images-amazon.com
