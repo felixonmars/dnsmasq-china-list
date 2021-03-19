@@ -112,6 +112,7 @@ s5.mzstatic.com
 scp-social.s-msn.com
 script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
+secure-nikeplus.nike.com
 sekong.cn.com
 settings.xboxlive.com
 sina.com.hk
