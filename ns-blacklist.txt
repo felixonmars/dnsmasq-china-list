@@ -50,3 +50,4 @@ status: NXDOMAIN
 .digitalocean.com.
 .ispapi.net.
 .name-services.com.
+.expirenotification.com.
