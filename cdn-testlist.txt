@@ -22,6 +22,7 @@ p00.upd.kaspersky.com
 pagead2.googlesyndication.com
 r1.res.outlook.com
 recaptcha.net
+redirector.gvt1.com
 s.c.lnkd.licdn.com
 s0.2mdn.net
 t1.tiles.ditu.live.com

@@ -16,7 +16,6 @@ cdn1.evernote.com
 cdn.ampproject.org #281
 cdnjs.loli.net
 cdn.loli.net
-china-cdn2.unityads├─────────────────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────
 china-cdn2.unityads.unity3d.com
 china-cdn3.unityads.unity3d.com
 china.msn.com
@@ -116,6 +115,7 @@ script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
 secure-nikeplus.nike.com
 sekong.cn.com
+settings.crashlytics.com
 settings.xboxlive.com
 sina.com.hk
 speedtest.xboxlive.com
