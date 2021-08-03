@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 from __future__ import unicode_literals
 from argparse import ArgumentParser
+import idna
 import sys
 
 if __name__ == "__main__":
@@ -39,13 +40,13 @@ if __name__ == "__main__":
 
     if options.add:
         options.sort = True
-
+ 
         for domain in options.add:
-            new_line = "server=/%s/114.114.114.114\n" % domain
+            new_line = f"server=/{idna.encode(domain).decode()}/114.114.114.114\n"
             if new_line in lines:
-                print("Domain already exists: " + domain)
+                print(f"Domain already exists: {domain}")
             else:
-                print("New domain added: " + domain)
+                print(f"New domain added: {domain}")
                 lines.append(new_line)
                 changed = True
 
@@ -53,11 +54,11 @@ if __name__ == "__main__":
         options.sort = True
 
         for domain in options.delete:
-            target_line = "server=/%s/114.114.114.114\n" % domain
+            target_line = f"server=/{idna.encode(domain).decode()}/114.114.114.114\n"
             if target_line not in lines:
-                print("Failed to remove domain " + domain + ": not found.")
+                print(f"Failed to remove domain {domain}: not found.")
             else:
-                print("Domain removed: " + domain)
+                print(f"Domain removed: {domain}")
                 lines.remove(target_line)
                 changed = True
 
