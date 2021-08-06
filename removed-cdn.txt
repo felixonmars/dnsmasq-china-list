@@ -95,6 +95,7 @@ lnkd.licdn.com
 marketplace-xb.xboxlive.com
 media.admob.com
 mediaexp-programming.xboxlive.com
+media.licdn.com
 mktplassets-ssl.xbox.com
 msg.xboxlive.com
 nxeassets.xbox.com
