@@ -119,6 +119,7 @@ secure-nikeplus.nike.com
 sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
+shop.samsung.com
 sina.com.hk
 source.tutorabc.com
 speedtest.xboxlive.com
