@@ -123,6 +123,7 @@ speedtest.xboxlive.com
 ssl.travelzoo.com
 ssl.tzoo-img.com
 static.image-gmkt.com
+static.licdn.com
 store-images.microsoft.com
 store-images.s-microsoft.com
 store.samsung.com
