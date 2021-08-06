@@ -125,6 +125,7 @@ source.tutorabc.com
 speedtest.xboxlive.com
 ssl.travelzoo.com
 ssl.tzoo-img.com
+static-exp1.licdn.com
 static.image-gmkt.com
 static.licdn.com
 store-images.microsoft.com
