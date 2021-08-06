@@ -13,6 +13,7 @@ edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
 gateway.nyaacat.com
 googleadservices.com
+googleoptimize.com
 googletagmanager.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
