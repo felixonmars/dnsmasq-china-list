@@ -5,6 +5,9 @@
 '''
 
 
+from collections.abc import Iterable
+
+
 def load(conf_file):
     ''' Parse conf file & Prepare data structure
         Returns: [ ['abc', 'com'],
@@ -13,17 +16,20 @@ def load(conf_file):
     '''
 
     results = []
-    with open(conf_file, 'r') as f:
-        for line in f.readlines():
-            line = line.strip()
-            if line == '' or line.startswith('#'):
-                continue
-            # A domain name is case-insensitive and
-            # consists of several labels, separated by a full stop
-            domain_name = line.split('/')[1]
-            domain_name = domain_name.lower()
-            domain_labels = domain_name.split('.')
-            results.append(domain_labels)
+    if isinstance(conf_file, str):
+        lines = open(conf_file, 'r').readlines()
+    elif isinstance(conf_file, Iterable):
+        lines = iter(conf_file)
+    for line in lines:
+        line = line.strip()
+        if line == '' or line.startswith('#'):
+            continue
+        # A domain name is case-insensitive and
+        # consists of several labels, separated by a full stop
+        domain_name = line.split('/')[1]
+        domain_name = domain_name.lower()
+        domain_labels = domain_name.split('.')
+        results.append(domain_labels)
 
     # Sort results by domain labels' length
     results.sort(key=len)
@@ -36,6 +42,7 @@ def find(labelses):
                                   'abc': LEAF },
                          'org': ... }
     '''
+    redundant = []
     tree = {}
     LEAF = 1
     for labels in labelses:
@@ -49,6 +56,7 @@ def find(labelses):
                 # current domain must be an existed domain or a subdomain of an existed.
                 if node[label] == LEAF:
                     print(f"Redundant found: {domain} at {'.'.join(labels)}")
+                    redundant.append(domain)
                     break
             else:
                 # Create a leaf node if current label is last one
@@ -59,6 +67,11 @@ def find(labelses):
                     node[label] = {}
             # Iterate to child node
             node = node[label]
+    return redundant
+
+
+def find_redundant(conf_file):
+    return find(load(conf_file))
 
 if __name__ == '__main__':
-    find(load('accelerated-domains.china.conf'))
+    find_redundant('accelerated-domains.china.conf')
