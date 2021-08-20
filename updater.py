@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from argparse import ArgumentParser
 import idna
 import sys
+import find_redundant
 
 if __name__ == "__main__":
     parser = ArgumentParser(description="dnsmasq-china-list updater")
@@ -16,6 +17,7 @@ if __name__ == "__main__":
         '-d', '--delete',
         metavar="DOMAIN",
         nargs="+",
+        default=[],
         help='Remove one or more old domain(s) (implies -s)',
     )
     parser.add_argument(
@@ -49,6 +51,8 @@ if __name__ == "__main__":
                 print(f"New domain added: {domain}")
                 lines.append(new_line)
                 changed = True
+
+    options.delete += find_redundant.find_redundant(lines)
 
     if options.delete:
         options.sort = True
