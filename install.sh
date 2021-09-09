@@ -3,8 +3,9 @@ set -e
 
 WORKDIR="$(mktemp -d)"
 SERVERS=(114.114.114.114 114.114.115.115 223.5.5.5 119.29.29.29)
+# Others: 223.6.6.6 119.28.28.28
 # Not using best possible CDN pop: 1.2.4.8 210.2.4.8
-# Broken?: 180.76.76.76 182.254.116.116
+# Broken?: 180.76.76.76
 
 CONF_WITH_SERVERS=(accelerated-domains.china google.china apple.china)
 CONF_SIMPLE=(bogus-nxdomain.china)
