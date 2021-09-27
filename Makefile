@@ -1,4 +1,5 @@
 SERVER=114.114.114.114
+SMARTDNS_SPEEDTEST_MODE=ping,tcp:80
 NEWLINE=UNIX
 
 raw:
@@ -21,6 +22,11 @@ smartdns: raw
 	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" google.china.raw.txt > google.china.smartdns.conf
 	sed -e "s|\(.*\)|nameserver /\1/$(SERVER)|" apple.china.raw.txt > apple.china.smartdns.conf
 	sed -e "s|=| |" bogus-nxdomain.china.conf > bogus-nxdomain.china.smartdns.conf
+
+smartdns-domain-rules: raw
+	sed -e "s|\(.*\)|domain-rules /\1/ -speed-check-mode $(SMARTDNS_SPEEDTEST_MODE) -nameserver $(SERVER)|" accelerated-domains.china.raw.txt > accelerated-domains.china.domain.smartdns.conf
+	sed -e "s|\(.*\)|domain-rules /\1/ -speed-check-mode $(SMARTDNS_SPEEDTEST_MODE) -nameserver $(SERVER)|" google.china.raw.txt > google.china.domain.smartdns.conf
+	sed -e "s|\(.*\)|domain-rules /\1/ -speed-check-mode $(SMARTDNS_SPEEDTEST_MODE) -nameserver $(SERVER)|" apple.china.raw.txt > apple.china.domain.smartdns.conf
 
 unbound: raw
 	sed -e 's|\(.*\)|forward-zone:\n  name: "\1."\n  forward-addr: $(SERVER)\n|' accelerated-domains.china.raw.txt > accelerated-domains.china.unbound.conf
