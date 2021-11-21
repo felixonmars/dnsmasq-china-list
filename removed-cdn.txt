@@ -11,6 +11,7 @@ avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
 avatar.xboxlive.com
+blog.tutorabc.com
 cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
 cdn1.evernote.com
