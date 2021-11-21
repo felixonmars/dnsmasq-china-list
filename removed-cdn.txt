@@ -95,6 +95,7 @@ khm.googleapis.com
 khm.google.com
 lh3.appinn.net
 lnkd.licdn.com
+manage.c3edge.com
 marketplace-xb.xboxlive.com
 media.admob.com
 mediaexp-programming.xboxlive.com
