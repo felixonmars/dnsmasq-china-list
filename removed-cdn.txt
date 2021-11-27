@@ -151,6 +151,7 @@ web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
 webview.unityads.unity3d.com
 www1-cdn.dell.com
+www.htcvive.com
 www.ibm.com
 www.ikea.com
 www.intel.com
