@@ -165,6 +165,7 @@ www.renren.com.cdngc.net
 www-ssl.intel.com
 www.travelzoo.com
 www.tutorabc.com
+www.vive.com
 x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
 z1.muscache.com
