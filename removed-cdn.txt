@@ -19,6 +19,7 @@ cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
 cdn1.evernote.com
 cdn.ampproject.org #281
+cdn.jsdelivr.net
 cdnjs.loli.net
 cdn.loli.net
 china-cdn2.unityads.unity3d.com
