@@ -145,6 +145,7 @@ static.licdn.com
 store-images.microsoft.com
 store-images.s-microsoft.com
 store.samsung.com
+tcl.com.ru
 tiles.xbox.com
 titlestorage.xboxlive.com
 topics-cdn.dell.com
