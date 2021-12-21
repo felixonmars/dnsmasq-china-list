@@ -44,6 +44,7 @@ console-service-ssl.halo.xbox.com
 content.nike.com
 contentstore.htcvive.com
 cortexfx.bnpparibas.com
+createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
 developer.htcvive.com
