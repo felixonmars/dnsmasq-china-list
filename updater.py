@@ -42,15 +42,22 @@ if __name__ == "__main__":
 
     if options.add:
         options.sort = True
- 
+
         for domain in options.add:
-            new_line = f"server=/{idna.encode(domain).decode()}/114.114.114.114\n"
+            encoded_domain = idna.encode(domain).decode()
+            new_line = f"server=/{encoded_domain}/114.114.114.114\n"
+            disabled_line = f"#server=/{encoded_domain}/114.114.114.114"
             if new_line in lines:
                 print(f"Domain already exists: {domain}")
             else:
-                print(f"New domain added: {domain}")
-                lines.append(new_line)
-                changed = True
+                for line in lines:
+                    if line.startswith(disabled_line):
+                        print(f"Domain already disabled: {domain}")
+                        break
+                else:
+                    print(f"New domain added: {domain}")
+                    lines.append(new_line)
+                    changed = True
 
     options.delete += find_redundant.find_redundant(lines)
 
