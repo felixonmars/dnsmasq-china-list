@@ -29,6 +29,7 @@ china.nba.com
 click.dji.com
 client-download.steampowered.com
 clubhub.xboxlive.com
+cn-api.samsungcloud.com
 cn.coremetrics.com
 cn.debian.org
 cn.download.nvidia.com
