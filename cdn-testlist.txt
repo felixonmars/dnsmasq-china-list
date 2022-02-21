@@ -15,6 +15,7 @@ gateway.nyaacat.com
 googleadservices.com
 googleoptimize.com
 googletagmanager.com
+insta360.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
 oneplus.com
