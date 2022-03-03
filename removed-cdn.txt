@@ -154,6 +154,7 @@ store.samsung.com
 tcl.com.ru
 tiles.xbox.com
 titlestorage.xboxlive.com
+toolbarqueries.google.com
 topics-cdn.dell.com
 tse1.mm.bing.net
 tse2.mm.bing.net
