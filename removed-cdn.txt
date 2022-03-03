@@ -131,6 +131,7 @@ s2.mzstatic.com
 s3.mzstatic.com
 s4.mzstatic.com
 s5.mzstatic.com
+safebrowsing-cache.google.com
 scp-social.s-msn.com
 script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
