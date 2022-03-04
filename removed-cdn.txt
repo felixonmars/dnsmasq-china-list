@@ -7,7 +7,6 @@ altfarm.mediaplex.com
 ark.intel.com
 assets.adobedtm.com
 assets-ssl.xbox.com
-assets.volvocars.com
 avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
