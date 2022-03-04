@@ -35,6 +35,7 @@ cn-api.samsungcloud.com
 cn.coremetrics.com
 cn.debian.org
 cn.download.nvidia.com
+cn.img.stb.s-msn.com
 cnupgrade.microsoft.com
 comments.xboxlive.com
 compass-ssl.xbox.com
