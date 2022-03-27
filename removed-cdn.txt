@@ -32,6 +32,7 @@ cl2.apple.com.edgekey.net.globalredir.akadns.net
 click.dji.com
 client-download.steampowered.com
 clubhub.xboxlive.com
+cms.ibm.com
 cn-api.samsungcloud.com
 cn.coremetrics.com
 cn.debian.org
