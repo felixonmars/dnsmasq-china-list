@@ -21,6 +21,7 @@ googleadservices.com
 googleadservices-cn.com
 googleapis-cn.com
 googleapps-cn.com
+googleflights-cn.net
 googleoptimize.com
 googleoptimize-cn.com
 googlesyndication-cn.com
