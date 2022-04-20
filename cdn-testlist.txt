@@ -7,6 +7,7 @@ app-cdn.2q10.com
 app-measurement.com
 cdn.globalsigncdn.com
 cnc.ef-cdn.com
+dartsearch-cn.net
 dnl-11.geo.kaspersky.com
 doubleclick-cn.net
 dsany.sgnic.sg
