@@ -8,6 +8,7 @@ app-measurement.com
 cdn.globalsigncdn.com
 cnc.ef-cdn.com
 dnl-11.geo.kaspersky.com
+doubleclick-cn.net
 dsany.sgnic.sg
 edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
