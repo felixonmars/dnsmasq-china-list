@@ -28,6 +28,7 @@ googletagmanager-cn.com
 googletagservices-cn.com
 googletraveladservices-cn.com
 googlevads-cn.com
+gvt1-cn.com
 insta360.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
