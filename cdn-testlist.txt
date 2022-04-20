@@ -22,6 +22,7 @@ googleapps-cn.com
 googleoptimize.com
 googleoptimize-cn.com
 googletagmanager.com
+googletagservices-cn.com
 googletraveladservices-cn.com
 googlevads-cn.com
 insta360.com
