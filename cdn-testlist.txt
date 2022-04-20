@@ -18,6 +18,7 @@ googleadservices-cn.com
 googleapis-cn.com
 googleapps-cn.com
 googleoptimize.com
+googleoptimize-cn.com
 googletagmanager.com
 googlevads-cn.com
 insta360.com
