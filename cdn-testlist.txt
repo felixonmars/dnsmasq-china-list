@@ -19,6 +19,7 @@ googleapis-cn.com
 googleapps-cn.com
 googleoptimize.com
 googletagmanager.com
+googlevads-cn.com
 insta360.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
