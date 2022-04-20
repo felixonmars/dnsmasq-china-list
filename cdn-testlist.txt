@@ -13,6 +13,7 @@ edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
 gateway.nyaacat.com
 googleadservices.com
+googleapis-cn.com
 googleoptimize.com
 googletagmanager.com
 insta360.com
