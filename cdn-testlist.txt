@@ -21,6 +21,7 @@ googleapis-cn.com
 googleapps-cn.com
 googleoptimize.com
 googleoptimize-cn.com
+googlesyndication-cn.com
 googletagmanager.com
 googletagmanager-cn.com
 googletagservices-cn.com
