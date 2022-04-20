@@ -5,6 +5,7 @@ ad.doubleclick.net
 all.ldycdn.com
 app-cdn.2q10.com
 app-measurement.com
+app-measurement-cn.com
 cdn.globalsigncdn.com
 cnc.ef-cdn.com
 dartsearch-cn.net
