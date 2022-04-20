@@ -12,6 +12,7 @@ dsany.sgnic.sg
 edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
 gateway.nyaacat.com
+google-analytics-cn.com
 googleadservices.com
 googleapis-cn.com
 googleapps-cn.com
