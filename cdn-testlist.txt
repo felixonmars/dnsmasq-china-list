@@ -14,6 +14,7 @@ fotadown.mayitek.com.wsdvs.com
 gateway.nyaacat.com
 google-analytics-cn.com
 googleadservices.com
+googleadservices-cn.com
 googleapis-cn.com
 googleapps-cn.com
 googleoptimize.com
