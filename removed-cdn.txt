@@ -28,6 +28,7 @@ china-cdn2.unityads.unity3d.com
 china-cdn3.unityads.unity3d.com
 china.msn.com
 china.nba.com
+china.uxengine.net
 cl2.apple.com.edgekey.net.globalredir.akadns.net
 click.dji.com
 client-download.steampowered.com
