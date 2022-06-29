@@ -121,6 +121,7 @@ media.admob.com
 mediaexp-programming.xboxlive.com
 media.licdn.com
 mktplassets-ssl.xbox.com
+msgr.dlservice.microsoft.com
 msg.xboxlive.com
 nxeassets.xbox.com
 ocsp-data.us.cdnetworks.com
