@@ -16,7 +16,6 @@ doubleclick-cn.net
 dsany.sgnic.sg
 edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
-gateway.nyaacat.com
 google-analytics-cn.com
 googleadservices.com
 googleadservices-cn.com
@@ -40,6 +39,7 @@ oneplus.com
 opthw.xdwscache.speedcdns.com
 p00.upd.kaspersky.com
 pagead2.googlesyndication.com
+play.nyaacat.com
 r1.res.outlook.com
 recaptcha.net
 redirector.gvt1.com
