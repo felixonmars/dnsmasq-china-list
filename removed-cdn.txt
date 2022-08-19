@@ -190,6 +190,7 @@ www.nvidia.com
 www.parallels.com
 www.renren.com.cdngc.net
 www-ssl.intel.com
+www.sulwhasoo.com
 www.travelzoo.com
 www.tutorabc.com
 xb.dlservice.microsoft.com
