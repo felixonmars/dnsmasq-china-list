@@ -48,7 +48,7 @@ class ChinaListVerify(object):
     whitelist_file = "ns-whitelist.txt"
     blacklist_file = "ns-blacklist.txt"
     cdnlist_file = "cdn-testlist.txt"
-    chnroutes_file = "/usr/share/chnroutes2/chnroutes.txt"
+    chnroutes_file = "/usr/share/china_ip_list.txt"
     tld_ns = {}
 
     def __init__(self):
