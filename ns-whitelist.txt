@@ -115,3 +115,4 @@ ns2.oray.net.
 .huaweicloud-dns.cn.
 .360anyu.com.
 .zndns.com.
+.ppstream.com.
