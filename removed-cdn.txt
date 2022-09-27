@@ -60,6 +60,7 @@ dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 dlcdnets.asus.com
 dl-origin.ubnt.com
+dl.ubnt.com
 download.epicgames.com
 download.gfe.nvidia.com
 download.mcafee.com
