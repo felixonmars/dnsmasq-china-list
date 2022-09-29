@@ -169,6 +169,7 @@ tiles.xbox.com
 titlestorage.xboxlive.com
 toolbarqueries.google.com
 topics-cdn.dell.com
+translate.googleapis.com
 tse1.mm.bing.net
 tse2.mm.bing.net
 tse3.mm.bing.net
