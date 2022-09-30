@@ -182,6 +182,7 @@ tiles.xbox.com
 titlestorage.xboxlive.com
 toolbarqueries.google.com
 tools.google.com
+tools.l.google.com
 topics-cdn.dell.com
 translate.googleapis.com
 translation.googleapis.com
