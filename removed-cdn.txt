@@ -80,6 +80,7 @@ encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
 fonts.gstatic.com
+fonts.gstatic.com
 fonts.loli.net
 gameplay.intel.com
 gateway.craft.moe
