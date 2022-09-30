@@ -5,7 +5,6 @@ achievements.xboxlive.com
 adfarm.mediaplex.com
 ad.mediaplex.com
 adservice.google.com
-adservice.google.com
 ajax.loli.net
 altfarm.mediaplex.com
 ark.intel.com
@@ -17,7 +16,6 @@ avatar-ssl.xboxlive.com
 avatar.xboxlive.com
 blog.htcvive.com
 blog.tutorabc.com
-blog.vive.com
 blog.vive.com
 cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
@@ -56,6 +54,7 @@ contentstore.htcvive.com
 cortexfx.bnpparibas.com
 createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
+csi.gstatic.com
 c.s-microsoft.com
 developer.htcvive.com
 dlassets-ssl.xboxlive.com
