@@ -144,6 +144,7 @@ ocsp-data.us.cdnetworks.com
 ocsp.pki.goog
 olay-cn.cdnpg.com
 pagead-googlehosted.l.google.com
+phobos.apple.com
 pki-goog.l.google.com
 platform.linkedin.com
 plus.djicdn.com
