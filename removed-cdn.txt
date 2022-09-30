@@ -54,6 +54,7 @@ console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
 content.nike.com
 contentstore.htcvive.com
+corp.google.com
 cortexfx.bnpparibas.com
 createpoint.qti.qualcomm.com
 crl.pki.goog
