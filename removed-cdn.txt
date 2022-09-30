@@ -184,6 +184,7 @@ toolbarqueries.google.com
 tools.google.com
 topics-cdn.dell.com
 translate.googleapis.com
+translation.googleapis.com
 tse1.mm.bing.net
 tse2.mm.bing.net
 tse3.mm.bing.net
