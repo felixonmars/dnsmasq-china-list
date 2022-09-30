@@ -61,7 +61,6 @@ developer.htcvive.com
 dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 dlcdnets.asus.com
-dl-origin.ubnt.com
 dl.ubnt.com
 download.epicgames.com
 download.gfe.nvidia.com
@@ -79,7 +78,6 @@ emoi-cncdn.bing.com
 encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
-fonts.gstatic.com
 fonts.gstatic.com
 fonts.loli.net
 gameplay.intel.com
