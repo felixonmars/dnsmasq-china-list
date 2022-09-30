@@ -54,6 +54,7 @@ content.nike.com
 contentstore.htcvive.com
 cortexfx.bnpparibas.com
 createpoint.qti.qualcomm.com
+crl.pki.goog
 cs-analytics.htcsense.com
 csi.gstatic.com
 c.s-microsoft.com
