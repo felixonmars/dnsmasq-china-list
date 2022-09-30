@@ -86,6 +86,7 @@ globalsigncdn.com
 gravatar.loli.net
 gsp11-cn.ls.apple.com
 gsp12-cn.ls.apple.com
+gstaticadssl.l.google.com
 gstatic.loli.net
 hdn.xnimg.cn.cdngc.net
 images-cn-4.ssl-images-amazon.com
