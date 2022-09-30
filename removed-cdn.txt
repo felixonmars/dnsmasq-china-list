@@ -5,6 +5,7 @@ achievements.xboxlive.com
 adfarm.mediaplex.com
 ad.mediaplex.com
 adservice.google.com
+adservice.google.com
 ajax.loli.net
 altfarm.mediaplex.com
 ark.intel.com
