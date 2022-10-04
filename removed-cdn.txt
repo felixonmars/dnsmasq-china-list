@@ -136,7 +136,6 @@ msgruser.dlservice.microsoft.com
 msg.xboxlive.com
 nxeassets.xbox.com
 ocsp-data.us.cdnetworks.com
-ocsp.pki.goog
 olay-cn.cdnpg.com
 pagead-googlehosted.l.google.com
 phobos.apple.com
