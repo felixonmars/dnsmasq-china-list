@@ -18,7 +18,6 @@ blog.htcvive.com
 blog.tutorabc.com
 blog.vive.com
 cache.pack.google.com
-c.android.clients.google.com
 cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
 cdn1.evernote.com
