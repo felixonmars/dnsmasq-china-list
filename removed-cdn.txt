@@ -155,7 +155,6 @@ shop.samsung.com
 sina.com.hk
 source.tutorabc.com
 speedtest.xboxlive.com
-ssl-google-analytics.l.google.com
 ssl.travelzoo.com
 ssl.tzoo-img.com
 static-exp1.licdn.com
