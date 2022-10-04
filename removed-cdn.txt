@@ -54,7 +54,6 @@ corp.google.com
 cortexfx.bnpparibas.com
 createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
-csi.gstatic.com
 c.s-microsoft.com
 developer.htcvive.com
 dlassets-ssl.xboxlive.com
