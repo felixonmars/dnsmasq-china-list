@@ -89,7 +89,6 @@ gravatar.loli.net
 gsp11-cn.ls.apple.com
 gsp12-cn.ls.apple.com
 gstatic.loli.net
-gtm.oasisfeng.com
 hdn.xnimg.cn.cdngc.net
 images-cn-4.ssl-images-amazon.com
 images-cn-8.ssl-images-amazon.com
