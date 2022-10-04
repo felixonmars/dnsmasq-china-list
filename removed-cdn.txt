@@ -130,7 +130,6 @@ msg.xboxlive.com
 nxeassets.xbox.com
 ocsp-data.us.cdnetworks.com
 olay-cn.cdnpg.com
-pagead-googlehosted.l.google.com
 phobos.apple.com
 platform.linkedin.com
 plus.djicdn.com
