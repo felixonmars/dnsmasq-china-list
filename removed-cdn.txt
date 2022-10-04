@@ -62,7 +62,6 @@ developer.htcvive.com
 dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 dlcdnets.asus.com
-dl.google.com
 dl.l.google.com
 download.epicgames.com
 download.gfe.nvidia.com
