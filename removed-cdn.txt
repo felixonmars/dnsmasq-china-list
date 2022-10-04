@@ -54,7 +54,6 @@ contentstore.htcvive.com
 corp.google.com
 cortexfx.bnpparibas.com
 createpoint.qti.qualcomm.com
-crl.pki.goog
 cs-analytics.htcsense.com
 csi.gstatic.com
 c.s-microsoft.com
