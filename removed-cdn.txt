@@ -84,7 +84,6 @@ gateway.craft.moe
 g-ec4.images-amazon.com
 gfwsl.geforce.com
 globalsigncdn.com
-googletagmanager.com
 gravatar.loli.net
 gsp11-cn.ls.apple.com
 gsp12-cn.ls.apple.com
