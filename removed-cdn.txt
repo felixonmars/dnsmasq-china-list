@@ -114,6 +114,7 @@ khmdb.google.com
 khm.googleapis.com
 khm.google.com
 lh3.appinn.net
+liveupdate01.asus.com
 lnkd.licdn.com
 lx2.cok.elexapp.com
 lx2.cok.elex.com
