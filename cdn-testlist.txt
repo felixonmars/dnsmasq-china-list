@@ -30,6 +30,7 @@ googlesyndication-cn.com
 googletagmanager.com
 googletagmanager-cn.com
 googletagservices-cn.com
+googletraveladservices.com
 googletraveladservices-cn.com
 googlevads-cn.com
 gstatic-cn.com
