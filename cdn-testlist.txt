@@ -32,6 +32,7 @@ googletagmanager-cn.com
 googletagservices-cn.com
 googletraveladservices-cn.com
 googlevads-cn.com
+gstatic-cn.com
 gvt1-cn.com
 gvt2-cn.com
 insta360.com
@@ -71,5 +72,6 @@ www.sunrtb.com
 www.yangfd.com
 www.youngfunding.co.uk
 www.cz88.net
+xn--9kr7l.com
 xn--flw351e.com
 zoom.us
