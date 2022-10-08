@@ -18,6 +18,7 @@ dsany.sgnic.sg
 edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
 gcpnode.com
+gonglchuangl.net
 gongyichuangyi.net
 google-analytics-cn.com
 googleadservices.com
