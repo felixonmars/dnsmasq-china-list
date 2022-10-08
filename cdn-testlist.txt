@@ -26,6 +26,7 @@ googleapps-cn.com
 googleflights-cn.net
 googleoptimize.com
 googleoptimize-cn.com
+googleplex.com
 googlesyndication-cn.com
 googletagmanager.com
 googletagmanager-cn.com
