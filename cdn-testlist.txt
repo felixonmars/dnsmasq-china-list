@@ -17,6 +17,7 @@ doubleclick-cn.net
 dsany.sgnic.sg
 edge.yunjiasu.com
 fotadown.mayitek.com.wsdvs.com
+gcpnode.com
 google-analytics-cn.com
 googleadservices.com
 googleadservices-cn.com
@@ -70,4 +71,5 @@ www.sunrtb.com
 www.yangfd.com
 www.youngfunding.co.uk
 www.cz88.net
+xn--flw351e.com
 zoom.us
