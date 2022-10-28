@@ -20,7 +20,6 @@
 .dnsdun.com
 .dnsdun.net
 .chinanetsun-dns.com
-.ffdns.net
 .xundns.com
 .jiasule.net
 .ns.yunjiasu.com
