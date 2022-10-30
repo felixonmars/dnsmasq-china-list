@@ -32,7 +32,7 @@ ENV.fetch("JOBS", "1").to_i.times.each do
 
             if v.check_domain_verbose(domain, enable_cdnlist: false, show_green: true)
                 Filelock '.git.lock' do
-                    puts `./updater.py -a #{domain}`
+                    puts `./updater.rb -a #{domain}`
                     puts `git commit -S -am "accelerated-domains: add #{domain}"` if $?.success?
                     puts `./update-local` if $?.success?
                 end
