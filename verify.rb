@@ -59,6 +59,7 @@ class ChinaListVerify
     end
 
     def resolve(domain, rdtype="A", server: nil, with_glue: false)
+        rdtype = Kernel.const_get("Resolv::DNS::Resource::IN::#{rdtype}")
         if !server
             if !@dns
                 resolver = Resolv::DNS.new
@@ -69,15 +70,15 @@ class ChinaListVerify
             resolver = Resolv::DNS.new(nameserver: [server])
         end
         if !with_glue
-            resolver.getresources(domain, Kernel.const_get("Resolv::DNS::Resource::IN::#{rdtype}"))
+            resolver.getresources(domain, rdtype)
         else
             # Workaround for https://github.com/ruby/resolv/issues/27
             result = []
             glue = []
             n0 = Resolv::DNS::Name.create domain
-            resolver.fetch_resource(domain, Kernel.const_get("Resolv::DNS::Resource::IN::#{rdtype}")) {|reply, reply_name|
+            resolver.fetch_resource(domain, rdtype) {|reply, reply_name|
                 reply.each_resource {|n, ttl, data|
-                    if n0 == n
+                    if n0 == n && data.is_a?(rdtype)
                         result << data
                     else
                         glue << [n, data]
