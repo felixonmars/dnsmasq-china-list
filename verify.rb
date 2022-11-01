@@ -67,7 +67,8 @@ class ChinaListVerify
                 resolver = Resolv::DNS.new(nameserver: @dns)
             end
         else
-            resolver = Resolv::DNS.new(nameserver: [server])
+            server = [server] unless server.is_a? Array
+            resolver = Resolv::DNS.new(nameserver: server)
         end
         if !with_glue
             resolver.getresources(domain, rdtype)
@@ -92,13 +93,14 @@ class ChinaListVerify
     def get_ns_for_tld(tld)
         if !@tld_ns.has_key? tld
             answers = resolve(tld + ".", "NS")
+            results = []
             answers.each do |answer|
                 ips = resolve answer.name.to_s
-                if !ips.empty?
-                    @tld_ns[tld] = ips[0].address.to_s
-                    break
+                ips.each do |ip|
+                    results << ip.address.to_s
                 end
             end
+            @tld_ns[tld] = results
         end
 
         @tld_ns[tld]
