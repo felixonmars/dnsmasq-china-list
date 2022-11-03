@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
 
 require 'colorize'
+require 'concurrent'
 require 'ipaddr'
 require 'public_suffix'
 require 'resolv'
@@ -18,7 +19,7 @@ class ChinaListVerify
         @whitelist = load_list whitelist_file
         @blacklist = load_list blacklist_file
         @cdnlist = load_list cdnlist_file
-        @tld_ns = {}
+        @tld_ns = Concurrent::Hash.new
 
         begin
             @chnroutes = load_list(chnroutes_file).map { |line| IPAddr.new line }
@@ -191,10 +192,6 @@ class ChinaListVerify
         end
     end
 
-    def check_domain_quiet(domain, **kwargs)
-        check_domain(domain, **kwargs)
-    end
-
     def check_domain_verbose(domain, show_green: false, **kwargs)
         check_domain(domain, **kwargs) do |result, message|
             if result == true
@@ -207,16 +204,23 @@ class ChinaListVerify
         end
     end
 
-    def check_domain_list(domain_list, sample: 30, show_green: False)
+    def check_domain_list(domain_list, sample: 30, show_green: false, jobs: Concurrent.processor_count)
         domains = load_list domain_list
         if sample > 0
             domains = domains.sample(sample)
         else
             domains.shuffle!
         end
+        pool = Concurrent::FixedThreadPool.new(jobs)
         domains.each do |domain|
-            check_domain_verbose(domain, show_green: show_green)
+            pool.post do
+                if check_domain_verbose(domain, show_green: show_green)
+                    yield domain if block_given?
+                end
+            end
         end
+        pool.shutdown
+        pool.wait_for_termination
     end
 end
 
