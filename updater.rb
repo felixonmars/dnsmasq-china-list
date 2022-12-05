@@ -2,6 +2,7 @@
 require 'domain_name'
 require 'optparse'
 require 'ostruct'
+require_relative 'verify'
 
 options = OpenStruct.new
 options.sort = true
@@ -37,34 +38,11 @@ changed = false
 
 options.add.each do |domain|
     domain = DomainName.normalize(domain)
-    new_line = "server=/#{domain}/114.114.114.114\n"
-    disabled_line = "#server=/#{domain}/114.114.114.114"
-    if lines.include? new_line
-        puts "Domain already exists: #{domain}"
-    else
-        if disabled_lines.any? { |line| line.start_with? disabled_line }
-            puts "Domain already disabled: #{domain}"
-        else
-            # Check for duplicates
-            test_domain = domain
-            while test_domain.include? '.'
-                test_domain = test_domain.partition('.').last
-                _new_line = "server=/#{test_domain}/114.114.114.114\n"
-                _disabled_line = "#server=/#{test_domain}/114.114.114.114"
-                if lines.include? _new_line 
-                    puts "Redundant domain already exists: #{test_domain}"
-                    break
-                elsif disabled_lines.any? { |line| line.start_with? _disabled_line }
-                    puts "Redundant domain already disabled: #{test_domain}"
-                    break
-                end
-            end
-            next if test_domain.include? '.'
-
-            puts "New domain added: #{domain}"
-            lines << new_line
-            changed = true
-        end
+    new_line = CheckRedundant(lines, disabled_lines, domain)
+    if new_line != false
+        puts "New domain added: #{domain}"
+        lines << new_line
+        changed = true
     end
 end
 
