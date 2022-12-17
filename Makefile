@@ -1,6 +1,7 @@
 SERVER=114.114.114.114
 SMARTDNS_SPEEDTEST_MODE=ping,tcp:80
 NEWLINE=UNIX
+SHELL=bash
 
 raw:
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | grep -Ev '^#' > accelerated-domains.china.raw.txt
