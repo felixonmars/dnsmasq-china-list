@@ -123,6 +123,7 @@ marketplace-xb.xboxlive.com
 media.admob.com
 mediaexp-programming.xboxlive.com
 media.licdn.com
+mini5cn-1.opera-mini.net
 mini5cn.opera-mini.net
 mktplassets-ssl.xbox.com
 msgr.dlservice.microsoft.com
