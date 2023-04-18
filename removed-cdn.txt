@@ -55,6 +55,7 @@ createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
 developer.htcvive.com
+developer.vive.com
 dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 dlcdnets.asus.com
