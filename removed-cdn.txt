@@ -1,6 +1,5 @@
 1.cms.s81c.com
 1.www.s81c.com
-account.htcvive.com
 achievements.xboxlive.com
 adfarm.mediaplex.com
 ad.mediaplex.com
