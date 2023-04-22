@@ -139,6 +139,7 @@ plus.djicdn.com
 plus.dji.com
 prm.dji.com
 profile.xboxlive.com
+redirector.c.docs.google.com
 res.office365.com
 res.outlook.com
 rum8.perf.linkedin.com
