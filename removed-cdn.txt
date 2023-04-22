@@ -13,7 +13,6 @@ avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
 avatar.xboxlive.com
-blog.htcvive.com
 blog.tutorabc.com
 blog.vive.com
 cashier.alipay.com.srip.net
