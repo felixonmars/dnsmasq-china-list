@@ -294,7 +294,7 @@ if __FILE__ == $0
     v = ChinaListVerify.new options.dns
 
     if options.domain
-        v.check_domain_verbose(options.domain, show_green: options.verbose)
+        exit v.check_domain_verbose(options.domain, show_green: options.verbose) == true
     else
         v.check_domain_list(options.file, sample: options.sample, show_green: options.verbose)
     end
