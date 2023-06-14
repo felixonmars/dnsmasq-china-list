@@ -50,3 +50,4 @@
 .ispapi.net
 .name-services.com
 .expirenotification.com
+.pending-renewal-domain.com
