@@ -131,7 +131,6 @@ partner.globalsign.com
 phobos.apple.com
 platform.linkedin.com
 plus.djicdn.com
-plus.dji.com
 prm.dji.com
 profile.xboxlive.com
 redirector.c.docs.google.com
