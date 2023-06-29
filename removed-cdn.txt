@@ -192,6 +192,7 @@ www.ikea.com
 www.intel.com
 www.kaspersky.com
 www.nvidia.com
+www.pandora.net
 www.parallels.com
 www.renren.com.cdngc.net
 www-ssl.intel.com
