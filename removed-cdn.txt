@@ -72,6 +72,7 @@ emoi-cncdn.bing.com
 encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
+events2.djicdn.com
 fonts.loli.net
 gameplay.intel.com
 gateway.craft.moe
