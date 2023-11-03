@@ -172,6 +172,7 @@ static.licdn.com
 static.yangfd.com
 store-images.microsoft.com
 store-images.s-microsoft.com
+store.nike.com
 store.samsung.com
 tcl.com.ru
 tiles.xbox.com
