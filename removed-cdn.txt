@@ -163,6 +163,7 @@ sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
 shop.samsung.com
+silverlight.dlservice.microsoft.com
 sina.com.hk
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
