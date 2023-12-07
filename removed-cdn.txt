@@ -164,6 +164,7 @@ settings.xboxlive.com
 shop.samsung.com
 sina.com.hk
 siportal.cdnetworks.com
+slupdate.dlservice.microsoft.com
 source.tutorabc.com
 speedtest.xboxlive.com
 ssl.travelzoo.com
