@@ -143,6 +143,7 @@ platform.linkedin.com
 plus.djicdn.com
 prm.dji.com
 profile.xboxlive.com
+qh.dlservice.microsoft.com
 redirector.c.docs.google.com
 redirector.c.drive.google.com
 res.office365.com
