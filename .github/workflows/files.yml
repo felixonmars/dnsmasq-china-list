@@ -1,0 +1,33 @@
+name: Convert Conf Files
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # 每天执行
+  workflow_dispatch:
+
+jobs:
+  convert_conf_files:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    
+    - name: Install dependencies
+      run: pip3 install glob2
+
+    - name: Convert Conf Files
+      env:
+        DNS_URL: ${{ secrets.DNS_URL }}
+      run: python convert.py
+
+    - name: Create Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: converted-files
+        path: converted
