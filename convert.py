@@ -25,6 +25,13 @@ def main():
         txt_file = os.path.join(converted_directory, os.path.basename(thefile) + ".txt")  # 生成的 txt 文件路径
         convert_conf_to_txt(thefile, txt_file, dns_url)
 
+    # 合并生成的 txt 文件为 FAK-DNS.txt
+    txt_files = glob.glob(os.path.join(converted_directory, '*.txt'))
+    with open(os.path.join(converted_directory, 'FAK-DNS.txt'), 'w') as fak_dns:
+        for txt_file in txt_files:
+            with open(txt_file, 'r') as txt:
+                fak_dns.write(txt.read())
+
 # 从环境变量中获取 DNS URL
 dns_url = os.environ.get('DNS_URL')
 
