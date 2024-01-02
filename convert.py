@@ -28,11 +28,13 @@ def main():
     # 合并生成的 txt 文件为 FAK-DNS.txt
     txt_files = glob.glob(os.path.join(converted_directory, '*.txt'))
     with open(os.path.join(converted_directory, 'FAK-DNS.txt'), 'w') as fak_dns:
+        fak_dns.write(costume_dns + "\n")  # 新增行，内容为自定义内容
         for txt_file in txt_files:
             with open(txt_file, 'r') as txt:
                 fak_dns.write(txt.read())
 
 # 从环境变量中获取 DNS URL
 dns_url = os.environ.get('DNS_URL')
+costume_dns = os.environ.get('COSTUME_DNS')
 
 main()
