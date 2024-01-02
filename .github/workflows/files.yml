@@ -23,7 +23,8 @@ jobs:
 
     - name: Convert Conf Files
       env:
-        DNS_URL: ${{ secrets.DNS_URL }}
+        CN_DNS: ${{ secrets.CN_DNS }}
+        THE_DNS: ${{ secrets.THE_DNS }}
       run: python convert.py
 
     - name: Create Artifacts
