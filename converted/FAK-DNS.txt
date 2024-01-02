@@ -1,3 +1,5 @@
+https://1.1.1.1/dns-query
+https://1.0.0.1/dns-query
 [/265.com/]https://148897.alidns.com/dns-query
 [/2mdn-cn.net/]https://148897.alidns.com/dns-query
 [/2mdn.net/]https://148897.alidns.com/dns-query
@@ -157,6 +159,8 @@
 [/www.pxcc.com/]https://148897.alidns.com/dns-query
 [/xn--9kr7l.com/]https://148897.alidns.com/dns-query
 [/xn--flw351e.com/]https://148897.alidns.com/dns-query
+https://1.1.1.1/dns-query
+https://1.0.0.1/dns-query
 [/265.com/]https://148897.alidns.com/dns-query
 [/2mdn-cn.net/]https://148897.alidns.com/dns-query
 [/2mdn.net/]https://148897.alidns.com/dns-query
