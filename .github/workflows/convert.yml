@@ -26,13 +26,17 @@ jobs:
         DNS_URL: ${{ secrets.DNS_URL }}
       run: python convert.py
 
-    - name: Commit changes
+    - name: Check for changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        current_time=$(date +'%Y-%m-%d %H:%M:%S')
-        git add .
-        git commit -m "Convert conf files to txt - $current_time"
+        if ! git diff --quiet; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          current_time=$(date +'%Y-%m-%d %H:%M:%S')
+          git add .
+          git commit -m "Convert conf files to txt - $current_time"
+        else
+          echo "No changes to commit."
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@v0.6.0
