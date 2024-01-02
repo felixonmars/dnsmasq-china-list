@@ -1,7 +1,7 @@
 import os
 import glob
 
-def convert_conf_to_txt(conf_file, txt_file, dns_url):
+def convert_conf_to_txt(conf_file, txt_file, cn_dns):
     with open(conf_file, 'r') as conf:
         with open(txt_file, 'w') as txt:
             for line in conf:
@@ -10,7 +10,7 @@ def convert_conf_to_txt(conf_file, txt_file, dns_url):
                     print(f"Invalid line: {line.strip()}")
                     continue
                 domain = parts[1].split('/')[1]
-                txt.write(f"[/{domain}/]" + dns_url + "\n")
+                txt.write(f"[/{domain}/]" + cn_dns + "\n")
 
 def main():
     current_directory = os.getcwd()  # 获取当前目录
@@ -23,18 +23,18 @@ def main():
         if os.path.basename(thefile) == 'bogus-nxdomain.china.conf':
             continue
         txt_file = os.path.join(converted_directory, os.path.basename(thefile) + ".txt")  # 生成的 txt 文件路径
-        convert_conf_to_txt(thefile, txt_file, dns_url)
+        convert_conf_to_txt(thefile, txt_file, cn_dns)
 
     # 合并生成的 txt 文件为 FAK-DNS.txt
     txt_files = glob.glob(os.path.join(converted_directory, '*.txt'))
     with open(os.path.join(converted_directory, 'FAK-DNS.txt'), 'w') as fak_dns:
-        fak_dns.write(costume_dns + "\n")  # 新增行，内容为自定义内容
+        fak_dns.write(the_dns + "\n")  # 新增行，内容为自定义内容
         for txt_file in txt_files:
             with open(txt_file, 'r') as txt:
                 fak_dns.write(txt.read())
 
 # 从环境变量中获取 DNS URL
-dns_url = os.environ.get('DNS_URL')
-costume_dns = os.environ.get('COSTUME_DNS')
+cn_dns = os.environ.get('CN_DNS')
+the_dns = os.environ.get('THE_DNS')
 
 main()
