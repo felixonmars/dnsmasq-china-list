@@ -11,7 +11,9 @@ Details
 =======
 主要的文件在`converted`文件夹下
 
-- `accelerated-domains.china.conf`：要加速的一般域名。
+- `FAK-DNS`: 融合了下述三个文件。
+
+- `accelerated-domains.china.conf.txt`：要加速的一般域名。
 
    使用中国 DNS 服务器时，这些域名具有更好的解析速度和/或结果。
 
@@ -23,13 +25,13 @@ Details
 
    如果顶级域已在列表中，请不要添加子域。 这包括已与“/cn/”规则匹配的所有 .cn 域。
 
-- `google.china.conf`：要加速的 Google 域名。
+- `google.china.conf.txt`：要加速的 Google 域名。
 
    使用中国 DNS 时，这些域名将解析为 Google 中国服务器。 在大多数情况下，这将为使用 Google 网络服务的网站带来更好的页面加载时间，例如 Google 网络字体和 AdSense。
 
    请记住，它们_不_被认为是稳定的。 **使用风险自负**。
 
-- `apple.china.conf`：要加速的 Apple 域名。
+- `apple.china.conf.txt`：要加速的 Apple 域名。
 
    一些 ISP（通常是较小的 ISP）在使用其中国大陆 CDN 服务器访问 Apple 的资产时遇到问题。 如果您遇到这种情况，请考虑删除此文件。 有关更多信息，请参阅#156。
 
