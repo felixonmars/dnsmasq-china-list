@@ -11,7 +11,7 @@ Details
 =======
 主要的文件在`converted`文件夹下
 
-- `FAK-DNS`: 融合了下述三个文件。
+- `FAK-DNS.txt`: 融合了下述三个文件。
 
 - `accelerated-domains.china.conf.txt`：要加速的一般域名。
 
