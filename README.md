@@ -1,4 +1,4 @@
-FAK-DNS
+FAK-DNS for AdGuard Home
 ==================
 
 中国特定配置，改善您最喜爱的 DNS 服务器。
