@@ -43,7 +43,7 @@ Usage
 ![](https://s2.loli.net/2024/01/02/86f3HDuQMzScewI.jpg)
 
 直接能用👉<https://raw.githubusercontent.com/Leev1s/FAK-DNS/master/converted/FAK-DNS.txt>
-如果你想自定义就fork一下，然后改一下，CN_DNS只填一个国内的，THE_DNS是国外的，可以添加多个，注意换行。
+如果你想自定义就fork一下，然后改一下，CN_DNS填国内的，THE_DNS是国外的，两者都可以添加多个，注意换行，每行填写一个。
 文件下载下来之后，进入AdGuard Home的目录，一般在/opt/AdGuardHome，编辑AdGuardHome.yaml
 
 ![](https://s2.loli.net/2024/01/02/NmDTxR46sCGtked.jpg)
