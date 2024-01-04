@@ -7,6 +7,10 @@ FAK-DNS for AdGuard Home
 
 - 尽可能获得您附近最好的 CDN 节点，但不要影响国外 CDN 的结果，这样您也可以同时为您的 VPN 获得最佳的 CDN 节点。
 
+文件截图如下
+
+![](https://s2.loli.net/2024/01/04/N4QkHzlaSCIDbrt.jpg)
+
 Details
 =======
 主要的文件在`converted`文件夹下
