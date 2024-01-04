@@ -26,7 +26,7 @@ def main():
         convert_conf_to_txt(thefile, txt_file, cn_dns)
 
     # 合并生成的 txt 文件为 FAK-DNS.txt
-    txt_files = glob.glob(os.path.join(converted_directory, '*.txt'))
+    txt_files = glob.glob(os.path.join(converted_directory, '*conf.txt'))
     with open(os.path.join(converted_directory, 'FAK-DNS.txt'), 'w') as fak_dns:
         fak_dns.write(the_dns + "\n")  # 新增行，内容为自定义内容
         for txt_file in txt_files:
