@@ -1,159 +1,477 @@
-[/265.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/2mdn-cn.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/2mdn.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/accounts.googlers.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/accounts.xn--9trs65b.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/accounts.xn--ggle-55da.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/admob-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/adservice.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/ai.ytimg.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/app-measurement-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/app-measurement.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/apps5.oingo.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/avail.googleflights.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/beacons.gcp.gvt2.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/beacons.gvt2.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/beacons2.gvt2.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/beacons3.gvt2.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/borgmon.adz.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/c.admob.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/c.android.clients.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/cache-management-prod.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/cache.pack.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/checkin.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/clickserve.cc-dt.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/clickserve.dartsearch.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/clickserver.googleads.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/clientservices.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/cn.widevine.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/cnappinstall.googleadapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/connectivitycheck.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/content.googleadapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/corp.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/corp.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/crashlyticsreports-pa.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/crl.pki.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/csi.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/dartsearch-cn.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/dg-meta.video.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/distribution.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/distribution.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/distribution.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/dl.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/dl.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/doubleclick-cn.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/doubleclick.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/download.mlcc.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/download.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/download.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/download.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/download.tensorflow.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/emmapplecodevice.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/firebase-settings.crashlytics.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/fontfiles.googleadapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/fontfiles.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/fonts.googleadapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/fonts.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/fonts.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/g0.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/g1.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/g2.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/g3.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gcpnode.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gonglchuangl.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gongyichuangyi.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/google-analytics-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/google-analytics.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleadservices-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleadservices.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleanalytics.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleapis-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleapps-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleflights-cn.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleoptimize-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleoptimize.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googleplex.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googlesyndication-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googlesyndication.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googletagmanager-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googletagmanager.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googletagservices-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googletagservices.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googletraveladservices-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googletraveladservices.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/googlevads-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/goto.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gstatic-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gstaticadssl.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gtm.oasisfeng.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gvt1-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/gvt2-cn.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/imasdk.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/monitoring.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/monitoring.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/monitoring.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/ocsp.pki.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/pagead-googlehosted.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/performanceparameters.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/pki-goog.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/play.1ucrs.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/prod-controlbe.floonet.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/prod-databe.floonet.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/prod.databe.floonet.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qagpublic.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qagpublic.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qagpublic.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qgadmin.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qgadmin.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qgadmin.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qpx.googleflights.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qualysapi.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qualysapi.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qualysapi.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qualysguard.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qualysguard.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/qualysguard.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/recaptcha.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.bdn.dev/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.c.chat.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.c.mail.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.c.pack.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.c.play.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.c.youtubeeducation.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.gcpcdn.gvt1.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.gvt1.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.offline-maps.gvt1.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.snap.gvt1.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/redirector.xn--ngstr-lra8j.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/regioninfo-pa.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/safebrowsing.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/scanservice1.qatp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/scanservice1.qcpp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/scanservice1.qpdp1.net/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/service.urchin.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/settings.xn--9trs65b.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/ssl-google-analytics.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/ssl.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/staging-controlbe.floonet.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/staging-databe.floonet.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/staging-regioninfo-pa.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/staging.databe.floonet.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/support.1ucrs.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/tac.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/test.bugs-qa.chromium.org/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/test.gbugs-qa.chromium.org/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/tools.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/tools.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/up.corp.goog/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/up.gcp.googlers.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/update.crashlytics.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/update.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/wear.googleapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/www-google-analytics.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/www-googletagmanager.l.google.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/www.destinationurl.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/www.googleadapis.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/www.gstatic.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/www.pxcc.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/xn--9kr7l.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
-[/xn--flw351e.com/]https://dns.alidns.com/dns-query quic://dns.alidns.com tls://dns.alidns.com
+[/265.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/2mdn-cn.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/2mdn.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/accounts.googlers.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/accounts.xn--9trs65b.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/accounts.xn--ggle-55da.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/admob-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/adservice.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/ai.ytimg.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/app-measurement-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/app-measurement.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/apps5.oingo.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/avail.googleflights.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/beacons.gcp.gvt2.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/beacons.gvt2.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/beacons2.gvt2.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/beacons3.gvt2.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/borgmon.adz.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/c.admob.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/c.android.clients.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/cache-management-prod.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/cache.pack.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/checkin.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/clickserve.cc-dt.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/clickserve.dartsearch.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/clickserver.googleads.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/clientservices.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/cn.widevine.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/cnappinstall.googleadapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/connectivitycheck.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/content.googleadapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/corp.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/corp.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/crashlyticsreports-pa.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/crl.pki.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/csi.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/dartsearch-cn.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/dg-meta.video.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/distribution.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/distribution.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/distribution.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/dl.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/dl.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/doubleclick-cn.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/doubleclick.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/download.mlcc.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/download.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/download.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/download.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/download.tensorflow.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/emmapplecodevice.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/firebase-settings.crashlytics.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/fontfiles.googleadapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/fontfiles.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/fonts.googleadapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/fonts.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/fonts.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/g0.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/g1.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/g2.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/g3.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gcpnode.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gonglchuangl.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gongyichuangyi.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/google-analytics-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/google-analytics.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleadservices-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleadservices.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleanalytics.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleapis-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleapps-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleflights-cn.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleoptimize-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleoptimize.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googleplex.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googlesyndication-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googlesyndication.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googletagmanager-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googletagmanager.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googletagservices-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googletagservices.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googletraveladservices-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googletraveladservices.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/googlevads-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/goto.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gstatic-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gstaticadssl.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gtm.oasisfeng.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gvt1-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/gvt2-cn.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/imasdk.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/monitoring.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/monitoring.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/monitoring.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/ocsp.pki.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/pagead-googlehosted.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/performanceparameters.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/pki-goog.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/play.1ucrs.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/prod-controlbe.floonet.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/prod-databe.floonet.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/prod.databe.floonet.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qagpublic.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qagpublic.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qagpublic.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qgadmin.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qgadmin.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qgadmin.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qpx.googleflights.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qualysapi.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qualysapi.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qualysapi.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qualysguard.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qualysguard.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/qualysguard.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/recaptcha.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.bdn.dev/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.c.chat.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.c.mail.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.c.pack.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.c.play.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.c.youtubeeducation.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.gcpcdn.gvt1.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.gvt1.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.offline-maps.gvt1.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.snap.gvt1.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/redirector.xn--ngstr-lra8j.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/regioninfo-pa.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/safebrowsing.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/scanservice1.qatp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/scanservice1.qcpp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/scanservice1.qpdp1.net/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/service.urchin.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/settings.xn--9trs65b.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/ssl-google-analytics.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/ssl.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/staging-controlbe.floonet.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/staging-databe.floonet.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/staging-regioninfo-pa.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/staging.databe.floonet.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/support.1ucrs.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/tac.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/test.bugs-qa.chromium.org/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/test.gbugs-qa.chromium.org/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/tools.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/tools.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/up.corp.goog/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/up.gcp.googlers.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/update.crashlytics.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/update.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/wear.googleapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/www-google-analytics.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/www-googletagmanager.l.google.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/www.destinationurl.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/www.googleadapis.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/www.gstatic.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/www.pxcc.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/xn--9kr7l.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
+[/xn--flw351e.com/]https://dns.alidns.com/dns-query
+quic://dns.alidns.com
+tls://dns.alidns.com
