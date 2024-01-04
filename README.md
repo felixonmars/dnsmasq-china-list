@@ -1,71 +1,61 @@
-dnsmasq-china-list
+FAK-DNS for AdGuard Home
 ==================
 
-Chinese-specific configuration to improve your favorite DNS server. Best partner for chnroutes.
+中国特定配置，改善您最喜爱的 DNS 服务器。
 
-- Improve resolve speed for Chinese domains.
+- 提高国内域名的解析速度。
 
-- Get the best CDN node near you whenever possible, but don't compromise foreign CDN results so you also get best CDN node for your VPN at the same time.
-
-- Block ISP ads on NXDOMAIN result (like 114so).
+- 尽可能获得您附近最好的 CDN 节点，但不要影响国外 CDN 的结果，这样您也可以同时为您的 VPN 获得最佳的 CDN 节点。
 
 Details
 =======
+主要的文件在`converted`文件夹下
 
-- `accelerated-domains.china.conf`: General domains to be accelerated.
+- `FAK-DNS.txt`: 融合了下述三个文件。
 
-  These domains have a better resolving speed and/or result when using a Chinese DNS server.
+- `accelerated-domains.china.conf.txt`：要加速的一般域名。
 
-  To determine if a domain is eligible, one of the criteria below must be met:
+   使用中国 DNS 服务器时，这些域名具有更好的解析速度和/或结果。
 
- - The domain's NS server is located in China mainland.
+   要确定域名是否符合条件，必须满足以下条件之一：
 
- - The domain will resolve to an IP located in China mainland when using a Chinese DNS server, but _not_ always do when using a foreign DNS server (For example, CDN accelerated sites that have node in China). This however does _not_ include those having node _near_ China mainland, like in Japan, Hong Kong, Taiwan, etc.
+  - 该域名的NS服务器位于中国大陆。
 
-  Please don't add subdomains if the top domain is already in the list. This includes all .cn domains which are already matched by the `/cn/` rule.
+  - 当使用中国 DNS 服务器时，域名将解析为位于中国大陆的 IP，但在使用外国 DNS 服务器时_并非总是如此（例如，在中国有节点的 CDN 加速站点）。 然而，这并不包括那些在中国大陆附近有节点的节点，例如日本、香港、台湾等。
 
-- `google.china.conf`: Google domains to be accelerated.
+   如果顶级域已在列表中，请不要添加子域。 这包括已与“/cn/”规则匹配的所有 .cn 域。
 
-  These domains are resolved to Google China servers when using a Chinese DNS. In most conditions this will yield better page load time for sites using Google's web services, e.g. Google Web Fonts and AdSense.
+- `google.china.conf.txt`：要加速的 Google 域名。
 
-  Bear in mind that they are _not_ considered stable. **Use at your own risk**.
+   使用中国 DNS 时，这些域名将解析为 Google 中国服务器。 在大多数情况下，这将为使用 Google 网络服务的网站带来更好的页面加载时间，例如 Google 网络字体和 AdSense。
 
-- `apple.china.conf`: Apple domains to be accelerated.
+   请记住，它们_不_被认为是稳定的。 **使用风险自负**。
 
-  Some ISPs (often smaller ones) have problem accessing Apple's assets using their China mainland CDN servers. Please consider remove this file if that happens to you. See #156 for some more info.
+- `apple.china.conf.txt`：要加速的 Apple 域名。
 
-- `bogus-nxdomain.china.conf`: Known addresses that are hijacking NXDOMAIN results returned by DNS servers.
+   一些 ISP（通常是较小的 ISP）在使用其中国大陆 CDN 服务器访问 Apple 的资产时遇到问题。 如果您遇到这种情况，请考虑删除此文件。 有关更多信息，请参阅#156。
 
 Usage
 =====
 
-Automatic Installation (recommended)
-------------------------------------
+根据[dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)的规则写了一个github action，自动同步它的新文件并建立AdGuard Home DNS规则。可以通过设置github自定义上游DOH/DOT服务器，默认国内走阿里DOH，国外走Cloudflare DOH。默认合并了googlehost，applehost，和国内域名。
 
-1. Fetch the installer from github (or a mirror): `wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/install.sh`
-2. (Optional) Edit it to use your favorite DNS server and/or another mirror to download the list.
-3. Run it as root: `sudo ./install.sh`
+![](https://s2.loli.net/2024/01/02/86f3HDuQMzScewI.jpg)
 
-You can save the installer and run it again to update the list regularly.
+直接能用👉<https://raw.githubusercontent.com/Leev1s/FAK-DNS/master/converted/FAK-DNS.txt>
+如果你想自定义就fork一下，然后改一下，CN_DNS只填一个国内的，THE_DNS是国外的，可以添加多个，注意换行。
+文件下载下来之后，进入AdGuard Home的目录，一般在/opt/AdGuardHome，编辑AdGuardHome.yaml
 
-Manual Installation
--------------------
+![](https://s2.loli.net/2024/01/02/NmDTxR46sCGtked.jpg)
 
-1. Place accelerated-domains.china.conf, bogus-nxdomain.china.conf (and optionally google.china.conf, apple.china.conf) under /etc/dnsmasq.d/ (Create the folder if it does not exist).
-2. Uncomment "conf-dir=/etc/dnsmasq.d" in /etc/dnsmasq.conf
-3. (Optional) Place dnsmasq-update-china-list into /usr/bin/
-4. (Optional) Make custom DNS server configuration and/or other services' configuration.
+填写配置文件
 
-  ```shell
-  # change the default DNS server to 202.96.128.86
-  make SERVER=202.96.128.86 dnsmasq
-  # generate unbound's configuration
-  make unbound
-  # generate bind's configuration
-  make bind
-  # full example of generating dnscrypt-proxy forwarding rules for Windows
-  make SERVER=101.6.6.6 NEWLINE=DOS dnscrypt-proxy
-  ```
+![](https://s2.loli.net/2024/01/02/eh1NsW3p7IlMVdj.jpg)
+
+重启AdGuardHome就可以了
+
+> # 如果你方便可以给我一个Star🌟吗
+> <https://github.com/Leev1s/FAK-DNS>
 
 License
 =======
