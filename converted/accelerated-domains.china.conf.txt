@@ -2405,6 +2405,7 @@
 [/3322.cc/]https://148897.alidns.com/dns-query
 [/3322.net/]https://148897.alidns.com/dns-query
 [/3322.org/]https://148897.alidns.com/dns-query
+[/33226163.xyz/]https://148897.alidns.com/dns-query
 [/3323.com/]https://148897.alidns.com/dns-query
 [/3323399.com/]https://148897.alidns.com/dns-query
 [/332831.com/]https://148897.alidns.com/dns-query
@@ -3797,6 +3798,7 @@
 [/51uyi.com/]https://148897.alidns.com/dns-query
 [/51vimeo.com/]https://148897.alidns.com/dns-query
 [/51vip.biz/]https://148897.alidns.com/dns-query
+[/51voa.com/]https://148897.alidns.com/dns-query
 [/51vs.com/]https://148897.alidns.com/dns-query
 [/51vv.com/]https://148897.alidns.com/dns-query
 [/51vv2.com/]https://148897.alidns.com/dns-query
@@ -4447,7 +4449,6 @@
 [/591wy.com/]https://148897.alidns.com/dns-query
 [/591yhw.com/]https://148897.alidns.com/dns-query
 [/5923d.com/]https://148897.alidns.com/dns-query
-[/592sy.com/]https://148897.alidns.com/dns-query
 [/592zn.com/]https://148897.alidns.com/dns-query
 [/59313313.com/]https://148897.alidns.com/dns-query
 [/59370.com/]https://148897.alidns.com/dns-query
@@ -12755,7 +12756,6 @@
 [/chanway.net/]https://148897.alidns.com/dns-query
 [/chanwind.com/]https://148897.alidns.com/dns-query
 [/chanxuehezuo.com/]https://148897.alidns.com/dns-query
-[/chanyeren.com/]https://148897.alidns.com/dns-query
 [/chanzhi.org/]https://148897.alidns.com/dns-query
 [/chanzuimei.com/]https://148897.alidns.com/dns-query
 [/chao-fan.com/]https://148897.alidns.com/dns-query
@@ -16263,7 +16263,6 @@
 [/czyxba.com/]https://148897.alidns.com/dns-query
 [/czzsw.com/]https://148897.alidns.com/dns-query
 [/czzy-edu.com/]https://148897.alidns.com/dns-query
-[/czzy88.com/]https://148897.alidns.com/dns-query
 [/d-controls.com/]https://148897.alidns.com/dns-query
 [/d-ctrip.com/]https://148897.alidns.com/dns-query
 [/d-heaven.com/]https://148897.alidns.com/dns-query
@@ -33352,7 +33351,6 @@
 [/languangdy.com/]https://148897.alidns.com/dns-query
 [/langya.org/]https://148897.alidns.com/dns-query
 [/langyabang.com/]https://148897.alidns.com/dns-query
-[/langyuseo.com/]https://148897.alidns.com/dns-query
 [/langzi.fun/]https://148897.alidns.com/dns-query
 [/lanh.love/]https://148897.alidns.com/dns-query
 [/lanhaicaijing.com/]https://148897.alidns.com/dns-query
@@ -59131,7 +59129,6 @@
 [/yte1.com/]https://148897.alidns.com/dns-query
 [/yteng.net/]https://148897.alidns.com/dns-query
 [/ytesting.com/]https://148897.alidns.com/dns-query
-[/ytet.org/]https://148897.alidns.com/dns-query
 [/ytfuzhen.com/]https://148897.alidns.com/dns-query
 [/ytghnb.com/]https://148897.alidns.com/dns-query
 [/ythouse.com/]https://148897.alidns.com/dns-query
@@ -61208,6 +61205,7 @@
 [/zhtmid.com/]https://148897.alidns.com/dns-query
 [/zhu23.work/]https://148897.alidns.com/dns-query
 [/zhu360.com/]https://148897.alidns.com/dns-query
+[/zhuaidei.com/]https://148897.alidns.com/dns-query
 [/zhuainiu.com/]https://148897.alidns.com/dns-query
 [/zhuan16.com/]https://148897.alidns.com/dns-query
 [/zhuanfa.net/]https://148897.alidns.com/dns-query
