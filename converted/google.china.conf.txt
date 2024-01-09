@@ -1,159 +1,159 @@
-[/265.com/]https://148897.alidns.com/dns-query
-[/2mdn-cn.net/]https://148897.alidns.com/dns-query
-[/2mdn.net/]https://148897.alidns.com/dns-query
-[/accounts.googlers.com/]https://148897.alidns.com/dns-query
-[/accounts.xn--9trs65b.com/]https://148897.alidns.com/dns-query
-[/accounts.xn--ggle-55da.com/]https://148897.alidns.com/dns-query
-[/admob-cn.com/]https://148897.alidns.com/dns-query
-[/adservice.google.com/]https://148897.alidns.com/dns-query
-[/ai.ytimg.com/]https://148897.alidns.com/dns-query
-[/app-measurement-cn.com/]https://148897.alidns.com/dns-query
-[/app-measurement.com/]https://148897.alidns.com/dns-query
-[/apps5.oingo.com/]https://148897.alidns.com/dns-query
-[/avail.googleflights.net/]https://148897.alidns.com/dns-query
-[/beacons.gcp.gvt2.com/]https://148897.alidns.com/dns-query
-[/beacons.gvt2.com/]https://148897.alidns.com/dns-query
-[/beacons2.gvt2.com/]https://148897.alidns.com/dns-query
-[/beacons3.gvt2.com/]https://148897.alidns.com/dns-query
-[/borgmon.adz.google.com/]https://148897.alidns.com/dns-query
-[/c.admob.com/]https://148897.alidns.com/dns-query
-[/c.android.clients.google.com/]https://148897.alidns.com/dns-query
-[/cache-management-prod.google.com/]https://148897.alidns.com/dns-query
-[/cache.pack.google.com/]https://148897.alidns.com/dns-query
-[/checkin.gstatic.com/]https://148897.alidns.com/dns-query
-[/clickserve.cc-dt.com/]https://148897.alidns.com/dns-query
-[/clickserve.dartsearch.net/]https://148897.alidns.com/dns-query
-[/clickserver.googleads.com/]https://148897.alidns.com/dns-query
-[/clientservices.googleapis.com/]https://148897.alidns.com/dns-query
-[/cn.widevine.com/]https://148897.alidns.com/dns-query
-[/cnappinstall.googleadapis.com/]https://148897.alidns.com/dns-query
-[/connectivitycheck.gstatic.com/]https://148897.alidns.com/dns-query
-[/content.googleadapis.com/]https://148897.alidns.com/dns-query
-[/corp.google.com/]https://148897.alidns.com/dns-query
-[/corp.googleapis.com/]https://148897.alidns.com/dns-query
-[/crashlyticsreports-pa.googleapis.com/]https://148897.alidns.com/dns-query
-[/crl.pki.goog/]https://148897.alidns.com/dns-query
-[/csi.gstatic.com/]https://148897.alidns.com/dns-query
-[/dartsearch-cn.net/]https://148897.alidns.com/dns-query
-[/dg-meta.video.google.com/]https://148897.alidns.com/dns-query
-[/distribution.qatp1.net/]https://148897.alidns.com/dns-query
-[/distribution.qcpp1.net/]https://148897.alidns.com/dns-query
-[/distribution.qpdp1.net/]https://148897.alidns.com/dns-query
-[/dl.google.com/]https://148897.alidns.com/dns-query
-[/dl.l.google.com/]https://148897.alidns.com/dns-query
-[/doubleclick-cn.net/]https://148897.alidns.com/dns-query
-[/doubleclick.net/]https://148897.alidns.com/dns-query
-[/download.mlcc.google.com/]https://148897.alidns.com/dns-query
-[/download.qatp1.net/]https://148897.alidns.com/dns-query
-[/download.qcpp1.net/]https://148897.alidns.com/dns-query
-[/download.qpdp1.net/]https://148897.alidns.com/dns-query
-[/download.tensorflow.google.com/]https://148897.alidns.com/dns-query
-[/emmapplecodevice.googleapis.com/]https://148897.alidns.com/dns-query
-[/firebase-settings.crashlytics.com/]https://148897.alidns.com/dns-query
-[/fontfiles.googleadapis.com/]https://148897.alidns.com/dns-query
-[/fontfiles.googleapis.com/]https://148897.alidns.com/dns-query
-[/fonts.googleadapis.com/]https://148897.alidns.com/dns-query
-[/fonts.googleapis.com/]https://148897.alidns.com/dns-query
-[/fonts.gstatic.com/]https://148897.alidns.com/dns-query
-[/g0.gstatic.com/]https://148897.alidns.com/dns-query
-[/g1.gstatic.com/]https://148897.alidns.com/dns-query
-[/g2.gstatic.com/]https://148897.alidns.com/dns-query
-[/g3.gstatic.com/]https://148897.alidns.com/dns-query
-[/gcpnode.com/]https://148897.alidns.com/dns-query
-[/gonglchuangl.net/]https://148897.alidns.com/dns-query
-[/gongyichuangyi.net/]https://148897.alidns.com/dns-query
-[/google-analytics-cn.com/]https://148897.alidns.com/dns-query
-[/google-analytics.com/]https://148897.alidns.com/dns-query
-[/googleadservices-cn.com/]https://148897.alidns.com/dns-query
-[/googleadservices.com/]https://148897.alidns.com/dns-query
-[/googleanalytics.com/]https://148897.alidns.com/dns-query
-[/googleapis-cn.com/]https://148897.alidns.com/dns-query
-[/googleapps-cn.com/]https://148897.alidns.com/dns-query
-[/googleflights-cn.net/]https://148897.alidns.com/dns-query
-[/googleoptimize-cn.com/]https://148897.alidns.com/dns-query
-[/googleoptimize.com/]https://148897.alidns.com/dns-query
-[/googleplex.com/]https://148897.alidns.com/dns-query
-[/googlesyndication-cn.com/]https://148897.alidns.com/dns-query
-[/googlesyndication.com/]https://148897.alidns.com/dns-query
-[/googletagmanager-cn.com/]https://148897.alidns.com/dns-query
-[/googletagmanager.com/]https://148897.alidns.com/dns-query
-[/googletagservices-cn.com/]https://148897.alidns.com/dns-query
-[/googletagservices.com/]https://148897.alidns.com/dns-query
-[/googletraveladservices-cn.com/]https://148897.alidns.com/dns-query
-[/googletraveladservices.com/]https://148897.alidns.com/dns-query
-[/googlevads-cn.com/]https://148897.alidns.com/dns-query
-[/goto.google.com/]https://148897.alidns.com/dns-query
-[/gstatic-cn.com/]https://148897.alidns.com/dns-query
-[/gstaticadssl.l.google.com/]https://148897.alidns.com/dns-query
-[/gtm.oasisfeng.com/]https://148897.alidns.com/dns-query
-[/gvt1-cn.com/]https://148897.alidns.com/dns-query
-[/gvt2-cn.com/]https://148897.alidns.com/dns-query
-[/imasdk.googleapis.com/]https://148897.alidns.com/dns-query
-[/monitoring.qatp1.net/]https://148897.alidns.com/dns-query
-[/monitoring.qcpp1.net/]https://148897.alidns.com/dns-query
-[/monitoring.qpdp1.net/]https://148897.alidns.com/dns-query
-[/ocsp.pki.goog/]https://148897.alidns.com/dns-query
-[/pagead-googlehosted.l.google.com/]https://148897.alidns.com/dns-query
-[/performanceparameters.googleapis.com/]https://148897.alidns.com/dns-query
-[/pki-goog.l.google.com/]https://148897.alidns.com/dns-query
-[/play.1ucrs.com/]https://148897.alidns.com/dns-query
-[/prod-controlbe.floonet.goog/]https://148897.alidns.com/dns-query
-[/prod-databe.floonet.goog/]https://148897.alidns.com/dns-query
-[/prod.databe.floonet.goog/]https://148897.alidns.com/dns-query
-[/qagpublic.qatp1.net/]https://148897.alidns.com/dns-query
-[/qagpublic.qcpp1.net/]https://148897.alidns.com/dns-query
-[/qagpublic.qpdp1.net/]https://148897.alidns.com/dns-query
-[/qgadmin.qatp1.net/]https://148897.alidns.com/dns-query
-[/qgadmin.qcpp1.net/]https://148897.alidns.com/dns-query
-[/qgadmin.qpdp1.net/]https://148897.alidns.com/dns-query
-[/qpx.googleflights.net/]https://148897.alidns.com/dns-query
-[/qualysapi.qatp1.net/]https://148897.alidns.com/dns-query
-[/qualysapi.qcpp1.net/]https://148897.alidns.com/dns-query
-[/qualysapi.qpdp1.net/]https://148897.alidns.com/dns-query
-[/qualysguard.qatp1.net/]https://148897.alidns.com/dns-query
-[/qualysguard.qcpp1.net/]https://148897.alidns.com/dns-query
-[/qualysguard.qpdp1.net/]https://148897.alidns.com/dns-query
-[/recaptcha.net/]https://148897.alidns.com/dns-query
-[/redirector.bdn.dev/]https://148897.alidns.com/dns-query
-[/redirector.c.chat.google.com/]https://148897.alidns.com/dns-query
-[/redirector.c.mail.google.com/]https://148897.alidns.com/dns-query
-[/redirector.c.pack.google.com/]https://148897.alidns.com/dns-query
-[/redirector.c.play.google.com/]https://148897.alidns.com/dns-query
-[/redirector.c.youtubeeducation.com/]https://148897.alidns.com/dns-query
-[/redirector.gcpcdn.gvt1.com/]https://148897.alidns.com/dns-query
-[/redirector.gvt1.com/]https://148897.alidns.com/dns-query
-[/redirector.offline-maps.gvt1.com/]https://148897.alidns.com/dns-query
-[/redirector.snap.gvt1.com/]https://148897.alidns.com/dns-query
-[/redirector.xn--ngstr-lra8j.com/]https://148897.alidns.com/dns-query
-[/regioninfo-pa.googleapis.com/]https://148897.alidns.com/dns-query
-[/safebrowsing.googleapis.com/]https://148897.alidns.com/dns-query
-[/scanservice1.qatp1.net/]https://148897.alidns.com/dns-query
-[/scanservice1.qcpp1.net/]https://148897.alidns.com/dns-query
-[/scanservice1.qpdp1.net/]https://148897.alidns.com/dns-query
-[/service.urchin.com/]https://148897.alidns.com/dns-query
-[/settings.xn--9trs65b.com/]https://148897.alidns.com/dns-query
-[/ssl-google-analytics.l.google.com/]https://148897.alidns.com/dns-query
-[/ssl.gstatic.com/]https://148897.alidns.com/dns-query
-[/staging-controlbe.floonet.goog/]https://148897.alidns.com/dns-query
-[/staging-databe.floonet.goog/]https://148897.alidns.com/dns-query
-[/staging-regioninfo-pa.googleapis.com/]https://148897.alidns.com/dns-query
-[/staging.databe.floonet.goog/]https://148897.alidns.com/dns-query
-[/support.1ucrs.com/]https://148897.alidns.com/dns-query
-[/tac.googleapis.com/]https://148897.alidns.com/dns-query
-[/test.bugs-qa.chromium.org/]https://148897.alidns.com/dns-query
-[/test.gbugs-qa.chromium.org/]https://148897.alidns.com/dns-query
-[/tools.google.com/]https://148897.alidns.com/dns-query
-[/tools.l.google.com/]https://148897.alidns.com/dns-query
-[/up.corp.goog/]https://148897.alidns.com/dns-query
-[/up.gcp.googlers.com/]https://148897.alidns.com/dns-query
-[/update.crashlytics.com/]https://148897.alidns.com/dns-query
-[/update.googleapis.com/]https://148897.alidns.com/dns-query
-[/wear.googleapis.com/]https://148897.alidns.com/dns-query
-[/www-google-analytics.l.google.com/]https://148897.alidns.com/dns-query
-[/www-googletagmanager.l.google.com/]https://148897.alidns.com/dns-query
-[/www.destinationurl.com/]https://148897.alidns.com/dns-query
-[/www.googleadapis.com/]https://148897.alidns.com/dns-query
-[/www.gstatic.com/]https://148897.alidns.com/dns-query
-[/www.pxcc.com/]https://148897.alidns.com/dns-query
-[/xn--9kr7l.com/]https://148897.alidns.com/dns-query
-[/xn--flw351e.com/]https://148897.alidns.com/dns-query
+[/265.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/2mdn-cn.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/2mdn.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/accounts.googlers.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/accounts.xn--9trs65b.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/accounts.xn--ggle-55da.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/admob-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/adservice.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ai.ytimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/app-measurement-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/app-measurement.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/apps5.oingo.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/avail.googleflights.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/beacons.gcp.gvt2.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/beacons.gvt2.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/beacons2.gvt2.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/beacons3.gvt2.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/borgmon.adz.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/c.admob.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/c.android.clients.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cache-management-prod.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cache.pack.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/checkin.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/clickserve.cc-dt.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/clickserve.dartsearch.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/clickserver.googleads.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/clientservices.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cn.widevine.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cnappinstall.googleadapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/connectivitycheck.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/content.googleadapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/corp.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/corp.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/crashlyticsreports-pa.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/crl.pki.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/csi.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/dartsearch-cn.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/dg-meta.video.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/distribution.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/distribution.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/distribution.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/dl.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/dl.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/doubleclick-cn.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/doubleclick.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/download.mlcc.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/download.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/download.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/download.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/download.tensorflow.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/emmapplecodevice.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/firebase-settings.crashlytics.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/fontfiles.googleadapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/fontfiles.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/fonts.googleadapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/fonts.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/fonts.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/g0.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/g1.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/g2.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/g3.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gcpnode.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gonglchuangl.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gongyichuangyi.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/google-analytics-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/google-analytics.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleadservices-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleadservices.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleanalytics.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleapis-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleapps-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleflights-cn.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleoptimize-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleoptimize.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googleplex.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googlesyndication-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googlesyndication.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googletagmanager-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googletagmanager.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googletagservices-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googletagservices.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googletraveladservices-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googletraveladservices.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/googlevads-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/goto.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gstatic-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gstaticadssl.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gtm.oasisfeng.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gvt1-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gvt2-cn.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/imasdk.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/monitoring.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/monitoring.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/monitoring.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ocsp.pki.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/pagead-googlehosted.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/performanceparameters.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/pki-goog.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/play.1ucrs.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/prod-controlbe.floonet.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/prod-databe.floonet.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/prod.databe.floonet.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qagpublic.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qagpublic.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qagpublic.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qgadmin.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qgadmin.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qgadmin.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qpx.googleflights.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qualysapi.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qualysapi.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qualysapi.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qualysguard.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qualysguard.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/qualysguard.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/recaptcha.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.bdn.dev/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.c.chat.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.c.mail.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.c.pack.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.c.play.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.c.youtubeeducation.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.gcpcdn.gvt1.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.gvt1.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.offline-maps.gvt1.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.snap.gvt1.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/redirector.xn--ngstr-lra8j.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/regioninfo-pa.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/safebrowsing.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/scanservice1.qatp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/scanservice1.qcpp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/scanservice1.qpdp1.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/service.urchin.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/settings.xn--9trs65b.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ssl-google-analytics.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ssl.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/staging-controlbe.floonet.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/staging-databe.floonet.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/staging-regioninfo-pa.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/staging.databe.floonet.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/support.1ucrs.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/tac.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/test.bugs-qa.chromium.org/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/test.gbugs-qa.chromium.org/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/tools.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/tools.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/up.corp.goog/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/up.gcp.googlers.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/update.crashlytics.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/update.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/wear.googleapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www-google-analytics.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www-googletagmanager.l.google.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.destinationurl.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.googleadapis.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.gstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.pxcc.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/xn--9kr7l.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/xn--flw351e.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com

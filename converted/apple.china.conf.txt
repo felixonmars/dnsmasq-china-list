@@ -1,140 +1,140 @@
-[/a1.mzstatic.com/]https://148897.alidns.com/dns-query
-[/a2.mzstatic.com/]https://148897.alidns.com/dns-query
-[/a3.mzstatic.com/]https://148897.alidns.com/dns-query
-[/a4.mzstatic.com/]https://148897.alidns.com/dns-query
-[/a5.mzstatic.com/]https://148897.alidns.com/dns-query
-[/adcdownload.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/adcdownload.apple.com/]https://148897.alidns.com/dns-query
-[/app-site-association.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/appldnld.apple.com/]https://148897.alidns.com/dns-query
-[/appldnld.g.aaplimg.com/]https://148897.alidns.com/dns-query
-[/appleid.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/apps.apple.com/]https://148897.alidns.com/dns-query
-[/apps.mzstatic.com/]https://148897.alidns.com/dns-query
-[/cdn-cn1.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn-cn2.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn-cn3.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn-cn4.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn1.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn2.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn3.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cdn4.apple-mapkit.com/]https://148897.alidns.com/dns-query
-[/cds-cdn.v.aaplimg.com/]https://148897.alidns.com/dns-query
-[/cds.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/cds.apple.com/]https://148897.alidns.com/dns-query
-[/cdsassets.apple.com/]https://148897.alidns.com/dns-query
-[/cl1-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/cl1.apple.com/]https://148897.alidns.com/dns-query
-[/cl2-cn.apple.com/]https://148897.alidns.com/dns-query
-[/cl2.apple.com/]https://148897.alidns.com/dns-query
-[/cl3-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/cl3.apple.com/]https://148897.alidns.com/dns-query
-[/cl4-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/cl4-cn.apple.com/]https://148897.alidns.com/dns-query
-[/cl4.apple.com/]https://148897.alidns.com/dns-query
-[/cl5-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/cl5.apple.com/]https://148897.alidns.com/dns-query
-[/clientflow.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/clientflow.apple.com/]https://148897.alidns.com/dns-query
-[/configuration.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/configuration.apple.com/]https://148897.alidns.com/dns-query
-[/cstat.apple.com/]https://148897.alidns.com/dns-query
-[/cstat.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/dd-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/download.developer.apple.com/]https://148897.alidns.com/dns-query
-[/gs-loc-cn.apple.com/]https://148897.alidns.com/dns-query
-[/gs-loc.apple.com/]https://148897.alidns.com/dns-query
-[/gsp10-ssl-cn.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gsp13-cn.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query
-[/gsp4-cn.ls.apple.com.edgekey.net/]https://148897.alidns.com/dns-query
-[/gsp4-cn.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gsp5-cn.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gsp85-cn-ssl.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gspe19-cn-ssl.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gspe19-cn.ls-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/gspe19-cn.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gspe21-ssl.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gspe21.ls.apple.com/]https://148897.alidns.com/dns-query
-[/gspe35-ssl.ls.apple.com/]https://148897.alidns.com/dns-query
-[/guzzoni-apple-com.v.aaplimg.com/]https://148897.alidns.com/dns-query
-[/guzzoni.apple.com/]https://148897.alidns.com/dns-query
-[/iadsdk.apple.com/]https://148897.alidns.com/dns-query
-[/icloud-cdn.icloud.com.akadns.net/]https://148897.alidns.com/dns-query
-[/icloud.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/images.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/images.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query
-[/images.apple.com/]https://148897.alidns.com/dns-query
-[/init-p01md-lb.push-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/init-p01md.apple.com/]https://148897.alidns.com/dns-query
-[/init-p01st-lb.push-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/init-p01st.push.apple.com/]https://148897.alidns.com/dns-query
-[/init-s01st-lb.push-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/init-s01st.push.apple.com/]https://148897.alidns.com/dns-query
-[/iosapps.itunes.g.aaplimg.com/]https://148897.alidns.com/dns-query
-[/ipcdn.apple.com/]https://148897.alidns.com/dns-query
-[/iphone-ld.apple.com/]https://148897.alidns.com/dns-query
-[/iphone-ld.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/is1-ssl.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is1.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is2-ssl.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is2.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is3-ssl.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is3.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is4-ssl.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is4.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is5-ssl.mzstatic.com/]https://148897.alidns.com/dns-query
-[/is5.mzstatic.com/]https://148897.alidns.com/dns-query
-[/itunes-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/itunes.apple.com/]https://148897.alidns.com/dns-query
-[/itunesconnect.apple.com/]https://148897.alidns.com/dns-query
-[/mesu-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/mesu-china.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/mesu.apple.com/]https://148897.alidns.com/dns-query
-[/music.apple.com/]https://148897.alidns.com/dns-query
-[/ocsp-lb.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/ocsp.apple.com/]https://148897.alidns.com/dns-query
-[/ocsp2.apple.com/]https://148897.alidns.com/dns-query
-[/oscdn.apple.com/]https://148897.alidns.com/dns-query
-[/oscdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/osxapps.itunes.g.aaplimg.com/]https://148897.alidns.com/dns-query
-[/pancake.apple.com/]https://148897.alidns.com/dns-query
-[/pancake.cdn-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/prod-support.apple-support.akadns.net/]https://148897.alidns.com/dns-query
-[/publicassets.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/reserve-prime.apple.com/]https://148897.alidns.com/dns-query
-[/s.mzstatic.com/]https://148897.alidns.com/dns-query
-[/smp-device-content.apple.com/]https://148897.alidns.com/dns-query
-[/stocks-sparkline-lb.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/stocks-sparkline.apple.com/]https://148897.alidns.com/dns-query
-[/store.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query
-[/store.apple.com.edgekey.net/]https://148897.alidns.com/dns-query
-[/store.apple.com/]https://148897.alidns.com/dns-query
-[/store.storeimages.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/store.storeimages.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/support-china.apple-support.akadns.net/]https://148897.alidns.com/dns-query
-[/support.apple.com/]https://148897.alidns.com/dns-query
-[/swallow.apple.com/]https://148897.alidns.com/dns-query
-[/swallow-apple-com.v.aaplimg.com/]https://148897.alidns.com/dns-query
-[/swcatalog-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/swcatalog.apple.com/]https://148897.alidns.com/dns-query
-[/swcdn.apple.com/]https://148897.alidns.com/dns-query
-[/swcdn.g.aaplimg.com/]https://148897.alidns.com/dns-query
-[/swdist.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/swdist.apple.com/]https://148897.alidns.com/dns-query
-[/swscan-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/swscan.apple.com/]https://148897.alidns.com/dns-query
-[/updates-http.cdn-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/updates-http.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/updates.cdn-apple.com/]https://148897.alidns.com/dns-query
-[/valid.apple.com/]https://148897.alidns.com/dns-query
-[/valid.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/weather-data.apple.com.akadns.net/]https://148897.alidns.com/dns-query
-[/weather-data.apple.com/]https://148897.alidns.com/dns-query
-[/weather-map.apple.com/]https://148897.alidns.com/dns-query
-[/weather-map2.apple.com/]https://148897.alidns.com/dns-query
-[/www.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query
-[/www.apple.com.edgekey.net/]https://148897.alidns.com/dns-query
-[/www.apple.com/]https://148897.alidns.com/dns-query
-[/xp.apple.com/]https://148897.alidns.com/dns-query
+[/a1.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/a2.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/a3.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/a4.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/a5.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/adcdownload.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/adcdownload.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/app-site-association.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/appldnld.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/appldnld.g.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/appleid.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/apps.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/apps.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn-cn1.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn-cn2.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn-cn3.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn-cn4.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn1.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn2.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn3.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdn4.apple-mapkit.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cds-cdn.v.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cds.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cds.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cdsassets.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl1-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl1.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl2-cn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl2.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl3-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl3.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl4-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl4-cn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl4.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl5-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cl5.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/clientflow.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/clientflow.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/configuration.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/configuration.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cstat.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/cstat.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/dd-cdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/download.developer.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gs-loc-cn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gs-loc.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp10-ssl-cn.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp13-cn.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp4-cn.ls.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp4-cn.ls.apple.com.edgekey.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp4-cn.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp5-cn.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gsp85-cn-ssl.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gspe19-cn-ssl.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gspe19-cn.ls-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gspe19-cn.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gspe21-ssl.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gspe21.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/gspe35-ssl.ls.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/guzzoni-apple-com.v.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/guzzoni.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/iadsdk.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/icloud-cdn.icloud.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/icloud.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/images.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/images.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/images.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/init-p01md-lb.push-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/init-p01md.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/init-p01st-lb.push-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/init-p01st.push.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/init-s01st-lb.push-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/init-s01st.push.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/iosapps.itunes.g.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ipcdn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/iphone-ld.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/iphone-ld.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is1-ssl.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is1.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is2-ssl.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is2.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is3-ssl.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is3.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is4-ssl.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is4.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is5-ssl.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/is5.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/itunes-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/itunes.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/itunesconnect.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/mesu-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/mesu-china.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/mesu.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/music.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ocsp-lb.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ocsp.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ocsp2.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/oscdn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/oscdn.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/osxapps.itunes.g.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/pancake.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/pancake.cdn-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/prod-support.apple-support.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/publicassets.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/reserve-prime.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/s.mzstatic.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/smp-device-content.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/stocks-sparkline-lb.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/stocks-sparkline.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/store.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/store.apple.com.edgekey.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/store.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/store.storeimages.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/store.storeimages.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/support-china.apple-support.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/support.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swallow.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swallow-apple-com.v.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swcatalog-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swcatalog.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swcdn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swcdn.g.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swdist.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swdist.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swscan-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swscan.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/updates-http.cdn-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/updates-http.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/updates.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/valid.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/valid.origin-apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/weather-data.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/weather-data.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/weather-map.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/weather-map2.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.apple.com.edgekey.net.globalredir.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.apple.com.edgekey.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/www.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/xp.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
