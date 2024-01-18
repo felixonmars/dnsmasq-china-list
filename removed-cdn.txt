@@ -175,6 +175,7 @@ ssl.tzoo-img.com
 static-exp1.licdn.com
 static.image-gmkt.com
 static.licdn.com
+staticssl.image-gmkt.com
 static.yangfd.com
 store-images.microsoft.com
 store-images.s-microsoft.com
