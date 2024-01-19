@@ -82,6 +82,7 @@ events2.djicdn.com
 fonts.loli.net
 gameplay.intel.com
 gateway.craft.moe
+gdssl.image-gmkt.com
 g-ec4.images-amazon.com
 gfwsl.geforce.com
 globalsigncdn.com
@@ -175,6 +176,7 @@ ssl.tzoo-img.com
 static-exp1.licdn.com
 static.image-gmkt.com
 static.licdn.com
+staticssl.image-gmkt.com
 static.yangfd.com
 store-images.microsoft.com
 store-images.s-microsoft.com
