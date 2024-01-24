@@ -92,6 +92,7 @@
 [/mesu-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/mesu-china.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/mesu.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/ml.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/music.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/ocsp-lb.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/ocsp.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
@@ -115,8 +116,8 @@
 [/store.storeimages.cdn-apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/support-china.apple-support.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/support.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
-[/swallow.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/swallow-apple-com.v.aaplimg.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
+[/swallow.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/swcatalog-cdn.apple.com.akadns.net/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/swcatalog.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
 [/swcdn.apple.com/]https://148897.alidns.com/dns-query tls://148897.alidns.com quic://148897.alidns.com
