@@ -37,6 +37,7 @@ client-download.steampowered.com
 clubhub.xboxlive.com
 clubweixin.samsung.com
 cms.ibm.com
+cms-live.pandora.net
 cn-api.samsungcloud.com
 cn.coremetrics.com
 cn.debian.org
