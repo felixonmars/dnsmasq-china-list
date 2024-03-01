@@ -4,9 +4,9 @@ NEWLINE=UNIX
 SHELL=bash
 
 raw:
-	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | grep -Ev '^#' > accelerated-domains.china.raw.txt
-	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' google.china.conf | grep -Ev '^#' > google.china.raw.txt
-	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' apple.china.conf | grep -Ev '^#' > apple.china.raw.txt
+	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | grep -Ev -e '^#' -e '^$$' > accelerated-domains.china.raw.txt
+	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' google.china.conf | grep -Ev -e '^#' -e '^$$' > google.china.raw.txt
+	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' apple.china.conf | grep -Ev -e '^#' -e '^$$' > apple.china.raw.txt
 
 dnsmasq: raw
 	sed -e 's|\(.*\)|server=/\1/$(SERVER)|' accelerated-domains.china.raw.txt > accelerated-domains.china.dnsmasq.conf
