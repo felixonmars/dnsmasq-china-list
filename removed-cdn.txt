@@ -223,6 +223,7 @@ www-ssl.intel.com
 www.sulwhasoo.com
 www.travelzoo.com
 www.tutorabc.com
+www.tzoo-img.com
 xb.dlservice.microsoft.com
 x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
