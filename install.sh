@@ -11,7 +11,6 @@ esac
 
 WORKDIR="$(mktemp -d)"
 CONFDIR=${1:-$DEFAULTCONFDIR}
-echo "conf dir $CONFDIR"
 SERVERS=(114.114.114.114 114.114.115.115 223.5.5.5 119.29.29.29)
 # Others: 223.6.6.6 119.28.28.28
 # Not using best possible CDN pop: 1.2.4.8 210.2.4.8
