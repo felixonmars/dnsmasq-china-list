@@ -1,8 +1,17 @@
 #!/bin/bash
 set -e
 
+SEDI=(-i)
+DEFAULTCONFDIR="/etc/dnsmasq.d"
+case "$(uname)" in
+  Darwin*)
+  DEFAULTCONFDIR="/opt/homebrew/etc/dnsmasq.d"
+  SEDI=(-i "")
+esac 
+
 WORKDIR="$(mktemp -d)"
-CONFDIR=${1:-"/etc/dnsmasq.d"}
+CONFDIR=${1:-$DEFAULTCONFDIR}
+echo "conf dir $CONFDIR"
 SERVERS=(114.114.114.114 114.114.115.115 223.5.5.5 119.29.29.29)
 # Others: 223.6.6.6 119.28.28.28
 # Not using best possible CDN pop: 1.2.4.8 210.2.4.8
@@ -10,6 +19,7 @@ SERVERS=(114.114.114.114 114.114.115.115 223.5.5.5 119.29.29.29)
 
 CONF_WITH_SERVERS=(accelerated-domains.china google.china apple.china)
 CONF_SIMPLE=(bogus-nxdomain.china)
+
 
 echo "Downloading latest configurations..."
 git clone --depth=1 https://gitee.com/felixonmars/dnsmasq-china-list.git "$WORKDIR"
@@ -36,7 +46,7 @@ for _server in "${SERVERS[@]}"; do
     cp "$WORKDIR/$_conf.conf" "$CONFDIR/$_conf.$_server.conf"
   done
 
-  sed -i "" "s|^\(server.*\)/[^/]*$|\1/$_server|" $CONFDIR/*."$_server".conf
+  sed "${SEDI[@]}" "s|^\(server.*\)/[^/]*$|\1/$_server|" $CONFDIR/*."$_server".conf
 done
 
 echo "Restarting dnsmasq service..."
