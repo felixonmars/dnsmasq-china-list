@@ -164,6 +164,7 @@ scp-social.s-msn.com
 script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
 secure-nikeplus.nike.com
+security.cdnetworks.com
 sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
