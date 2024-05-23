@@ -190,6 +190,7 @@ store-images.microsoft.com
 store-images.s-microsoft.com
 store.nike.com
 store.samsung.com
+support.globalsign.com
 tcl.com.ru
 tiles.xbox.com
 titlestorage.xboxlive.com
