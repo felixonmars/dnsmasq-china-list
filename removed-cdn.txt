@@ -214,6 +214,7 @@ www8.hp.com
 www.agoda.com
 www-api.ibm.com
 www.ericsson.com
+www.globalsign.com
 www.htcvive.com
 www.ibm.com
 www.ikea.com
