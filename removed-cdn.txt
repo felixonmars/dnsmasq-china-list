@@ -170,6 +170,7 @@ security.cdnetworks.com
 sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
+shop.globalsign.com
 shop.samsung.com
 silverlight.dlservice.microsoft.com
 sina.com.hk
