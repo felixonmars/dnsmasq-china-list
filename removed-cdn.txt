@@ -142,6 +142,7 @@ msgr.dlservice.microsoft.com
 msgruser.dlservice.microsoft.com
 msg.xboxlive.com
 nxeassets.xbox.com
+ocsp2.globalsign.com
 ocsp-data.us.cdnetworks.com
 ocsp.globalsign.com
 olay-cn.cdnpg.com
