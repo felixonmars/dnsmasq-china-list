@@ -26,6 +26,7 @@ cdn.jsdelivr.net
 cdnjs.loli.net
 cdn.loli.net
 cdn.marketplaceimages.windowsphone.com
+chinacache.cedexis.com
 china-cdn2.unityads.unity3d.com
 china-cdn3.unityads.unity3d.com
 china.msn.com
