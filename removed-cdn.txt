@@ -141,6 +141,7 @@ msgruser.dlservice.microsoft.com
 msg.xboxlive.com
 nxeassets.xbox.com
 ocsp-data.us.cdnetworks.com
+ocsp.globalsign.com
 olay-cn.cdnpg.com
 partner.globalsign.com
 phobos.apple.com
