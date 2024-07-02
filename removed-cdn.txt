@@ -146,6 +146,7 @@ ocsp2.globalsign.com
 ocsp-data.us.cdnetworks.com
 ocsp.globalsign.com
 olay-cn.cdnpg.com
+owner-api.teslamotors.com
 partner.globalsign.com
 phobos.apple.com
 platform.linkedin.com
