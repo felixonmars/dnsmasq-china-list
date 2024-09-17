@@ -162,7 +162,6 @@ scc.ssacdn.com
 scp-social.s-msn.com
 script.image-gmkt.com
 secaz-fota-dn.samsungdm.com
-secure.globalsign.com
 secure-nikeplus.nike.com
 security.cdnetworks.com
 sekong.cn.com
