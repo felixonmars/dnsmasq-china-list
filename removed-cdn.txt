@@ -87,7 +87,6 @@ gdssl.image-gmkt.com
 g-ec4.images-amazon.com
 gfwsl.geforce.com
 gravatar.loli.net
-gsp12-cn.ls.apple.com
 gstatic.loli.net
 hdn.xnimg.cn.cdngc.net
 images.benchmarkemail.com
