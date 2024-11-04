@@ -39,6 +39,7 @@ googlevads-cn.com
 gstatic-cn.com
 gvt1-cn.com
 gvt2-cn.com
+immersivetranslate.com
 insta360.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
