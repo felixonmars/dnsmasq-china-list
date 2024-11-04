@@ -81,6 +81,7 @@ epix-ssl.xbox.com
 epix.xbox.com
 events2.djicdn.com
 fonts.loli.net
+fr-odc.samsungapps.com
 gameplay.intel.com
 gateway.craft.moe
 gdssl.image-gmkt.com
