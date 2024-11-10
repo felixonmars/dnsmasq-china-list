@@ -43,7 +43,6 @@ immersivetranslate.com
 insta360.com
 itunes-cdn.itunes-apple.com.akadns.net
 netease.ugcvideoss.ourdvs.com
-oneplus.com
 opthw.xdwscache.speedcdns.com
 p00.upd.kaspersky.com
 pagead2.googlesyndication.com
@@ -77,6 +76,7 @@ www.landian.vip
 www.landiannews.com
 www.microad-cn.com
 www.mojidict.com
+www.oneplus.com
 www.shandongair.com
 www.sunrtb.com
 www.yangfd.com
