@@ -145,6 +145,7 @@ partner.globalsign.com
 phobos.apple.com
 platform.linkedin.com
 plus.djicdn.com
+poseidon.dl.playstation.net
 prm.dji.com
 profile.xboxlive.com
 qh.dlservice.microsoft.com
