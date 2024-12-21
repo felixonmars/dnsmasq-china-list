@@ -232,3 +232,4 @@ x-dash-public.rec.mp.microsoft.com
 z0.muscache.com
 z1.muscache.com
 z2.muscache.com
+zeus.dl.playstation.net
