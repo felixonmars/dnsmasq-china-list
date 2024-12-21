@@ -7,6 +7,7 @@ ad.mediaplex.com
 ajax.loli.net
 altfarm.mediaplex.com
 apps.samsung.com
+ares.dl.playstation.net
 ark.intel.com
 assets.adobedtm.com
 assets-ssl.xbox.com
