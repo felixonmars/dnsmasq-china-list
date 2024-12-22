@@ -91,6 +91,7 @@ g-ec4.images-amazon.com
 gfwsl.geforce.com
 gravatar.loli.net
 gstatic.loli.net
+gs.ww.np.dl.playstation.net
 hdn.xnimg.cn.cdngc.net
 images.benchmarkemail.com
 images-cn-4.ssl-images-amazon.com
