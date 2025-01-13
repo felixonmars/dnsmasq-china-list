@@ -19,6 +19,7 @@ avatar.xboxlive.com
 bg4.v4.a.dl.ws.microsoft.com
 bg.v4.a.dl.ws.microsoft.com
 blog.tutorabc.com
+build.microsoft.com
 cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
 cdn1.evernote.com
