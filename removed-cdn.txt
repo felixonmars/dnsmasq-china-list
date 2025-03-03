@@ -139,6 +139,7 @@ mktplassets-ssl.xbox.com
 msgr.dlservice.microsoft.com
 msgruser.dlservice.microsoft.com
 msg.xboxlive.com
+msproductuat.download.prss.microsoft.com
 ngportal.cdnetworks.com
 nxeassets.xbox.com
 ocsp-data.us.cdnetworks.com
