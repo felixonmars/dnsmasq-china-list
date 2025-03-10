@@ -132,6 +132,7 @@ lx2.cok.elexapp.com
 lx2.cok.elex.com
 manage.c3edge.com
 marketplace-xb.xboxlive.com
+mbsuat.download.prss.microsoft.com
 media.admob.com
 mediaexp-programming.xboxlive.com
 media.licdn.com
