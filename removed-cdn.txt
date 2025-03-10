@@ -91,6 +91,7 @@ encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
 events2.djicdn.com
+fontfiles.googleadapis.com
 fonts.loli.net
 fr-odc.samsungapps.com
 gameplay.intel.com
