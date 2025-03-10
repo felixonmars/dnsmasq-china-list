@@ -173,6 +173,7 @@ qualysapi.qcpp1.net
 rapture.corp.google.com
 redirector.c.docs.google.com
 redirector.c.drive.google.com
+regioninfo-pa.googleapis.com
 res.office365.com
 res.outlook.com
 rum8.perf.linkedin.com
