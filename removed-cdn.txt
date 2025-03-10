@@ -104,6 +104,7 @@ gdssl.image-gmkt.com
 g-ec4.images-amazon.com
 gfwsl.geforce.com
 gmskiosk-ssl.corp.google.com
+googleplex.com
 gorom.corp.google.com
 goto.corp.google.com
 goto.google.com
