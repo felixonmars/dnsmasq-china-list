@@ -67,6 +67,7 @@ cortexfx.bnpparibas.com
 createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
+distribution.qatp1.net
 distribution.qcpp1.net
 distribution.qpdp1.net
 dlassets-ssl.xboxlive.com
