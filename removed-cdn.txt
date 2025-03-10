@@ -177,6 +177,7 @@ owner-api.teslamotors.com
 partner.globalsign.com
 phobos.apple.com
 platform.linkedin.com
+play.1ucrs.com
 plus.djicdn.com
 poseidon.dl.playstation.net
 prm.dji.com
