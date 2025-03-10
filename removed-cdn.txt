@@ -4,6 +4,7 @@ account.samsung.com
 achievements.xboxlive.com
 adfarm.mediaplex.com
 ad.mediaplex.com
+ai.ytimg.com
 ajax.loli.net
 altfarm.mediaplex.com
 api-p-ap-c.smoot.apple.com
