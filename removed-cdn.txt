@@ -260,6 +260,7 @@ uberproxy-debug.corp.google.com
 uberproxy-pen-redirect.corp.google.com
 uberproxy-with-cn4.l.google.com
 uberproxy-with-cn6.l.google.com
+uberproxy-with-cn.l.google.com
 u.djicdn.com
 uk-odc.samsungapps.com
 upload.yangfd.com
