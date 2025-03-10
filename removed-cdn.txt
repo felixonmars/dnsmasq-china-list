@@ -172,6 +172,7 @@ plus.djicdn.com
 poseidon.dl.playstation.net
 prm.dji.com
 profile.xboxlive.com
+qagpublic.qcpp1.net
 qagpublic.qpdp1.net
 qgadmin.qatp1.net
 qh.dlservice.microsoft.com
