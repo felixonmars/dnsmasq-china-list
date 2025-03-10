@@ -6,6 +6,7 @@ adfarm.mediaplex.com
 ad.mediaplex.com
 ajax.loli.net
 altfarm.mediaplex.com
+api-p-ap-c.smoot.apple.com
 api-p-ap-d.smoot.apple.com
 api-p-ap-e.smoot.apple.com
 apps.samsung.com
