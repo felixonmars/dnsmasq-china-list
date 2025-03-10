@@ -172,6 +172,7 @@ poseidon.dl.playstation.net
 prm.dji.com
 profile.xboxlive.com
 qagpublic.qpdp1.net
+qgadmin.qatp1.net
 qh.dlservice.microsoft.com
 qualysapi.qcpp1.net
 qualysguard.qcpp1.net
