@@ -151,6 +151,7 @@ media.licdn.com
 mini5cn-1.opera-mini.net
 mini5cn.opera-mini.net
 mktplassets-ssl.xbox.com
+monitoring.qatp1.net
 monitoring.qcpp1.net
 msgr.dlservice.microsoft.com
 msgruser.dlservice.microsoft.com
