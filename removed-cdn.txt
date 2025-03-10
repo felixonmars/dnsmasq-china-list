@@ -100,6 +100,7 @@ g-ec4.images-amazon.com
 gfwsl.geforce.com
 gmskiosk-ssl.corp.google.com
 gorom.corp.google.com
+goto.corp.google.com
 goto.google.com
 gravatar.loli.net
 gsp4-cn.ls.apple.com.edgekey.net
