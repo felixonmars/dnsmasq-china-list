@@ -182,6 +182,7 @@ qh.dlservice.microsoft.com
 qualysapi.qcpp1.net
 qualysguard.qatp1.net
 qualysguard.qcpp1.net
+rapture-autopush.corp.google.com
 rapture.corp.google.com
 redirector.c.docs.google.com
 redirector.c.drive.google.com
