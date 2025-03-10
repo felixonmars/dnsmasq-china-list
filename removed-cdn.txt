@@ -96,6 +96,7 @@ epix-ssl.xbox.com
 epix.xbox.com
 events2.djicdn.com
 fontfiles.googleadapis.com
+fonts.googleadapis.com
 fonts.loli.net
 fr-odc.samsungapps.com
 g3doc.corp.google.com
