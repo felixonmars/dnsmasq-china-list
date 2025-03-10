@@ -231,6 +231,7 @@ www.parallels.com
 www.renren.com.cdngc.net
 www-ssl.intel.com
 www.sulwhasoo.com
+www.thinkpad.com
 www.travelzoo.com
 www.tzoo-img.com
 xb.dlservice.microsoft.com
