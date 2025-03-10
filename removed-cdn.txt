@@ -212,6 +212,7 @@ store-images.s-microsoft.com
 store.nike.com
 store.samsung.com
 streaming.vn.teslamotors.com
+support.1ucrs.com
 tcl.com.ru
 tiles.xbox.com
 titlestorage.xboxlive.com
