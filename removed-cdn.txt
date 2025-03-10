@@ -203,6 +203,7 @@ s3.mzstatic.com
 s4.mzstatic.com
 s5.mzstatic.com
 safebrowsing-cache.google.com
+scanservice1.qatp1.net
 scanservice1.qpdp1.net
 scc.ssacdn.com
 scp-social.s-msn.com
