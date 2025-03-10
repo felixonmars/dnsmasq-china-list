@@ -217,6 +217,7 @@ sina.com.hk
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
 speedtest.xboxlive.com
+ssh-relay.corp.google.com
 ssl.travelzoo.com
 ssl.tzoo-img.com
 static-exp1.licdn.com
