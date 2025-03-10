@@ -177,6 +177,7 @@ qagpublic.qpdp1.net
 qgadmin.qatp1.net
 qh.dlservice.microsoft.com
 qualysapi.qcpp1.net
+qualysguard.qatp1.net
 qualysguard.qcpp1.net
 rapture.corp.google.com
 redirector.c.docs.google.com
