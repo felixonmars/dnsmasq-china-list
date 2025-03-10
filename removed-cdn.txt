@@ -223,6 +223,7 @@ tse1.mm.bing.net
 tse2.mm.bing.net
 tse3.mm.bing.net
 tse4.mm.bing.net
+uberproxy-debug.corp.google.com
 uberproxy-with-cn6.l.google.com
 u.djicdn.com
 uk-odc.samsungapps.com
