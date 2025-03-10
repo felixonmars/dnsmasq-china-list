@@ -243,6 +243,7 @@ uk-odc.samsungapps.com
 upload.yangfd.com
 userstats.xboxlive.com
 v2ex.com
+vext.corp.google.com
 visualstudio.download.prss.microsoft.com
 web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
