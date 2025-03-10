@@ -228,6 +228,7 @@ support.1ucrs.com
 supportcenter.corp.google.com
 tcl.com.ru
 techstop.corp.google.com
+test.bugs-qa.chromium.org
 tiles.xbox.com
 titlestorage.xboxlive.com
 toolbarqueries.google.com
