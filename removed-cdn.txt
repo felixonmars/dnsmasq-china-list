@@ -95,6 +95,7 @@ gateway.craft.moe
 gdssl.image-gmkt.com
 g-ec4.images-amazon.com
 gfwsl.geforce.com
+gmskiosk-ssl.corp.google.com
 gravatar.loli.net
 gsp4-cn.ls.apple.com.edgekey.net
 gspe21.ls.apple.com
