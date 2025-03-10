@@ -223,6 +223,7 @@ speedtest.xboxlive.com
 ssh-relay.corp.google.com
 ssl.travelzoo.com
 ssl.tzoo-img.com
+staging-regioninfo-pa.googleapis.com
 static-exp1.licdn.com
 static.image-gmkt.com
 static.licdn.com
