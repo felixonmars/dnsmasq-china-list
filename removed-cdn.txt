@@ -71,6 +71,7 @@ distribution.qpdp1.net
 dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 dlcdnets.asus.com
+dns.corp.google.com
 downloadcenter.samsung.com
 download.epicgames.com
 download.gfe.nvidia.com
