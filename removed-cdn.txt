@@ -6,6 +6,7 @@ adfarm.mediaplex.com
 ad.mediaplex.com
 ajax.loli.net
 altfarm.mediaplex.com
+api-p-ap-d.smoot.apple.com
 apps.samsung.com
 ares.dl.playstation.net
 ark.intel.com
