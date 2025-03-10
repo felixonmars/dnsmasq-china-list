@@ -228,6 +228,7 @@ www1-cdn.dell.com
 www8.hp.com
 www.agoda.com
 www-api.ibm.com
+www.apple.com.edgekey.net
 www.ericsson.com
 www.htcvive.com
 www.ibm.com
