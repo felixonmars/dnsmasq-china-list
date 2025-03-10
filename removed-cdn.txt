@@ -165,6 +165,7 @@ poseidon.dl.playstation.net
 prm.dji.com
 profile.xboxlive.com
 qh.dlservice.microsoft.com
+qualysapi.qcpp1.net
 redirector.c.docs.google.com
 redirector.c.drive.google.com
 res.office365.com
