@@ -9,6 +9,7 @@ app-cdn.2q10.com
 app-measurement.com
 app-measurement-cn.com
 cdn.globalsigncdn.com
+cdn.razersynapse.com
 cdnbye.com
 cnc.ef-cdn.com
 dartsearch-cn.net
@@ -49,7 +50,6 @@ pagead2.googlesyndication.com
 pic1.mp.tvguo.tv
 play.nyaacat.com
 r1.res.outlook.com
-razersynapse.com
 recaptcha.net
 redirector.gvt1.com
 rsb.net
