@@ -9,6 +9,7 @@ app-cdn.2q10.com
 app-measurement.com
 app-measurement-cn.com
 cdn.globalsigncdn.com
+cdn.razersynapse.com
 cdnbye.com
 cnc.ef-cdn.com
 dartsearch-cn.net
