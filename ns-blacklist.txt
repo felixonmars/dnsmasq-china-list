@@ -25,7 +25,6 @@
 .your-server.de
 .yandex.net
 .techsmith.com
-.nsone.net
 .fastly.net
 .hosteurope.de
 .hostmonster.com
