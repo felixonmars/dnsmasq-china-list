@@ -1,5 +1,6 @@
 1.cms.s81c.com
 1.www.s81c.com
+account.cdnetworks.com
 account.samsung.com
 achievements.xboxlive.com
 adfarm.mediaplex.com
