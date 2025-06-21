@@ -283,6 +283,7 @@ www-api.ibm.com
 www.apple.com.edgekey.net
 www.ericsson.com
 www.googleadapis.com
+www.htcsense.com
 www.htcvive.com
 www.ibm.com
 www.ikea.com
