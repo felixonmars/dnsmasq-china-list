@@ -272,6 +272,7 @@ v2ex.com
 verdaccio.cnno1.uds-qa.lenovo.com
 vext.corp.google.com
 visualstudio.download.prss.microsoft.com
+waf.cdnetworks.com
 web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
 webview.unityads.unity3d.com
