@@ -93,6 +93,7 @@ ec4.images-amazon.com
 ec8.images-amazon.com
 editorial.xboxlive.com
 eds.xboxlive.com
+egg.htcsense.com
 emdl.ws.microsoft.com
 emoi-cncdn.bing.com
 encoding.image-gmkt.com
