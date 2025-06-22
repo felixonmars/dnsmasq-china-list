@@ -120,6 +120,7 @@ gspe21.ls.apple.com
 gstatic.loli.net
 gs.ww.np.dl.playstation.net
 hdn.xnimg.cn.cdngc.net
+home-cn.htcsense.com
 images.apple.com
 images.apple.com.akadns.net
 images.benchmarkemail.com
