@@ -107,6 +107,7 @@ gameplay.intel.com
 gateway.craft.moe
 gdssl.image-gmkt.com
 g-ec4.images-amazon.com
+geo-prism.htcsense.com
 gfwsl.geforce.com
 gmskiosk-ssl.corp.google.com
 googleplex.com
