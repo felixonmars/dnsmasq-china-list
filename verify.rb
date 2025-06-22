@@ -68,23 +68,31 @@ class ChinaListVerify
             server = [server] unless server.is_a? Array
             resolver = Resolv::DNS.new(nameserver: server)
         end
-        if !with_glue
-            resolver.getresources(domain, rdtype)
-        else
-            # Workaround for https://github.com/ruby/resolv/issues/27
-            result = []
-            glue = []
-            n0 = Resolv::DNS::Name.create domain
-            resolver.fetch_resource(domain, rdtype) {|reply, reply_name|
-                reply.each_resource {|n, ttl, data|
-                    if n0 == n && data.is_a?(rdtype)
-                        result << data
-                    else
-                        glue << [n, data]
-                    end
+        begin
+            if !with_glue
+                return resolver.getresources(domain, rdtype)
+            else
+                # Workaround for https://github.com/ruby/resolv/issues/27
+                result = []
+                glue = []
+                n0 = Resolv::DNS::Name.create domain
+                resolver.fetch_resource(domain, rdtype) {|reply, reply_name|
+                    reply.each_resource {|n, ttl, data|
+                        if n0 == n && data.is_a?(rdtype)
+                            result << data
+                        else
+                            glue << [n, data]
+                        end
+                    }
                 }
-            }
-            return result, glue
+                return result, glue
+            end
+        rescue Exception => e
+            if !with_glue
+                return []
+            else
+                return [], []
+            end
         end
     end
 
