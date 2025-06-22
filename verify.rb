@@ -39,13 +39,10 @@ class ChinaListVerify
             raise "chnroutes not loaded"
         end
 
-        answers = nil
-        if response != nil && !response.empty?
-            answers = response.filter_map { |n, r| r if n.to_s == domain && r.class == Resolv::DNS::Resource::IN::A }
-        end
+        answers = resolve(domain, 'A')
 
-        if answers == nil || answers.empty?
-            answers = resolve(domain, 'A')
+        if response != nil && !response.empty?
+            answers += response.filter_map { |n, r| r if n.to_s == domain && r.class == Resolv::DNS::Resource::IN::A }
         end
 
         answers.each do |answer|
