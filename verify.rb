@@ -5,6 +5,7 @@ require 'concurrent'
 require 'ipaddr'
 require 'public_suffix'
 require 'resolv'
+require 'set'
 
 class ChinaListVerify
     def initialize(
@@ -118,7 +119,7 @@ class ChinaListVerify
     end
 
     def check_domain(domain, enable_cdnlist: true)
-        nameservers = []
+        nameservers = Set[]
         nxdomain = false
         begin
             tld_ns = get_ns_for_tld(PublicSuffix.parse(domain, ignore_private: true).tld)
@@ -145,6 +146,29 @@ class ChinaListVerify
                 end
             rescue NoMethodError => e
                 puts "Ignoring error: #{e}"
+            end
+        end
+
+        nameservers.clone.each do |nameserver|
+            response = self.resolve(
+                domain + ".",
+                'NS',
+                server: nameserver,
+            )
+            response.each do |rdata|
+                begin
+                    nameserver = rdata.name.to_s
+                    if PublicSuffix.valid?(nameserver, ignore_private: true)
+                        nameservers << nameserver
+                    end
+
+                    if result = check_whitelist(nameservers)
+                        yield true, "NS Whitelist #{result} matched for domain #{domain}" if block_given?
+                        return true
+                    end
+                rescue NoMethodError => e
+                    puts "Ignoring error: #{e}"
+                end
             end
         end
 
