@@ -204,7 +204,7 @@ class ChinaListVerify
         end
 
         if !nameservers.empty?
-            yield false, "NS #{nameservers[0]} not verified for domain #{domain}" if block_given?
+            yield false, "NS (#{nameservers.join(", ")}) not verified for domain #{domain}" if block_given?
             return false
         else
             yield nil, "Failed to get correct name server for domain #{domain}" if block_given?
