@@ -233,6 +233,7 @@ ssl.travelzoo.com
 ssl.tzoo-img.com
 staging-regioninfo-pa.googleapis.com
 start.htc.com
+start.htcsense.com
 static-exp1.licdn.com
 static.image-gmkt.com
 static.licdn.com
