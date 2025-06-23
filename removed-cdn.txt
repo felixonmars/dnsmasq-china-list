@@ -192,6 +192,7 @@ play.1ucrs.com
 plus.djicdn.com
 poseidon.dl.playstation.net
 prm.dji.com
+prm.lenovo.com
 profile.xboxlive.com
 qagpublic.qcpp1.net
 qagpublic.qpdp1.net
