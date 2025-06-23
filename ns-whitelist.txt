@@ -115,3 +115,4 @@ ns2.oray.net
 .360anyu.com
 .zndns.com
 .ppstream.com
+.didiwuxian.com
