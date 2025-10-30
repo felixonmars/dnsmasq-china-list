@@ -6,6 +6,8 @@
 .dnsv2.com
 .dnsv3.com
 .dnsv4.com
+.edns.win
+.znn.ee
 .dnsv5.com
 .myhostadmin.net
 .cnolnic.com
