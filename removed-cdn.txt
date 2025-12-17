@@ -69,6 +69,7 @@ console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
 content.nike.com
 cortexfx.bnpparibas.com
+cowork.cn.lenovo.com
 createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
