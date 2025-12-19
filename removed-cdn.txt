@@ -104,6 +104,7 @@ encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
 events2.djicdn.com
+facility.lenovo.com
 fontfiles.googleadapis.com
 fonts.googleadapis.com
 fonts.loli.net
