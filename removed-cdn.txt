@@ -73,6 +73,7 @@ cowork.cn.lenovo.com
 createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
+dam-storage.msi.com
 deny-netfilter.uds-dev.lenovo.com
 distribution.qatp1.net
 distribution.qcpp1.net
