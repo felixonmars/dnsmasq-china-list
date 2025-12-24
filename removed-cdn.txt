@@ -118,6 +118,7 @@ gdssl.image-gmkt.com
 g-ec4.images-amazon.com
 geo-prism-cn.htcsense.com
 geo-prism.htcsense.com
+getcs.lenovo.com
 gfwsl.geforce.com
 gmskiosk-ssl.corp.google.com
 googleplex.com
