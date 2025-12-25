@@ -107,6 +107,7 @@ emoi-cncdn.bing.com
 encoding.image-gmkt.com
 epix-ssl.xbox.com
 epix.xbox.com
+event.msi.com
 events2.djicdn.com
 facility.lenovo.com
 fontfiles.googleadapis.com
