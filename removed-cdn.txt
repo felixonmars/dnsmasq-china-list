@@ -242,6 +242,7 @@ settings.xn--9trs65b.com
 shop.samsung.com
 si.cdn.dell.com
 silverlight.dlservice.microsoft.com
+sim.lenovo.com
 sina.com.hk
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
