@@ -90,6 +90,7 @@ dlcdnets.asus.com
 dns.corp.google.com
 docs.microsoft.com
 downloadcenter.samsung.com
+download-cn.msi.com
 download.epicgames.com
 download.gfe.nvidia.com
 download.mcafee.com
