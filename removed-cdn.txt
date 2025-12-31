@@ -291,6 +291,7 @@ userstats.xboxlive.com
 v2ex.com
 verdaccio.cnno1.uds-qa.lenovo.com
 vext.corp.google.com
+virtual.lenovo.com
 visualstudio.download.prss.microsoft.com
 waf.cdnetworks.com
 web-service.halo.xbox.com
