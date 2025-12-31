@@ -171,6 +171,7 @@ khm.google.com
 lh3.appinn.net
 liveupdate01.asus.com
 lnkd.licdn.com
+luci.lenovo.com
 lx2.cok.elexapp.com
 lx2.cok.elex.com
 manage.c3edge.com
