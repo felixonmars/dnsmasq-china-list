@@ -49,6 +49,7 @@ cl2.apple.com.edgekey.net.globalredir.akadns.net
 click.dji.com
 client-download.steampowered.com
 clubhub.xboxlive.com
+clubweixin.samsung.com
 cms.ibm.com
 cms-live.pandora.net
 cn-api.samsungcloud.com
