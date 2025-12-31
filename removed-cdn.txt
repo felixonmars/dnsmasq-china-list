@@ -73,6 +73,7 @@ content.nike.com
 cortexfx.bnpparibas.com
 cowork.cn.extranet.lenovo.com
 cowork.cn.lenovo.com
+cowork.us.lenovo.com
 createpoint.qti.qualcomm.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
