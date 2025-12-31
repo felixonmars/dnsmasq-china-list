@@ -198,6 +198,7 @@ ngportal.cdnetworks.com
 nxeassets.xbox.com
 ocsp-data.us.cdnetworks.com
 olay-cn.cdnpg.com
+orig-download.msi.com
 owner-api.teslamotors.com
 partner.globalsign.com
 phobos.apple.com
