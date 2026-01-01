@@ -172,6 +172,7 @@ khmdb.googleapis.com
 khmdb.google.com
 khm.googleapis.com
 khm.google.com
+learn.microsoft.com
 lh3.appinn.net
 liveupdate01.asus.com
 liveupdate.msi.com
