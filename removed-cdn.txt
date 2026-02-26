@@ -244,7 +244,6 @@ settings.crashlytics.com
 settings.xboxlive.com
 settings.xn--9trs65b.com
 shop.samsung.com
-si.cdn.dell.com
 silverlight.dlservice.microsoft.com
 sim.lenovo.com
 sina.com.hk
