@@ -88,7 +88,6 @@ dlassets.xboxlive.com
 dlcdnets.asus.com
 dns.corp.google.com
 docs.microsoft.com
-downloadcenter.samsung.com
 download.epicgames.com
 download.gfe.nvidia.com
 download.mcafee.com
