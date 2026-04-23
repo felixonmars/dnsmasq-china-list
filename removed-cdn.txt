@@ -58,6 +58,7 @@ cn.debian.org
 cn.download.nvidia.com
 cn.img.stb.s-msn.com
 cn.msi.com
+cn.online.standardchartered.com
 cn.pandora.net
 cnupgrade.microsoft.com
 comments.xboxlive.com
