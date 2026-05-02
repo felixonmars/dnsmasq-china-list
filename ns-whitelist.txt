@@ -116,3 +116,4 @@ ns2.oray.net
 .zndns.com
 .ppstream.com
 .didiwuxian.com
+.bainsx.cn
