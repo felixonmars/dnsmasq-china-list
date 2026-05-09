@@ -216,6 +216,7 @@ ngportal.cdnetworks.com
 nxeassets.xbox.com
 ocsp2-lb.apple.com.akadns.net
 ocsp-data.us.cdnetworks.com
+ocsp-lb.apple.com.akadns.net
 olay-cn.cdnpg.com
 orig-download.msi.com
 orig-liveupdate.msi.com
