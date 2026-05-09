@@ -282,6 +282,7 @@ store-images.microsoft.com
 store-images.s-microsoft.com
 store.nike.com
 store.samsung.com
+streaming-uberproxy.corp.google.com
 streaming-uberproxy-rotation.corp.google.com
 streaming.vn.teslamotors.com
 support.1ucrs.com
