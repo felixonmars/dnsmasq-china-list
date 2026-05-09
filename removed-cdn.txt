@@ -98,6 +98,7 @@ dl-origin.ubnt.com
 dl.ubnt.com
 dns.corp.google.com
 docs.microsoft.com
+docs.oracle.com
 download-cn.msi.com
 download.epicgames.com
 download.gfe.nvidia.com
