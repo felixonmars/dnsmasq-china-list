@@ -2,6 +2,7 @@
 1.www.s81c.com
 2-01-5830-0005.cdx.cedexis.net
 account.cdnetworks.com
+account.lenovo.com
 account.samsung.com
 achievements.xboxlive.com
 adfarm.mediaplex.com
