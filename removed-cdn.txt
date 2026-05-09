@@ -135,6 +135,7 @@ geo-prism.htcsense.com
 getcs.lenovo.com
 gfwsl.geforce.com
 gmskiosk-ssl.corp.google.com
+go.corp.google.com
 googleplex.com
 gorom.corp.google.com
 goto.corp.google.com
