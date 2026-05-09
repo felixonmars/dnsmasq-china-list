@@ -214,6 +214,7 @@ msg.xboxlive.com
 myvsuat.download.prss.microsoft.com
 ngportal.cdnetworks.com
 nxeassets.xbox.com
+ocsp2-lb.apple.com.akadns.net
 ocsp-data.us.cdnetworks.com
 olay-cn.cdnpg.com
 orig-download.msi.com
