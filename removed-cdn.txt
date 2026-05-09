@@ -115,6 +115,7 @@ editorial.xboxlive.com
 eds.xboxlive.com
 egg.htcsense.com
 emdl.ws.microsoft.com
+emmapplecodevice.googleapis.com
 emoi-cncdn.bing.com
 encoding.image-gmkt.com
 epix-ssl.xbox.com
