@@ -229,6 +229,7 @@ qas-leshop.lenovo.com
 qgadmin.qatp1.net
 qgadmin.qpdp1.net
 qh.dlservice.microsoft.com
+qualysapi.qatp1.net
 qualysapi.qcpp1.net
 qualysapi.qpdp1.net
 qualysguard.qatp1.net
