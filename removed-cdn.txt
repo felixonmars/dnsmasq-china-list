@@ -95,6 +95,7 @@ dlassets-ssl.xboxlive.com
 dlassets.xboxlive.com
 dlcdnets.asus.com
 dl-origin.ubnt.com
+dl.ubnt.com
 dns.corp.google.com
 docs.microsoft.com
 download-cn.msi.com
