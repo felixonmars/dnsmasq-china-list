@@ -5,6 +5,7 @@ a1.phobos.apple.com
 ad.doubleclick.net
 admob-cn.com
 all.ldycdn.com
+app-analytics-services.com
 app-cdn.2q10.com
 app-measurement.com
 app-measurement-cn.com
