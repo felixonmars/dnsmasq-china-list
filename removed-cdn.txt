@@ -219,6 +219,7 @@ olay-cn.cdnpg.com
 orig-download.msi.com
 orig-liveupdate.msi.com
 owner-api.teslamotors.com
+pancake.cdn-apple.com.akadns.net
 partner.globalsign.com
 phobos.apple.com
 platform.linkedin.com
