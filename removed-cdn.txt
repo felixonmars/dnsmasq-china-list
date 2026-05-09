@@ -217,6 +217,7 @@ poseidon.dl.playstation.net
 prm.dji.com
 prm.lenovo.com
 profile.xboxlive.com
+qagpublic.qatp1.net
 qagpublic.qcpp1.net
 qagpublic.qpdp1.net
 qas-leshop.lenovo.com
