@@ -185,6 +185,7 @@ lh3.appinn.net
 liveupdate01.asus.com
 liveupdate.msi.com
 lnkd.licdn.com
+logger.corp.google.com
 luci.lenovo.com
 manage.c3edge.com
 marketplace-xb.xboxlive.com
