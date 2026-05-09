@@ -108,6 +108,7 @@ download.qpdp1.net
 download-ssl.xbox.com
 download.xboxlive.com
 dp.image-gmkt.com
+dragon-download.msi.com
 e.admob.com
 ec4.images-amazon.com
 ec8.images-amazon.com
