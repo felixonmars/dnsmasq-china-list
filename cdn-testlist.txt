@@ -51,6 +51,7 @@ pic1.mp.tvguo.tv
 play.nyaacat.com
 r1.res.outlook.com
 recaptcha.net
+recaptcha-cn.net
 redirector.gvt1.com
 retail.cn.sc.com
 rsb.net
