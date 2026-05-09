@@ -152,6 +152,7 @@ holowaytest.lenovo.com
 home-cn.htcsense.com
 home.htcsense.com
 icloud.cdn-apple.com
+icloud-cdn.icloud.com.akadns.net
 images.apple.com
 images.apple.com.akadns.net
 images.benchmarkemail.com
