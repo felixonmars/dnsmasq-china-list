@@ -263,6 +263,7 @@ static.image-gmkt.com
 static.licdn.com
 staticssl.image-gmkt.com
 static.yangfd.com
+storage-asset.msi.com
 store-images.microsoft.com
 store-images.s-microsoft.com
 store.nike.com
