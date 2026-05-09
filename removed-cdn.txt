@@ -151,6 +151,7 @@ hdn.xnimg.cn.cdngc.net
 holowaytest.lenovo.com
 home-cn.htcsense.com
 home.htcsense.com
+icloud.cdn-apple.com
 images.apple.com
 images.apple.com.akadns.net
 images.benchmarkemail.com
