@@ -142,6 +142,7 @@ gspe21.ls.apple.com
 gstatic.loli.net
 gs.ww.np.dl.playstation.net
 hdn.xnimg.cn.cdngc.net
+holowaytest.lenovo.com
 home-cn.htcsense.com
 home.htcsense.com
 images.apple.com
