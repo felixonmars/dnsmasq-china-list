@@ -304,6 +304,7 @@ sup-ssh-relay2.corp.google.com
 tcl.com.ru
 techstop.corp.google.com
 test.bugs-qa.chromium.org
+test.gbugs-qa.chromium.org
 thinkcloud.lenovo.com
 tiles.xbox.com
 titlestorage.xboxlive.com
