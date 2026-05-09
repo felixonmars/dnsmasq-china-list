@@ -54,6 +54,7 @@ clubweixin.samsung.com
 cms.ibm.com
 cms-live.pandora.net
 cn-api.samsungcloud.com
+cnappinstall.googleadapis.com
 cn.coremetrics.com
 cn.debian.org
 cn.download.nvidia.com
