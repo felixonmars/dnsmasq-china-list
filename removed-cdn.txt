@@ -239,6 +239,7 @@ qualysguard.qatp1.net
 qualysguard.qcpp1.net
 rapture-autopush.corp.google.com
 rapture.corp.google.com
+rapture-prod.corp.google.com
 rapture-test.corp.google.com
 r.cert.corp.google.com
 redirector.c.docs.google.com
