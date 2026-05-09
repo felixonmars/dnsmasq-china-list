@@ -252,6 +252,7 @@ r.cert.corp.google.com
 redirector.c.docs.google.com
 redirector.c.drive.google.com
 regioninfo-pa.googleapis.com
+reserve-prime.apple.com
 res.office365.com
 res.outlook.com
 rum8.perf.linkedin.com
