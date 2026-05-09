@@ -312,6 +312,7 @@ tse2.mm.bing.net
 tse3.mm.bing.net
 tse4.mm.bing.net
 uberproxy4.corp.google.com
+uberproxy6.corp.google.com
 uberproxy-debug.corp.google.com
 uberproxy-pen-redirect.corp.google.com
 uberproxy-with-cn4.l.google.com
