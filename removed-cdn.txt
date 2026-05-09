@@ -183,6 +183,7 @@ l2-uberproxy.corp.google.com
 learn.microsoft.com
 lh3.appinn.net
 liveupdate01.asus.com
+liveupdate-cn.msi.com
 liveupdate.msi.com
 lnkd.licdn.com
 logger.corp.google.com
