@@ -19,6 +19,7 @@ apps.samsung.com
 ares.dl.playstation.net
 ark.intel.com
 asset-account.msi.com
+asset.msi.com
 assets.adobedtm.com
 assets-ssl.xbox.com
 assets.volvocars.com
