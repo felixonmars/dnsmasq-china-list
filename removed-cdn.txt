@@ -266,6 +266,7 @@ siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
 speedtest.xboxlive.com
 ssh-relay.corp.google.com
+sslredirect.corp.google.com
 ssl.travelzoo.com
 ssl.tzoo-img.com
 staging-regioninfo-pa.googleapis.com
