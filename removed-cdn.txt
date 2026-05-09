@@ -78,6 +78,7 @@ cowork.us.extranet.lenovo.com
 cowork.us.lenovo.com
 cs-analytics.htcsense.com
 c.s-microsoft.com
+csp.lenovo.com
 cubemail.lenovo.com
 dam-storage.msi.com
 datasecurity.htcsense.com
