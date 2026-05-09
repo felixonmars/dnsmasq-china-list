@@ -35,6 +35,7 @@ bpsso.lenovo.com
 build.microsoft.com
 cashier.alipay.com.srip.net
 catalog-cdn.xboxlive.com
+ccmdl.adobe.com
 cdn1.evernote.com
 cdn.ampproject.org #281
 cdn.jsdelivr.net
