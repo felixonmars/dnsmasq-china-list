@@ -291,6 +291,7 @@ store.samsung.com
 streaming-uberproxy.corp.google.com
 streaming-uberproxy-rotation.corp.google.com
 streaming.vn.teslamotors.com
+sup.l.google.com
 support.1ucrs.com
 supportcenter.corp.google.com
 support.lenovo.com
