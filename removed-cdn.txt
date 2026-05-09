@@ -238,6 +238,7 @@ qualysapi.qcpp1.net
 qualysapi.qpdp1.net
 qualysguard.qatp1.net
 qualysguard.qcpp1.net
+qualysguard.qpdp1.net
 rapture-autopush.corp.google.com
 rapture.corp.google.com
 rapture-prod.corp.google.com
