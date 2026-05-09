@@ -182,6 +182,7 @@ lnkd.licdn.com
 luci.lenovo.com
 manage.c3edge.com
 marketplace-xb.xboxlive.com
+mbsuat.download.prss.microsoft.com
 mce.msi.com
 media.admob.com
 mediaexp-programming.xboxlive.com
