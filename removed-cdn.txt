@@ -73,6 +73,7 @@ config.unityads.unity3d.com
 configure.ap.dell.com
 console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
+content.googleadapis.com
 content.nike.com
 cortexfx.bnpparibas.com
 cowork.cn.extranet.lenovo.com
