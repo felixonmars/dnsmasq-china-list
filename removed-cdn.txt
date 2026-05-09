@@ -195,6 +195,7 @@ mini5cn.opera-mini.net
 mktplassets-ssl.xbox.com
 monitoring.qatp1.net
 monitoring.qcpp1.net
+monitoring.qpdp1.net
 msgr.dlservice.microsoft.com
 msgruser.dlservice.microsoft.com
 msg.xboxlive.com
