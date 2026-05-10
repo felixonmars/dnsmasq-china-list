@@ -23,6 +23,7 @@ asset-account.msi.com
 asset.msi.com
 assets.adobedtm.com
 assets-ssl.xbox.com
+assets.uxengine.net
 assets.volvocars.com
 avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
