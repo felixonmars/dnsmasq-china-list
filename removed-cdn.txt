@@ -193,6 +193,7 @@ l2-uberproxy.corp.google.com
 learn.microsoft.com
 lenbpreturns.lenovo.com
 lenovomobilesupport.lenovo.com
+le-reporting.lenovo.com
 lh3.appinn.net
 liveupdate01.asus.com
 liveupdate-cn.msi.com
