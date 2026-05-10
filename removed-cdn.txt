@@ -298,6 +298,7 @@ sim.lenovo.com
 sina.com.hk
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
+smartsupport.lenovo.com
 speedtest.xboxlive.com
 ssh-relay.corp.google.com
 sslredirect.corp.google.com
