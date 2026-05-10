@@ -236,6 +236,7 @@ orig-liveupdate.msi.com
 owner-api.teslamotors.com
 pancake.cdn-apple.com.akadns.net
 partner.globalsign.com
+pcsupport.lenovo.com
 phobos.apple.com
 platform.linkedin.com
 play.1ucrs.com
