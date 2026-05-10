@@ -26,6 +26,7 @@ assets-ssl.xbox.com
 assets.uxengine.net
 assets.volvocars.com
 asset-us-store.msi.com
+asset-vendor-event.msi.com
 avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
