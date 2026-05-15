@@ -182,6 +182,7 @@ img-cdn.mediaplex.com
 img.mediaplex.com
 international.download.nvidia.com
 international-gfe.download.nvidia.com
+international-gfe.nvidia.com
 kh.google.com
 khm0.googleapis.com
 khm0.google.com
