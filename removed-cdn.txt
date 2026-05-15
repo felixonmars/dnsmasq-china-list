@@ -61,6 +61,7 @@ cms.ibm.com
 cms-live.pandora.net
 cn-api.samsungcloud.com
 cnappinstall.googleadapis.com
+cn-ccs-sdc.blurdev.com
 cn.coremetrics.com
 cn.debian.org
 cn.download.nvidia.com
