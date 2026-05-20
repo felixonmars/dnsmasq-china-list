@@ -207,6 +207,7 @@ lh3.appinn.net
 liveupdate01.asus.com
 liveupdate-cn.msi.com
 liveupdate.msi.com
+lm-www.csc.edu.cn.akadns99.net
 lnkd.licdn.com
 logger.corp.google.com
 logger-dev.corp.google.com
