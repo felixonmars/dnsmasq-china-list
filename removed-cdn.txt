@@ -157,6 +157,7 @@ gsp4-cn.ls.apple.com.edgekey.net
 gspe21.ls.apple.com
 gstatic.loli.net
 gs.ww.np.dl.playstation.net
+hcs.globalsign.com
 hdn.xnimg.cn.cdngc.net
 holoway.lenovo.com
 holowaytest.lenovo.com
