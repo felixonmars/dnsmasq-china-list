@@ -208,6 +208,7 @@ liveupdate01.asus.com
 liveupdate-cn.msi.com
 liveupdate.msi.com
 lm-sa.csc.edu.cn.akadns99.net
+lm-studyinchina.csc.edu.cn.akadns99.net
 lm-www.csc.edu.cn.akadns99.net
 lnkd.licdn.com
 logger.corp.google.com
