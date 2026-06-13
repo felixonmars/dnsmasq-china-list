@@ -167,6 +167,7 @@ home.htcsense.com
 icc.lenovo.com
 icloud.cdn-apple.com
 icloud-cdn.icloud.com.akadns.net
+i.dell.com
 images.apple.com
 images.apple.com.akadns.net
 images.benchmarkemail.com
