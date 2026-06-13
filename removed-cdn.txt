@@ -386,6 +386,7 @@ www8.hp.com
 www.agoda.com
 www-api.ibm.com
 www.apple.com.edgekey.net
+www.dell.com
 www.ericsson.com
 www.googleadapis.com
 www.htcsense.com
