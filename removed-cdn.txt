@@ -384,6 +384,7 @@ wscont2.apps.microsoft.com
 www-05.ibm.com
 www1-cdn.dell.com
 www8.hp.com
+www.adobe.com
 www.agoda.com
 www-api.ibm.com
 www.apple.com.edgekey.net
