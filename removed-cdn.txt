@@ -407,6 +407,7 @@ www.nvidia.com
 www.pandora.net
 www.parallels.com
 www.renren.com.cdngc.net
+www.samsung.com
 www-ssl.intel.com
 www.sulwhasoo.com
 www.thinkpad.com
