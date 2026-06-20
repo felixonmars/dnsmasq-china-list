@@ -94,6 +94,7 @@ cubemail.lenovo.com
 dam-storage.msi.com
 datasecurity.htcsense.com
 deny-netfilter.uds-dev.lenovo.com
+devblogs.microsoft.com
 distribution.qatp1.net
 distribution.qcpp1.net
 distribution.qpdp1.net
