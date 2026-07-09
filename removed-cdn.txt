@@ -311,6 +311,7 @@ si.cdn.dell.com
 silverlight.dlservice.microsoft.com
 sim.lenovo.com
 sina.com.hk
+single-test-2.cert-test.akamai.com
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
 smartsupport.lenovo.com
