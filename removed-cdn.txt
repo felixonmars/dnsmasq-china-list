@@ -238,6 +238,7 @@ msgruser.dlservice.microsoft.com
 msg.xboxlive.com
 msproductuat.download.prss.microsoft.com
 myvsuat.download.prss.microsoft.com
+nexus.dell.com
 ngportal.cdnetworks.com
 nxeassets.xbox.com
 ocsp2-lb.apple.com.akadns.net
