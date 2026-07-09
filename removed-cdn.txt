@@ -329,6 +329,7 @@ staticssl.image-gmkt.com
 statics.teams.cdn.office.net
 static.yangfd.com
 storage-asset.msi.com
+storeedgefd.dsx.mp.microsoft.com
 store-images.microsoft.com
 store-images.s-microsoft.com
 store.nike.com
