@@ -238,6 +238,7 @@ msgruser.dlservice.microsoft.com
 msg.xboxlive.com
 msproductuat.download.prss.microsoft.com
 myvsuat.download.prss.microsoft.com
+nexus.dell.com
 ngportal.cdnetworks.com
 nxeassets.xbox.com
 ocsp2-lb.apple.com.akadns.net
@@ -306,9 +307,11 @@ settings.crashlytics.com
 settings.xboxlive.com
 settings.xn--9trs65b.com
 shop.samsung.com
+si.cdn.dell.com
 silverlight.dlservice.microsoft.com
 sim.lenovo.com
 sina.com.hk
+single-test-2.cert-test.akamai.com
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
 smartsupport.lenovo.com
@@ -324,8 +327,10 @@ static-exp1.licdn.com
 static.image-gmkt.com
 static.licdn.com
 staticssl.image-gmkt.com
+statics.teams.cdn.office.net
 static.yangfd.com
 storage-asset.msi.com
+storeedgefd.dsx.mp.microsoft.com
 store-images.microsoft.com
 store-images.s-microsoft.com
 store.nike.com
@@ -388,6 +393,8 @@ www1-cdn.dell.com
 www8.hp.com
 www.adobe.com
 www.agoda.com
+www.akamai.com
+www.analog.com
 www-api.ibm.com
 www.apple.com.edgekey.net
 www.dell.com
