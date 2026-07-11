@@ -313,6 +313,7 @@ sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
 settings.xn--9trs65b.com
+shell.cdn.office.net
 shop.samsung.com
 si.cdn.dell.com
 silverlight.dlservice.microsoft.com
