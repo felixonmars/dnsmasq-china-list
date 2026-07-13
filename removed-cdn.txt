@@ -79,6 +79,7 @@ compass.xbox.com
 compass.xboxlive.com
 config.unityads.unity3d.com
 configure.ap.dell.com
+connect.akamai.com
 console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
 contacts.akamai.com
