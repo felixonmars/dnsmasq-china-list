@@ -227,6 +227,7 @@ luci.lenovo.com
 manage.c3edge.com
 manifest3.razerapi.com
 manifest-assets.razerzone.com
+manifest-sophie-pro.razerapi.com
 marketplace-xb.xboxlive.com
 mbsuat.download.prss.microsoft.com
 mce.msi.com
