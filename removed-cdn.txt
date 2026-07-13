@@ -205,6 +205,7 @@ khmdb.googleapis.com
 khmdb.google.com
 khm.googleapis.com
 khm.google.com
+kt.lenovo.com
 l2-uberproxy.corp.google.com
 lcp.gtm.lenovo.com
 learn.microsoft.com
