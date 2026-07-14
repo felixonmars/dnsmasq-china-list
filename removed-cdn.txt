@@ -19,6 +19,7 @@ applemdm.corp.google.com
 apps.samsung.com
 ares.dl.playstation.net
 ark.intel.com
+ask.amd.com
 asset-account.msi.com
 asset.msi.com
 assets.adobedtm.com
