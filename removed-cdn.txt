@@ -86,6 +86,7 @@ contacts.akamai.com
 content.googleadapis.com
 content.nike.com
 cortexfx.bnpparibas.com
+cortex.razerzone.com
 cowork.cn.extranet.lenovo.com
 cowork.cn.lenovo.com
 cowork.us.extranet.lenovo.com
