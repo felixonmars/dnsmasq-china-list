@@ -19,6 +19,7 @@ applemdm.corp.google.com
 apps.samsung.com
 ares.dl.playstation.net
 ark.intel.com
+ask.amd.com
 asset-account.msi.com
 asset.msi.com
 assets.adobedtm.com
@@ -31,6 +32,7 @@ avatarread-ssl.xboxlive.com
 avatarread.xboxlive.com
 avatar-ssl.xboxlive.com
 avatar.xboxlive.com
+axon.razerzone.com
 bg4.v4.a.dl.ws.microsoft.com
 bg.v4.a.dl.ws.microsoft.com
 blog.tutorabc.com
@@ -78,11 +80,14 @@ compass.xbox.com
 compass.xboxlive.com
 config.unityads.unity3d.com
 configure.ap.dell.com
+connect.akamai.com
 console-service.halo.xbox.com
 console-service-ssl.halo.xbox.com
+contacts.akamai.com
 content.googleadapis.com
 content.nike.com
 cortexfx.bnpparibas.com
+cortex.razerzone.com
 cowork.cn.extranet.lenovo.com
 cowork.cn.lenovo.com
 cowork.us.extranet.lenovo.com
@@ -95,6 +100,9 @@ dam-storage.msi.com
 datasecurity.htcsense.com
 deny-netfilter.uds-dev.lenovo.com
 devblogs.microsoft.com
+developer.microsoft.com
+discovery.razerapi.com
+discovery-sophie-pro.razerapi.com
 distribution.qatp1.net
 distribution.qcpp1.net
 distribution.qpdp1.net
@@ -106,6 +114,7 @@ dl.ubnt.com
 dns.corp.google.com
 docs.microsoft.com
 docs.oracle.com
+downloadcenter.samsung.com
 download-cn.msi.com
 download.epicgames.com
 download.gfe.nvidia.com
@@ -201,6 +210,7 @@ khmdb.googleapis.com
 khmdb.google.com
 khm.googleapis.com
 khm.google.com
+kt.lenovo.com
 l2-uberproxy.corp.google.com
 lcp.gtm.lenovo.com
 learn.microsoft.com
@@ -220,6 +230,10 @@ logger-dev.corp.google.com
 login.corp.google.com
 luci.lenovo.com
 manage.c3edge.com
+manifest3.razerapi.com
+manifest-assets.razerzone.com
+manifest.razerapi.com
+manifest-sophie-pro.razerapi.com
 marketplace-xb.xboxlive.com
 mbsuat.download.prss.microsoft.com
 mce.msi.com
@@ -230,6 +244,7 @@ metrics.deploy.akamai.com
 mini5cn-1.opera-mini.net
 mini5cn.opera-mini.net
 mktplassets-ssl.xbox.com
+mobileapp-assets-dev.razerzone.com
 monitoring.qatp1.net
 monitoring.qcpp1.net
 monitoring.qpdp1.net
@@ -237,6 +252,7 @@ msgr.dlservice.microsoft.com
 msgruser.dlservice.microsoft.com
 msg.xboxlive.com
 msproductuat.download.prss.microsoft.com
+m.travelzoo.com
 myvsuat.download.prss.microsoft.com
 nexus.dell.com
 ngportal.cdnetworks.com
@@ -306,12 +322,14 @@ sekong.cn.com
 settings.crashlytics.com
 settings.xboxlive.com
 settings.xn--9trs65b.com
+shell.cdn.office.net
 shop.samsung.com
 si.cdn.dell.com
 silverlight.dlservice.microsoft.com
 sim.lenovo.com
 sina.com.hk
 single-test-2.cert-test.akamai.com
+single-test-3.cert-test.akamai.com
 siportal.cdnetworks.com
 slupdate.dlservice.microsoft.com
 smartsupport.lenovo.com
@@ -346,6 +364,7 @@ support.lenovo.com
 sup-ssh-relay2.corp.google.com
 sup-ssh-relay.corp.google.com
 swupdl.adobe.com
+synapse3ui-common-dev.razerzone.com
 tcl.com.ru
 techstop.corp.google.com
 test.bugs-qa.chromium.org
