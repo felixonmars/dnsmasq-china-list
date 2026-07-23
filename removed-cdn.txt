@@ -298,6 +298,7 @@ rapture-autopush.corp.google.com
 rapture.corp.google.com
 rapture-prod.corp.google.com
 rapture-test.corp.google.com
+razer-customer-swassets.razerzone.com
 r.cert.corp.google.com
 redirector.c.docs.google.com
 redirector.c.drive.google.com
