@@ -359,6 +359,7 @@ streaming.vn.teslamotors.com
 sup.corp.google.com
 sup.l.google.com
 support.1ucrs.com
+support.amd.com
 supportcenter.corp.google.com
 support.lenovo.com
 sup-ssh-relay2.corp.google.com
