@@ -232,6 +232,7 @@ luci.lenovo.com
 manage.c3edge.com
 manifest3.razerapi.com
 manifest-assets.razerzone.com
+manifest-assets-staging.razerzone.com
 manifest.razerapi.com
 manifest-sophie-pro.razerapi.com
 marketplace-xb.xboxlive.com
