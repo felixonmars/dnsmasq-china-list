@@ -10,6 +10,7 @@ ad.mediaplex.com
 adminportal.cdnetworks.com
 ai.ytimg.com
 ajax.loli.net
+aloha.akamai.com
 altfarm.mediaplex.com
 api.lenovo.com
 api-p-ap-c.smoot.apple.com
