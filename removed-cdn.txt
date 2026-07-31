@@ -440,6 +440,7 @@ www.intel.com
 www.kaspersky.com
 www.laecloud.com
 www.microsoft.com
+www.nike.com
 www.nvidia.com
 www.pandora.net
 www.parallels.com
