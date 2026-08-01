@@ -241,6 +241,7 @@ lnkd.licdn.com
 logger.corp.google.com
 logger-dev.corp.google.com
 login.corp.google.com
+logistics.deploy.akamai.com
 luci.lenovo.com
 macosx-aam.upgrade.akamai.com
 mailinglists.akamai.com
