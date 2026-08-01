@@ -180,6 +180,7 @@ gs.ww.np.dl.playstation.net
 hardware.deploy.akamai.com
 hcs.globalsign.com
 hdn.xnimg.cn.cdngc.net
+he.deploy.akamai.com
 holoway.lenovo.com
 holowaytest.lenovo.com
 home-cn.htcsense.com
