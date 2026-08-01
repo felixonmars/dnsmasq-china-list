@@ -133,6 +133,7 @@ download.qcpp1.net
 download.qpdp1.net
 download-ssl.xbox.com
 download.xboxlive.com
+dp.deploy.akamai.com
 dp.image-gmkt.com
 dragon-download.msi.com
 e.admob.com
