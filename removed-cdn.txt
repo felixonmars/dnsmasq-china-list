@@ -5,6 +5,7 @@ account.cdnetworks.com
 account.lenovo.com
 account.samsung.com
 achievements.xboxlive.com
+adam.akamai.com
 adfarm.mediaplex.com
 ad.mediaplex.com
 adminportal.cdnetworks.com
