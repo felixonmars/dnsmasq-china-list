@@ -101,6 +101,7 @@ csp.lenovo.com
 cubemail.lenovo.com
 dam-storage.msi.com
 datasecurity.htcsense.com
+dcmap2.deploy.akamai.com
 decon.deploy.akamai.com
 deny-netfilter.uds-dev.lenovo.com
 devblogs.microsoft.com
