@@ -240,6 +240,7 @@ logger-dev.corp.google.com
 login.corp.google.com
 luci.lenovo.com
 macosx-aam.upgrade.akamai.com
+mailinglists.akamai.com
 manage.c3edge.com
 manifest3.razerapi.com
 manifest-assets.razerzone.com
