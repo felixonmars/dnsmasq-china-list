@@ -268,6 +268,7 @@ msg.xboxlive.com
 msproductuat.download.prss.microsoft.com
 m.travelzoo.com
 myvsuat.download.prss.microsoft.com
+network.deploy.akamai.com
 nexus.dell.com
 ngportal.cdnetworks.com
 nxeassets.xbox.com
