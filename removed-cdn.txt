@@ -414,6 +414,7 @@ web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
 webview.unityads.unity3d.com
 whois.deploy.akamai.com
+wiki.network.akamai.com
 wl.dlservice.microsoft.com
 wmota.htcsense.com
 wscont1.apps.microsoft.com
