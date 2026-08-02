@@ -434,6 +434,7 @@ webview.unityads.unity3d.com
 whohas.deploy.akamai.com
 whois.deploy.akamai.com
 wiki.network.akamai.com
+wizards.akamai.com
 wl.dlservice.microsoft.com
 wmota.htcsense.com
 wscont1.apps.microsoft.com
