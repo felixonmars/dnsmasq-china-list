@@ -39,6 +39,7 @@ avatar-ssl.xboxlive.com
 avatar.xboxlive.com
 axon.razerzone.com
 bg4.v4.a.dl.ws.microsoft.com
+bgp.deploy.akamai.com
 bg.v4.a.dl.ws.microsoft.com
 blog.htc.com
 blog.tutorabc.com
