@@ -18,6 +18,7 @@ dnl-11.geo.kaspersky.com
 doubleclick-cn.net
 dsany.sgnic.sg
 edge.yunjiasu.com
+en.made-in-china.com
 fotadown.mayitek.com.wsdvs.com
 gcpnode.com
 gonglchuangl.net
