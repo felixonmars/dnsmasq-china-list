@@ -437,6 +437,7 @@ vext.corp.google.com
 virtual.lenovo.com
 visualstudio.download.prss.microsoft.com
 waf.cdnetworks.com
+webmail.akamai.com
 web-service.halo.xbox.com
 web-service-ssl.halo.xbox.com
 webview.unityads.unity3d.com
