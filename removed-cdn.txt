@@ -27,6 +27,7 @@ asset-account.msi.com
 asset.msi.com
 assets.adobedtm.com
 assets.analog.com
+assets-global.viveport.com
 assets-ssl.xbox.com
 assets.uxengine.net
 assets.volvocars.com
