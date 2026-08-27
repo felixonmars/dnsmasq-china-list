@@ -83,6 +83,7 @@ cn.online.standardchartered.com
 cn.pandora.net
 cn.razerzone.com
 cnupgrade.microsoft.com
+cn.windowssearch.com
 collaborate.akamai.com
 comments.xboxlive.com
 compass-ssl.xbox.com
