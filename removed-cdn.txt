@@ -436,6 +436,7 @@ verdaccio.cnno1.uds-qa.lenovo.com
 vext.corp.google.com
 virtual.lenovo.com
 visualstudio.download.prss.microsoft.com
+vrbi.viveport.com
 waf.cdnetworks.com
 webmail.akamai.com
 web-service.halo.xbox.com
