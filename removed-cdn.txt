@@ -181,6 +181,7 @@ gorom.corp.google.com
 goto.corp.google.com
 goto.google.com
 gravatar.loli.net
+gs2-geo.psn.akadns99.net
 gsp4-cn.ls.apple.com.edgekey.net
 gspe21.ls.apple.com
 gstatic.loli.net
