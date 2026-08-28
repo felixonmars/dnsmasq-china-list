@@ -456,6 +456,7 @@ www8.hp.com
 www.adobe.com
 www.agoda.com
 www.akamai.com
+www.amd.com
 www.analog.com
 www-api.ibm.com
 www.apple.com.edgekey.net
