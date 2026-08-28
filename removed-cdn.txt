@@ -475,6 +475,7 @@ www.intel.com
 www.kaspersky.com
 www.laecloud.com
 www.microsoft.com
+www.netarch.akamai.com
 www.nike.com
 www.nocc.akamai.com
 www.nvidia.com
