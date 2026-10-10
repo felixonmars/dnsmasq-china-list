@@ -35,8 +35,12 @@ for _server in $SERVERS; do
   for _conf in $CONF_WITH_SERVERS; do
     cp "$WORKDIR/$_conf.conf" "/etc/dnsmasq.d/$_conf.$_server.conf"
   done
-
-  sed -i "s|^\(server.*\)/[^/]*$|\1/$_server|" /etc/dnsmasq.d/*."$_server".conf
+  if [[ $(uname -s) = Darwin ]] ; then 
+    cmd="sed -i ''"
+  else 
+    cmd="sed -i"
+  fi
+  $cmd "s|^\(server.*\)/[^/]*$|\1/$_server|" /etc/dnsmasq.d/*."$_server".conf
 done
 
 echo "Restarting dnsmasq service..."
