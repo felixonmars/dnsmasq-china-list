@@ -7,6 +7,7 @@ raw:
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' accelerated-domains.china.conf | grep -Ev -e '^#' -e '^$$' > accelerated-domains.china.raw.txt
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' google.china.conf | grep -Ev -e '^#' -e '^$$' > google.china.raw.txt
 	sed -e 's|^server=/\(.*\)/114.114.114.114$$|\1|' apple.china.conf | grep -Ev -e '^#' -e '^$$' > apple.china.raw.txt
+	sed -e 's|^bogus-nxdomain=\(.*\)$$|\1|' bogus-nxdomain.china.conf | grep -Ev -e '^#' -e '^$$' > bogus-nxdomain.china.raw.txt
 
 dnsmasq: raw
 	sed -e 's|\(.*\)|server=/\1/$(SERVER)|' accelerated-domains.china.raw.txt > accelerated-domains.china.dnsmasq.conf
@@ -68,4 +69,4 @@ ifeq ($(NEWLINE),DOS)
 endif
 
 clean:
-	rm -f {accelerated-domains,google,apple}.china.*.conf *.smartdns.conf {accelerated-domains,google,apple}.china.raw.txt dnscrypt-proxy-forwarding-rules.txt
+	rm -f {accelerated-domains,google,apple}.china.*.conf *.smartdns.conf {accelerated-domains,google,apple,bogus-nxdomain}.china.raw.txt dnscrypt-proxy-forwarding-rules.txt
