@@ -137,6 +137,7 @@ download-cn.msi.com
 download.epicgames.com
 download.gfe.nvidia.com
 download.mcafee.com
+download.microsoft.com
 download.msi.com
 download.parallels.com
 download.qatp1.net
