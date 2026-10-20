@@ -1,6 +1,5 @@
 #!/usr/bin/ruby
 require 'concurrent'
-require 'filelock'
 require 'set'
 require_relative 'verify'
 
@@ -39,7 +38,8 @@ ARGF.each do |domain|
         tested << domain
 
         if v.check_domain_verbose(domain, enable_cdnlist: false, show_green: true)
-            Filelock '.git.lock' do
+            File.open('.git.lock', File::RDWR | File::CREAT) do |lock|
+                lock.flock(File::LOCK_EX)
                 puts `./updater.rb -a #{domain}`
                 puts `git commit -S -am "accelerated-domains: add #{domain}"` if $?.success?
                 puts `./update-local` if $?.success?
